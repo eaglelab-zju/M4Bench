@@ -70,6 +70,17 @@ python main.py \
   --model_name Qwen2-VL-7B-Instruct \
   --task_list Object_States,State_Invariance
 ```
+### Step 5. Development
+If you want to add new model to be evaluated on our benchmark, you can follow the following steps:
+1. please refer to `utils.models.deepseekvl2.py` and implement your model with key functions `__init__`, `parse_input` and `infer` in a new python file in the `utils.models` directory.
+2. please modify the `utils.models.automodel.py` and add your model in the `from_pretrained` function according to the model type in its own config.
+3. please modify the `main.py` to add your model in the `model_mapping` variable.
+4. Now you can enjoy the evaluation simply by running the following command:
+```bash
+python main.py \
+  --model_name Your_Model_Name \
+  --task_list TaskName
+```
 
 ## Evaluation
 Please refer to our [outputs](outputs) folder for more details.
