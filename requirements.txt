@@ -1,0 +1,12 @@
+accelerate
+nest_asyncio
+openai
+Pillow
+python-dotenv
+qwen-vl-utils[decord]
+termcolor
+torch>=2.0.0
+torchvision
+transformers
+# lmdeploy
+# vllm
