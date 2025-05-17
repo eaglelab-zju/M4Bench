@@ -1,0 +1,2416 @@
+{
+  "model_name": "Qwen-VL-Max",
+  "task_name": "State_Invariance",
+  "score": 0.8447488584474886,
+  "results": [
+    {
+      "id": "state_invariance_1",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/116/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/116/8.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a souvenir magnet with the text \"HONG KONG\" and Chinese characters below it. The design includes a stylized representation of Hong Kong's skyline and a flower at the top, which is likely the Bauhinia flower, symbolizing Hong Kong.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_2",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/225/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/225/20.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a green box with the word \"FREE\" and other text on it. The box appears to be opened in both images, and the design and text are consistent across both pictures.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_3",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/311/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/311/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details of each image:\n\n1. **First Image**:\n   - The umbrella is closed and lying on a flat surface.\n   - The handle is visible and appears to be black.\n   - The fabric of the umbrella is also black.\n\n2. **Second Image**:\n   - The umbrella is open and standing upright.\n   - The handle is not clearly visible, but the fabric is black.\n   - The background shows a balcony with buildings in the distance.\n\nBoth images depict a black umbrella. The first image shows the umbrella closed, while the second image shows it open. Despite the different states (closed vs. open), the umbrellas appear to be identical in color and design.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_4",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/193/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/193/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a remote control with the brand name \"Croma\" visible on it. The design, layout of the buttons, and the overall shape are identical in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_5",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/62/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/62/16.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a piece of light pink fabric. In the first image, the fabric is rolled up and placed on a surface, while in the second image, the same fabric appears to be unfolded and draped over a chair or similar object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_6",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/309/7.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/309/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is an umbrella. The first image shows the umbrella from a side angle with the handle visible and the canopy partially open. The second image shows the umbrella from a top-down perspective with the handle and the ribs of the umbrella visible, indicating it is collapsed or folded.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_7",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/76/21.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/76/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a plush blanket with a ribbed texture. The blanket is placed on a bed with a patterned bedspread in both images. The lighting and angle are slightly different, but the blanket itself appears to be the same.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_8",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/123/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/123/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a metal model of the Eiffel Tower. The design and details are consistent between the two images, indicating that it is the same object photographed from different angles and in different settings.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_9",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/136/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/136/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. Both images show a rectangular object with a similar design.\n2. The design on both objects appears to be a pattern of leaves or plants, cut out in a way that reveals the background through the openings.\n3. The color scheme is consistent in both images: a black background with a light-colored (possibly wooden) pattern.\n\nGiven these observations, it appears that both images show the same object, just from different angles and in different settings.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_10",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/213/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/213/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a container of Equate Daily Fiber. The container and its label are clearly visible in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_11",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/38/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/38/6.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is an orange water bottle with a grey lid and a flip-top spout. The bottle has a wrist strap attached to it, and the brand name \"Cello Sports\" is visible on both images. The orientation of the bottle is different in each picture, but it is the same object.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_12",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/180/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/180/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same plant. The plant has distinctive leaves with a similar coloration and pattern, and it is in the same red pot in both images. The differences in the background and angle of the photos do not change the fact that it is the same plant.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_13",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/233/30.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/233/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Shape and Color**:\n   - Both objects are red and have a similar round shape with a white lid.\n   \n2. **Label**:\n   - The label on both objects reads \"ICE BREAKERS MINTS\" and specifies \"CINNAMON\" flavor.\n\n3. **Design**:\n   - The design of the container, including the placement of the label and the overall structure, appears identical in both images.\n\nGiven these observations, it is clear that both images depict the same type of product, specifically a container of Ice Breakers Cinnamon Mints.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_14",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/47/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/47/8.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a small white square bowl. The bowl is placed on a leather surface in both images, and the orientation and appearance of the bowl are consistent between the two pictures.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_15",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/7/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/7/7.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show a red paper bag with white handles. The bag appears to be the same in both images, just placed in different contexts.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_16",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/282/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/282/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Pattern and Design**:\n   - Both images show a tie with a similar pattern of diagonal stripes.\n   - The colors in both ties appear to be consistent, with a combination of brown, beige, and black.\n\n2. **Shape and Structure**:\n   - The first image shows the tie in a folded or bunched state.\n   - The second image shows the tie laid out flat, revealing more of its design and structure.\n\n3. **Label and Branding**:\n   - The second image clearly shows a label on the tie, which is not visible in the first image due to the way it is folded.\n\nGiven these observations, the ties appear to have the same pattern, color scheme, and overall design. The differences in appearance are likely due to how they are presented (folded vs. flat).\n\nTherefore, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_17",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/160/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/160/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Image 1**:\n   - Shows a yellow pillow placed on a black, web-like structure.\n   - The pillow has a visible strap or loop at one end.\n\n2. **Image 2**:\n   - Shows a yellow pillow placed on a flat, white surface.\n   - The pillow also has a visible strap or loop at one end.\n\nBoth pillows appear to be of similar shape, color, and have a similar strap or loop feature. The main difference is the background and the surface they are placed on.\n\nGiven these observations, the conclusion is:\n\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_18",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/4/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/4/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a light blue crossbody bag. The design, color, and features such as the strap and buckle are consistent in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_19",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/13/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/13/15.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a red handbag with gold-tone hardware. The bag has multiple compartments and zippers, and the brand name \"MAGIC STICK\" is visible on the front in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_20",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/75/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/75/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a piece of fabric with an orange border and gold embroidery. The first image shows the fabric crumpled on a couch, while the second image shows it laid out flat on a surface.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_21",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/102/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/102/32.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Flowers**: Both images feature yellow flowers with a similar appearance.\n2. **Lighting and Background**: \n   - The first image shows a lantern with a warm light behind the flowers, and there are white flowers as well.\n   - The second image shows a different angle of the same type of yellow flowers, but without the white flowers and the background is more neutral.\n\nGiven these observations, it appears that both images depict the same type of yellow flowers, but they are taken from different angles and possibly at different times or locations. The presence of the lantern in the first image and its absence in the second image suggests they might not be showing the exact same setup.\n\nTherefore, the answer is:\n(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_22",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/74/20.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/74/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a pink long-sleeved shirt.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_23",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/110/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/110/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same object, which is a figurine of a fairy. The fairy has green hair, wings, and is holding a flower. The background and positioning are different, but the object itself is the same.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_24",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/16/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/16/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a yellow and black carrying case with a strap. The case in both images has the same design and features, including the zipper and the shape. The only difference is the orientation and the background in the images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_25",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/166/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/166/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a blue backrest pillow with armrests. The pillow is designed to provide support and comfort while sitting.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_26",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/111/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/111/18.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details in each image:\n\n1. **Picture 1**:\n   - The object is a metallic badge or emblem.\n   - It features a design with palm trees and what appears to be a building or structure.\n   - The text on the object reads \"ABU DHABI.\"\n\n2. **Picture 2**:\n   - The object is also a metallic badge or emblem.\n   - It has a similar design with palm trees and a building or structure.\n   - The text on the object reads \"ABU DHABI.\"\n\nBoth images depict an identical object with the same design and text. Therefore, the answer is:\n\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_27",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/58/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/58/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Material and Pattern**: Both images show a fabric with vertical stripes. The pattern and color scheme (dark background with light stripes) are consistent in both images.\n\n2. **Shape and Structure**:\n   - The first image shows the fabric hanging on a hanger, which gives it a more structured appearance.\n   - The second image shows the fabric laid out flat, which makes it appear different due to the lack of structure but retains the same pattern and material.\n\n3. **Details**: Both images have the same type of fabric and pattern, suggesting they are likely the same object viewed from different angles and contexts.\n\nGiven these observations, the answer is:\n\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_28",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/93/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/93/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "failed",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_29",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/310/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/310/21.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a purple umbrella. In the first image, the umbrella is closed and lying on a flat surface, while in the second image, it is open and standing upright. The color and design of the umbrella are consistent in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_30",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/237/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/237/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the packaging of a Samsung tablet. The box design, including the image of the tablet and the branding, is consistent in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_31",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/214/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/214/17.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show a packet of YAKKA egg noodles. The packaging, design, and branding are consistent between the two images, indicating that they are the same product.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_32",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/188/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/188/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Shape and Design**: Both objects have a similar shape and design, resembling a stylized leaf with intricate patterns.\n2. **Color and Material**: Both objects appear to be made of a similar material with a golden or brass-like finish.\n3. **Size and Proportions**: The proportions and size of the objects in both images seem consistent.\n\nGiven these observations, it is reasonable to conclude that the two pictures show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_33",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/140/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/140/30.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Design and Structure**:\n   - Both images show a bracelet with a similar design featuring multiple star-shaped elements.\n   - The stars are adorned with what appear to be clear gemstones or crystals.\n\n2. **Material and Color**:\n   - Both bracelets have a gold-tone setting for the stars and the connecting links.\n   - The gemstones in both bracelets are clear and reflective.\n\n3. **Clasp Mechanism**:\n   - Both bracelets have a similar clasp mechanism at one end, which appears to be a hook-and-eye type.\n\n4. **Background and Presentation**:\n   - The first image shows the bracelet laid out on a reflective surface, possibly glass or polished metal.\n   - The second image shows the bracelet hanging against a wooden background.\n\nGiven these observations, the design, structure, material, color, and clasp mechanism of the bracelets in both images are very similar, if not identical.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_34",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/219/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/219/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show a bag of pistachios with similar packaging and labeling. The red design and the visible pistachios inside the bag are consistent in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_35",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/72/17.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/72/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Color**: Both objects are of a similar dark blue color.\n2. **Material**: Both appear to be made of a similar fabric, likely cotton or a cotton blend.\n3. **Shape and Design**:\n   - The first image shows a sleeveless top with a round neckline.\n   - The second image shows a long-sleeved top with a similar round neckline.\n\nGiven these observations, the two images do not depict the same object because one is sleeveless and the other has long sleeves.\n\nSo, the answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_36",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/211/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/211/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show a container of nuts. The first image shows the container with its lid on, placed on a red mat, while the second image shows the same container with the lid off and some nuts visible inside, placed directly on a wooden surface.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_37",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/89/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/89/21.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show the same coffee mug with a polka dot design and the word \"COFFEE\" written on it. The mug has a white handle and a brown body. The only difference is the background and the angle at which the mug is photographed.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_38",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/94/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/94/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a decorative sculpture of an animal, likely an antelope or similar creature, with a textured body and extended legs. The sculpture is mounted in such a way that it appears to be leaping or jumping. The differences in the background and lighting do not change the fact that the object itself is the same in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_39",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/63/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/63/13.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show a pink fabric item, likely a scarf, with similar texture and color. The way the fabric is draped and folded in both images suggests it is the same object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_40",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/215/7.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/215/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a tube of Lakmé Sun Expert Ultra Matte Gel with an SPF of 50. The packaging and labeling are identical in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_41",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/86/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/86/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a white ceramic mug with a black and gold design. The mug has a handle on one side and appears to be empty in both images. The difference between the two pictures is the background and the angle at which the mug is photographed.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_42",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/205/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/205/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a container of oregano leaves. The label and the contents are identical in both images. The only difference is the position and background on which the container is placed.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_43",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/2/13.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/2/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe two pictures show different objects. \n\n- The first picture shows a floor lamp with a unique design, featuring a metal stand and a lamp head that appears to be adjustable.\n- The second picture shows a handbag with a flap closure and a shoulder strap.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_44",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/157/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/157/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a wall-mounted intercom system. The first image shows the device with the handset in place, while the second image shows the handset being lifted off the base unit.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_45",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/201/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/201/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show a bag of Mocaflo pasta. The packaging and the product inside are the same in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_46",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/26/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/26/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show the same book titled \"Make Time: How to Focus on What Matters Every Day\" by Jake Knapp and John Zeratsky. The cover design, including the color scheme and text layout, is identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_47",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/191/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/191/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a ceramic bowl with a blue floral pattern around the rim. The bowl is placed on different surfaces in each picture, but the design and shape of the bowl are identical.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_48",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/15/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/15/6.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Design and Pattern**: Both bags have a similar pattern with a repeating logo design.\n2. **Color and Material**: The color and material of both bags appear to be the same.\n3. **Shape and Structure**: Both bags have a similar shape and structure, including the placement of the straps and the overall form.\n\nGiven these observations, it is reasonable to conclude that the two pictures show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_49",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/35/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/35/7.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show a composition notebook with a black and white marbled cover.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_50",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/200/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/200/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a box of Upper Fagu Tea. The design and text on the box are consistent in both images, indicating that it is the same product.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_51",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/11/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/11/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_52",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/161/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/161/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a pillow with a floral pattern. The pattern consists of orange and black flowers on a light background. The pillow appears to be the same in both images, just placed in different contexts. In the first image, the pillow is on a bed with a blue and white striped sheet and a pink blanket, while in the second image, it is on a carpeted floor near a wall.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_53",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/68/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/68/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a piece of clothing with a zipper in the front. The color and design are consistent in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_54",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/204/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/204/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth images show tubes of Sunbar sunscreen. The first image shows the tube on a red surface, while the second image shows the tube with its cap off on a wooden surface.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_55",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/197/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/197/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a battery compartment of a device, likely a remote control. The battery visible in both images is a Energizer brand battery. The orientation and angle of the device are different, but the object itself is the same.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_56",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/198/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/198/10.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a Panasonic air conditioner remote control. The layout of the buttons and the design of the remote are identical in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_57",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/28/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/28/13.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a book or study material for HRM-CP/SHRM-SCP Certification. The cover and spine of the book are visible in both images, and the text and design elements are consistent between the two.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_58",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/139/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/139/12.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a crystal clock designed to resemble a famous clock tower. The design and details of the clock are consistent in both images, with the clock face and crystal structure being identical. The difference in the background and lighting does not change the fact that the object itself is the same.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_59",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/39/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/39/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a bottle of Oasis water. The label and the shape of the bottle are identical in both images. The only difference is that in the second image, the cap has been removed and placed next to the bottle.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_60",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/223/30.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/223/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a package of Everest brand powder. The packaging and the contents appear identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_61",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/27/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/27/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show the same book, \"Last Look\" by Mariah Stewart. The cover design and the text on the spine are identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_62",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/241/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/241/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images show the same object, which is a box of Fine Guard masks. The design and branding are consistent across both images, indicating that they are the same product.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_63",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/12/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/12/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a black tote bag. The first image shows the bag hanging from a hook, while the second image shows a close-up of the bag's side with a zipper detail.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_64",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/24/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/24/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a bag with a white background and black stripes. The bag has a brown leather trim and strap. The first image shows the bag from a side angle, while the second image shows the bag from a top-down perspective.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_65",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/81/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/81/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a piece of clothing with a distinctive black collar and cuffs. The brand label \"SASSARIS\" is visible in both images, confirming that it is the same item.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_66",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/169/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/169/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Plant Characteristics**:\n   - Both images show a plant with leaves that have a distinctive pattern: dark centers with bright green edges.\n   - The shape and color of the leaves in both images are very similar.\n\n2. **Pot**:\n   - The first image shows the plant in a terracotta pot.\n   - The second image does not show the pot clearly, but the plant appears to be in a similar container based on the visible part of the stem and leaves.\n\n3. **Background**:\n   - The background in the first image includes a table and some other objects.\n   - The background in the second image is a plain surface, possibly a wall or a table.\n\nGiven these observations, the plants in both images appear to be the same type of plant with very similar characteristics. Therefore, it is likely that they are the same object.\n\nThe answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_67",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/56/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/56/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a red and white striped piece of clothing. The first image shows the garment hanging on a balcony, while the second image shows it laid flat on a surface.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_68",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/212/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/212/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a container of Nestlé Coffee-mate sugar-free hazelnut creamer. The first image shows the container with the lid off and placed next to it, while the second image shows the container with the lid on, placed on a red surface.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_69",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/30/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/30/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same book titled \"Designing with Objects.\" The cover design, including the text and image, is identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_70",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/40/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/40/13.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a blue water bottle with a grey lid and a strap that says \"cello sports.\" The bottle appears to be resting on a light-colored fabric surface, likely a couch or chair. The only difference between the two images is the angle at which the photos were taken and the position of the bottle's lid in the second image, where it is slightly more open than in the first image.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_71",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/222/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/222/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a bottle of WOW Skin Science Black Seed Oil Hair Conditioner. The packaging and labeling are identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_72",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/203/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/203/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a container of a cosmetic product. The container in both images has the same design and label, indicating it is the same product. The first image shows the container open with the lid off, while the second image shows the container closed with the lid on.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_73",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/92/23.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/92/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a coffee mug with a design that includes the word \"Coffee\" and a chocolate drip pattern. The handle and the overall design of the mug are consistent in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_74",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/73/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/73/16.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a scarf or shawl with a similar pattern and design. The first image shows the scarf draped over a chair, while the second image shows it laid out on a table. The patterns and colors are consistent in both images, indicating that it is the same item.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_75",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/103/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/103/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a trophy with a figure on top and a base that reads \"HAPPY BIRTHDAY.\" The figure appears to be in a similar pose in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_76",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/209/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/209/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show a container of jaggery powder. The labels on the containers in both images are identical, indicating that they are the same product.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_77",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/66/27.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/66/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. Both images show a black long-sleeved garment.\n2. The garment in both images has a similar design with a textured or patterned detail around the neck and cuffs.\n3. The overall shape and style of the garments appear to be the same.\n\nGiven these observations, it is reasonable to conclude that the two pictures show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_78",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/168/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/168/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Plant Characteristics**:\n   - Both images show a plant with long, slender leaves that are arranged in a feather-like pattern.\n   - The leaves appear to be of similar shape and size.\n\n2. **Pot**:\n   - In the first image, the plant is in a small, light-colored pot.\n   - In the second image, the plant is also in a pot, but it is not clearly visible due to the angle and the surrounding objects.\n\n3. **Environment**:\n   - The first image shows the plant on a green surface with a dark background.\n   - The second image shows the plant on a different surface with a wall socket and some cables in the background.\n\nGiven these observations, the plants in both images appear to be very similar, if not the same type of plant. However, the pots and the environments are different.\n\nTherefore, the most accurate answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_79",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/137/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/137/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details in each image:\n\n1. **First Image:**\n   - The object appears to be a decorative item with blue glass elements and metallic leaves.\n   - It is placed against a background that looks like a tapestry or a wall hanging with intricate patterns.\n\n2. **Second Image:**\n   - The object also appears to be a decorative item with blue glass elements and metallic leaves.\n   - It is placed against a plain white background.\n\nBoth images show an object with similar characteristics:\n- Blue glass elements\n- Metallic leaves\n- A clear base\n\nGiven these similarities, it is highly likely that both images depict the same object.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_80",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/87/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/87/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details of each image:\n\n1. **Picture 1**:\n   - The cup has a gold handle and rim.\n   - The design on the cup includes floral patterns with gold accents.\n   - There is a label on the bottom of the cup.\n\n2. **Picture 2**:\n   - The cup also has a gold handle and rim.\n   - The design on the cup includes floral patterns with gold accents.\n   - The interior of the cup is white.\n\nBoth images show a cup with similar characteristics:\n- Gold handle and rim.\n- Floral patterns with gold accents.\n\nGiven these similarities, it is highly likely that both pictures show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_81",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/59/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/59/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Color and Material**: Both objects are red and appear to be made of a similar fabric.\n2. **Shape and Fold**: Both objects are folded in a similar manner, with one end tucked or folded over the other.\n3. **Label**: The first image shows a label on the object, which is not visible in the second image. However, this does not necessarily mean they are different objects, as the label might just be out of view in the second image.\n\nGiven these observations, it appears that both images show the same type of object, likely a piece of clothing or fabric.\n\nSo, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_82",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/95/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/95/14.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a statue of two figures. The angle and background are different, but the statue itself is the same in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_83",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/14/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/14/15.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Brand and Logo**:\n   - Both backpacks have the \"WILDCRAFT\" logo.\n   - The first backpack has a red logo on a black background.\n   - The second backpack also has a red logo on a black background.\n\n2. **Design and Features**:\n   - Both backpacks have similar design features such as the shape, zippers, and compartments.\n   - The first backpack is shown from a top-down view with the main compartment open.\n   - The second backpack is shown from a side view with the main compartment partially open.\n\n3. **Color and Material**:\n   - Both backpacks are primarily black with red accents.\n\nGiven these observations, it appears that both images show the same type of backpack from different angles and views.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_84",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/45/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/45/10.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Image 1**:\n   - Shows a blue ceramic container with a lid.\n   - The lid has a floral design with a blue knob.\n   - The container is filled with what appears to be a pasta salad.\n\n2. **Image 2**:\n   - Shows the same blue ceramic container with the same lid.\n   - The lid also has the same floral design with a blue knob.\n   - The container is placed on a red surface, and it appears to be empty or not showing its contents.\n\nGiven these observations, both images depict the same object, which is the blue ceramic container with the floral lid.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_85",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/3/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/3/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Color and Material**:\n   - Both bags are pink and appear to be made of a similar material.\n\n2. **Design Features**:\n   - The first bag (in the first image) has a front pocket with a zipper and a small pouch attached to it.\n   - The second bag (in the second image) has a gold chain strap and a small pouch with the text \"MADDEN NYC\" on it.\n\n3. **Shape and Structure**:\n   - The first bag has a more structured, boxy shape with a front pocket.\n   - The second bag has a rounded shape and a different design with a chain strap.\n\nBased on these observations, the two bags have different designs and features, indicating they are not the same object.\n\nSo, the answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_86",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/82/20.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/82/21.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Shape and Design**: Both images show a clear glass cup with a handle.\n2. **Size and Proportions**: The proportions of the cups in both images appear to be the same.\n3. **Material**: Both cups are made of transparent glass.\n4. **Background**: The background in the first image is a colorful, patterned fabric, while the background in the second image is a different patterned fabric with blue and yellow colors.\n\nGiven these observations, the cups in both images appear to be identical in shape, size, and material, despite the different backgrounds.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_87",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/185/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/185/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Plant Type and Appearance**:\n   - Both images show a plant with long, slender green leaves.\n   - Both plants have small white flowers or buds.\n\n2. **Container**:\n   - The first image shows the plant in a white pot placed on a ledge.\n   - The second image shows the plant in a white vase mounted on a wall.\n\n3. **Setting**:\n   - The first image is taken outdoors, as indicated by the visible balcony railing and parked cars below.\n   - The second image is taken indoors, as indicated by the wall and shelf.\n\nGiven these observations, the plants appear to be very similar, if not identical, in type and appearance. However, the settings are different, and the containers are different (a pot vs. a vase).\n\nTherefore, the most accurate answer is:\n\n(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_88",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/29/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/29/14.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same book, \"Introduction to Algorithms\" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. The cover design and text are identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_89",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/113/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/113/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same object, which appears to be a crystal or glass piece with a faceted design. The object is photographed from different angles and against different backgrounds, but the unique shape and features of the crystal are consistent in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_90",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/67/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/67/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Pattern and Design**: Both images show a garment with a distinctive black and white geometric pattern.\n2. **Style and Cut**: The first image shows a folded shirt with buttons and a collar, while the second image shows a jacket or blazer hanging on a hanger.\n\nGiven these observations:\n- The pattern and design are identical.\n- The style and cut are different (one is a shirt, the other is a jacket).\n\nTherefore, the two pictures do not show the same object.\n\nThe answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_91",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/51/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/51/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same object, which is a ceramic container with a lid. The lid has a decorative pattern with floral designs and the container itself is yellow on the inside. The only difference is the orientation and the surface on which the container is placed. In the first image, the container is open and placed on a wooden surface, while in the second image, the container is closed and placed on a red mat.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_92",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/142/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/142/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a bouquet of flowers in a vase. The flowers and the vase are identical in both images, with the only difference being the perspective and background.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_93",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/224/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/224/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show a box of facial tissues with the same brand and design. The packaging is identical, featuring the same geometric pattern and color scheme.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_94",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/97/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/97/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a decorative item with red buds and metal leaves. The object appears to be a small figurine or ornament. The background in each picture is different, but the object itself is identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_95",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/83/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/83/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same object, which is a yellow ceramic mug with a textured surface. The mug is shown from different angles and positions in each picture.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_96",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/106/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/106/12.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Object in Image 1**:\n   - The object appears to be a decorative item with a spherical design.\n   - It has a metal frame with intricate patterns and clear, faceted crystals embedded within it.\n   - The base is metallic and reflective.\n\n2. **Object in Image 2**:\n   - This image also shows a decorative item with a similar spherical design.\n   - It has a metal frame with intricate patterns and clear, faceted crystals embedded within it.\n   - The base is metallic and reflective, and it is mounted on a wall or a similar surface.\n\nGiven these observations, both images depict objects that are very similar in design and appearance. They both have the same spherical shape, metal frame with intricate patterns, and clear, faceted crystals.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_97",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/53/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/53/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Image 1**: Shows a dark-colored piece of clothing, possibly a shirt or a sweater, folded and placed on a flat surface.\n2. **Image 2**: Shows a dark-colored piece of clothing hanging on a balcony railing.\n\nBoth images depict a dark-colored piece of clothing that appears to be similar in shape and size. The context of the images is different (one is folded on a surface, the other is hanging), but the object itself looks the same.\n\nGiven this analysis, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_98",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/296/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/296/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a red soft-shell suitcase with wheels. The first image shows the interior of the suitcase, while the second image shows the exterior and the top view of the suitcase.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_99",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/112/27.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/112/29.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Image 1**:\n   - Shows a close-up of a helmet with a red plume.\n   - The helmet is part of a larger structure that appears to be made of metal wires or rods forming an intricate web-like pattern.\n\n2. **Image 2**:\n   - Shows a standalone object, which appears to be a decorative item or a piece of art.\n   - It has a similar design to a helmet with a red plume, but it is not part of a larger structure and is placed on a flat surface.\n\nGiven these observations, the objects in both images share a similar design (a helmet with a red plume), but they are presented differently. The first image shows the helmet as part of a larger structure, while the second image shows the helmet as a standalone decorative item.\n\nTherefore, the answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_100",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/32/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/32/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same book, \"Computer Science with C++\" by Sumita Arora. The cover and spine of the book are visible in both images, confirming that it is the same object.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_101",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/41/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/41/16.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a bottle with a label that reads \"SACOOR.\" The first image shows the bottle with its cap on, while the second image shows the bottle with its cap off and placed beside it.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_102",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/85/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/85/20.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the two images step by step:\n\n1. **Image 1**:\n   - Shows a white cup filled with a brown liquid, likely coffee or tea.\n   - The cup is placed on a surface with a floral pattern.\n\n2. **Image 2**:\n   - Shows an empty white cup with some water droplets inside.\n   - The cup is placed on a plain, light-colored surface.\n\nBoth images depict a white cup, but there are differences in the state of the cups and their surroundings:\n\n- In Image 1, the cup is filled with a brown liquid.\n- In Image 2, the cup is empty with some water droplets inside.\n\nGiven these observations, the objects in the two images are not identical in terms of their contents and context.\n\nTherefore, the answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_103",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/65/16.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/65/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a plush blanket. The first image shows the blanket on a surface, while the second image shows the same blanket inside a washing machine.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_104",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/122/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/122/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a decorative item made from shells and other materials. The object features multiple bird-like figures with black eyes and red beaks, arranged around a central structure adorned with flowers and shells. The background in the first image is plain, while the second image shows the object against a patterned fabric, but the object itself is identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_105",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/22/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/22/21.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a maroon leather handbag with two handles and visible stitching. The bag in both images has similar features such as the color, stitching, and design. The first image shows the bag from a side angle, while the second image shows it from a top angle, revealing more of its internal compartments.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_106",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/61/36.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/61/15.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which appears to be a piece of fabric with a distinctive pattern. The fabric has a combination of colors including green, maroon, and beige, and features an embroidered design with pink and silver floral motifs. The fabric is shown in different settings: the first image shows it draped over a chair or table, while the second image shows it laid out on a couch. The unique pattern and colors make it identifiable as the same object.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_107",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/202/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/202/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a tube of Maybelline mascara. The design and color scheme are consistent in both images, with the yellow tube and the text \"THE COLOSSAL\" visible.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_108",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/8/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/8/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. Both images show a purple bag with a similar design and pattern.\n2. The bag in both images has a blue handle.\n3. The bag in both images has a decorative rose design on it.\n\nGiven these observations, it appears that both images show the same object.\n\nSo, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_109",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/159/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/159/6.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a white, plush backrest pillow with arm supports. The first image shows the pillow placed on an office chair, while the second image shows it lying flat on a surface.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_110",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/108/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/108/12.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Material and Color**: Both objects are gold-colored and appear to be made of a similar material.\n2. **Shape and Design**: Both objects have the same shape and design, resembling a rose with leaves.\n3. **Context**: The first image shows the object placed on a patterned surface, while the second image shows the object in a purple box.\n\nGiven these observations, it is highly likely that both images depict the same object, just in different contexts.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_111",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/124/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/124/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Object in Picture 1**:\n   - The object appears to be a decorative wall-mounted fixture.\n   - It has three crystal-like elements, each with a different color: one is purple, one is clear, and one is not clearly visible.\n   - The fixture is mounted on a wall with a tapestry that has a floral pattern.\n\n2. **Object in Picture 2**:\n   - The object also appears to be a decorative wall-mounted fixture.\n   - It has three crystal-like elements, each with a different color: one is green, one is clear, and one is purple.\n   - The fixture is mounted on a plain wall.\n\nGiven these observations, the objects in both pictures appear to be very similar, if not identical, in design and structure. The differences in the background and the colors of the crystals do not necessarily indicate that they are different objects.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_112",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/69/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/69/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a dark blue long-sleeved shirt with a pattern of small flowers. The shirt is displayed in different settings but appears to be the same item.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_113",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/249/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/249/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a package of Bisk Farm Sugar Free Cream Crackers. The packaging and branding are identical in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_114",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/17/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/17/12.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a tote bag with the \"amazonstyle\" logo. The bag has a white and yellow color scheme with black handles.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_115",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/20/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/20/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Material and Texture**: Both objects appear to be made of a woven leather material.\n2. **Color**: Both objects are brown.\n3. **Design**: Both objects have a similar woven pattern.\n4. **Shape and Size**: Both objects appear to be small, square-shaped wallets with zippers.\n\nHowever, there is a key difference:\n- The first image does not show any brand name or logo.\n- The second image clearly shows the brand name \"Lavie\" on the front of the wallet.\n\nGiven this significant difference, the correct answer is:\n\n(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_116",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/100/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/100/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Material and Texture**: Both objects appear to be made of a similar material with a glossy finish.\n2. **Design and Color**: Both objects have a blue and white color scheme and a similar design featuring dolphins and a wheel.\n3. **Shape and Structure**: The shape and structure of both objects are very similar, with the dolphins and the wheel being prominent features.\n\nGiven these observations, it is highly likely that the two pictures show the same object.\n\nSo, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_117",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/242/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/242/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Image 1**:\n   - Shows a box of N95 disposable particulate respirator masks.\n   - The box is white with black text and images.\n   - It has instructions on how to use the mask.\n\n2. **Image 2**:\n   - Also shows a box, but it is open, revealing the contents inside.\n   - The box appears to be the same design as the one in Image 1, with similar text and images.\n   - The contents inside the box are visible, showing individual masks packaged in plastic.\n\nGiven these observations, both images depict the same type of product, which is a box of N95 disposable particulate respirator masks.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_118",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/31/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/31/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Image 1**:\n   - The book is titled \"Data Structures Through C Language.\"\n   - The cover shows a design with a large 'C' and some text.\n\n2. **Image 2**:\n   - The book is also titled \"Data Structures Through C Language.\"\n   - The cover shows a similar design with a large 'C' and some text.\n\nBoth images show the same book, \"Data Structures Through C Language,\" with the same cover design.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_119",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/54/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/54/16.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same white garment with a zipper at the neckline. The first image shows the garment hanging, while the second image shows it folded and placed on a flat surface.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_120",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/107/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/107/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both objects appear to be spherical with a hollow center.\n2. **Design and Pattern**: Both objects have a similar pattern of blue dots and other decorative elements on their surface.\n3. **Material and Texture**: The texture and material look consistent between the two images.\n\nGiven these observations, it appears that the two pictures show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_121",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/170/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/170/3.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Flowers**: Both images feature red roses.\n2. **Vase**: The first image does not show a vase clearly, while the second image shows a green and white vase with black stripes.\n3. **Doily**: Both images have a doily with a similar pattern and color scheme (white with red edges).\n\nGiven these observations:\n- The flowers in both images are red roses.\n- The doilies in both images appear to be the same.\n\nHowever, the presence of the vase in the second image and its absence in the first image suggests that they might not be showing the exact same setup.\n\nTherefore, the answer is:\n(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_122",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/48/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/48/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nThe two pictures show the same object, which is a decorative ceramic pot with a lid. The lid has a floral pattern with blue and red flowers and green leaves, and the pot itself is red. In the first image, the lid is on, and in the second image, the lid is off and placed next to the pot, revealing some contents inside the pot.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_123",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/21/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/21/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same object, which is a bag with a distinctive black and white pattern. The bag has a handle and a detachable strap, and the design appears to be the same in both images. The differences in the background and orientation do not change the fact that it is the same bag.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_124",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/109/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/109/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a statue of a person playing a stringed instrument. The statue is depicted in different settings and from different angles, but it is the same sculpture.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_125",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/115/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/115/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show a string of spherical lights. The first picture shows the lights in an unlit state, bundled together and placed in a container. The second picture shows the same lights turned on and spread out, emitting a warm glow. The shape, size, and arrangement of the lights are consistent between the two images, indicating that they are indeed the same object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_126",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/10/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/10/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details of each image:\n\n1. **Material and Texture**: Both bags appear to have a similar texture and material, which looks like a woven or embossed pattern.\n2. **Color**: Both bags are black.\n3. **Design Features**:\n   - Both have a front zipper pocket.\n   - Both have similar handles and shoulder straps.\n   - The hardware (zippers and clasps) appears to be gold-colored in both images.\n\nGiven these observations, it is highly likely that the two pictures show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_127",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/165/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/165/16.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same object, which is a round cushion with a brown background and gold floral embroidery. The cushion appears in different contexts: in the first image, it is placed on a flat surface, and in the second image, it is placed on a chair.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_128",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/199/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/199/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe two pictures show different remote controls. The first one is a Crompton remote control, which appears to be for an air conditioner or a similar device, given its design and the buttons visible. The second one is a Panasonic inverter remote control, which also appears to be for an air conditioner, as indicated by the display showing temperature and other settings typically found on such devices. The brands, designs, and button layouts are different, indicating they are not the same object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_129",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/187/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/187/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a glass dish shaped like a fish. The dish contains colorful glass beads in both images, and the overall shape and design of the dish are identical. The difference in the background does not change the fact that the main object in both pictures is the same.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_130",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/37/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/37/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Image 1**:\n   - The book is titled \"50 STATES 5000 IDEAS.\"\n   - The cover shows a blue background with text and an image of a cityscape.\n   - The book appears to be open, showing some pages.\n\n2. **Image 2**:\n   - The book is also titled \"50 STATES 5000 IDEAS.\"\n   - The cover shows a different design with multiple circular images and a green background.\n   - The book is closed and placed on a red object.\n\nBoth images show books with the same title \"50 STATES 5000 IDEAS.\" However, the covers are different, indicating that they might be different editions or versions of the same book.\n\nGiven this analysis, the correct answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_131",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/220/28.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/220/30.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show a container of Ice Breakers Duo with the flavor \"Strawberry.\" The packaging and labeling are consistent between the two images, indicating that they are the same product.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_132",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/206/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/206/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show a package of Scotch-Brite Scrub Pads. The packaging and branding are identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_133",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/297/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/297/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth pictures show the same blue hard-shell suitcase with a telescoping handle and combination lock. The first image shows the front view with the handle extended, while the second image shows the top view with the wheels visible.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_134",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/55/18.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/55/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a red piece of fabric or clothing, placed on a light-colored couch. The position and appearance of the fabric are different in each picture, but it is the same object.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_135",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/101/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/101/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a metal tuning tool used for pianos. The tool is designed to adjust the tension of the piano strings to ensure proper tuning. The first image shows the tool in use, inserted into a tuning pin on a piano, while the second image shows the tool placed on a surface, providing a clear view of its structure and design.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_136",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/288/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/288/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nThe two pictures show the same object, which is a red towel hanging on a blue hanger. The background and the positioning of the towel are different, but the towel and hanger are the same.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_137",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/155/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/155/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a pair of headphones with a red cable. The headphones have a similar design and color scheme in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_138",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/23/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/23/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show the same object, which is a backpack with the Amazon logo on it. The first image shows the backpack open and empty, while the second image shows the backpack closed and placed on a carpeted floor.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_139",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/36/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/36/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same book titled \"Take Me Back\" by Nupur Dave. The cover design, including the image of the person and the text layout, is consistent in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_140",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/70/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/70/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Material and Color**: Both items appear to be made of denim and are blue in color.\n2. **Design Features**: Both items have similar design features such as pockets with buttons and stitching patterns.\n\nGiven these observations, it appears that both pictures show the same type of object, which is a pair of jeans.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_141",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/125/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/125/14.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. Both images show a similar object, which appears to be a miniature model of a structure.\n2. The object in both images is encased in a clear display box.\n3. The object has a golden frame with colorful gem-like elements.\n4. The background and the angle of the photos are different, but the object itself looks identical.\n\nGiven these observations, it is reasonable to conclude that both images show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_142",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/60/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/60/21.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details:\n\n1. **Color and Material**:\n   - Both images show a light blue garment.\n   - The material appears to be similar in both images, suggesting a consistent type of fabric.\n\n2. **Shape and Design**:\n   - Both garments have a similar shape with a round neckline.\n   - The overall design and cut seem to match, indicating they are likely the same type of clothing item.\n\n3. **Size and Fit**:\n   - While the exact size is not clear from the images, the proportions and fit appear to be consistent between the two.\n\n4. **Context**:\n   - The first image shows the garment folded on a flat surface.\n   - The second image shows the garment hanging on a balcony, but it still matches the first in terms of color and design.\n\nGiven these observations, it is reasonable to conclude that the two images show the same object.\n\nSo, the answer is:\n(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_143",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/43/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/43/13.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which is a black water bottle with the Amazon logo and the Manna logo on it. The orientation of the bottle is different in each picture, but it is the same object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_144",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/104/21.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/104/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which appears to be a modern, abstract sculpture or decorative piece. The unique shape and reflective surface are consistent in both images, despite the different backgrounds and orientations.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_145",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/34/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/34/3.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same book, \"Along Came a Spider\" by James Patterson. The cover design and the author's name are visible in both images, confirming that it is the same object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_146",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/114/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/114/3.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nBoth pictures show the same object, which appears to be a clear, crystalline structure with a pointed tip and a faceted base. The object is likely made of glass or crystal and has a similar appearance in both images, despite being photographed from different angles and against different backgrounds.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_147",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/218/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/218/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show a jar of Reese's Creamy Peanut Butter. The first image shows the jar closed and standing upright on a red surface, while the second image shows the jar open with the lid off and lying on its side on a wooden surface.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_148",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/234/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/234/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a gold-colored bag containing what appears to be food, likely some type of dried or preserved product. The packaging and contents look identical in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_149",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/71/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/71/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a gray, textured blanket. The blanket has a distinctive ribbed pattern and appears to be made of a soft, plush material. The first image shows the blanket crumpled up on a surface, while the second image shows it folded over the back of a chair.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_150",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/221/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/221/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show a box of disposable gloves. The packaging and labeling are consistent with each other, indicating that they are the same product.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_151",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/33/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/33/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a book with a cover that features a dense, lush green jungle or forest scene. The text \"amazon style\" is visible on the spine of the book in both images, confirming that it is the same book. The difference in the images is the angle and the presence of a red object underneath the book in the second image.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_152",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/172/16.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/172/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same plant, which is a snake plant (Sansevieria). The plant is in the same pot and has the same distinctive variegation pattern on its leaves. The background and the angle of the photos are different, but the plant itself is the same.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_153",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/5/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/5/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show the same object, which is a backpack. The design, color, and features such as the zippers and pockets are consistent between the two images. The first image shows the backpack open with the interior visible, while the second image shows the backpack closed and from a different angle.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_154",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/6/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/6/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nThe two pictures show the same object, which appears to be a clutch or purse with a gold and white beaded design on one side and a solid gold color on the other. The background is also consistent in both images, showing the same black leather surface.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_155",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/284/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/284/8.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) Yes\n\nThe two pictures show the same object, which is a brown tie with a pattern of small blue squares. The tie is displayed in different positions on what appears to be a light-colored fabric surface.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_156",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/9/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/9/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a clutch purse with a floral embroidery design. The design and colors are consistent in both images, indicating that it is the same item photographed from different angles and placed on different surfaces.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_157",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/49/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/49/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nThe two pictures show the same object, a bowl with a floral design. The first image shows the bottom of the bowl with the brand marking, and the second image shows the inside of the same bowl.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_158",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/171/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/171/8.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nThe two pictures show the same object, which is a potted plant with needle-like leaves. The plant appears to be a type of conifer or similar evergreen. Both images show the plant in a similar setting, with a window and buildings visible in the background. The position and angle of the plant are slightly different, but it is clearly the same plant.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_159",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/potato/Floury-Potato_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/potato/Red-Beet_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe first picture shows a potato, while the second picture shows beetroots.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_160",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper/Orange-Bell-Pepper_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper/Green-Bell-Pepper_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No\n\nThe two pictures do not show the same object. \n\n- The first picture shows a variety of vegetables including orange bell peppers, green bell peppers, and what appear to be eggplants.\n- The second picture is focused on a pile of green bell peppers.\n\nWhile both images include bell peppers, they are not the same objects, and the first image contains additional types of vegetables that are not present in the second image.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_161",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_1/Tropicana-Apple-Juice_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_1/Bravo-Apple-Juice_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "failed",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_162",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper_2/Orange-Bell-Pepper_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper_2/Red-Bell-Pepper_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe first picture shows orange bell peppers, while the second picture shows red bell peppers. They are different colors and therefore not the same object.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_163",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_1/Arla-Ecological-Medium-Fat-Milk_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_1/Arla-Lactose-Medium-Fat-Milk_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two pictures show different milk products. \n\nIn the first picture, the product is labeled \"eko,\" which suggests it is an organic milk product. The label also indicates it is from Arla, a well-known dairy company.\n\nIn the second picture, the product is specifically labeled \"Arla LAKTOFRI SOMMARNJÖLK,\" which means it is a lactose-free summer milk from Arla. The packaging and labeling are different, indicating that these are two distinct products.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_164",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_2/Conference_026.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_2/Kaiser_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show pears, which are the same type of fruit.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_165",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_5/God-Morgon-Orange-Red-Grapefruit-Juice_011.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_5/God-Morgon-Red-Grapefruit-Juice_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show a juice product from the brand \"GOD MORGON.\" The first image shows a combination of orange and red grapefruit juice, while the second image shows a red grapefruit juice. The packaging design is consistent with the brand's style in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_166",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/soyghurt/Alpro-Vanilla-Soyghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/soyghurt/Alpro-Blueberry-Soyghurt_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A) Yes\n\nBoth pictures show a carton of Alpro Mild & Creamy plant-based drink. The packaging and branding are consistent in both images, with the same color scheme and design elements.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_167",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_2/Watermelon_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_2/Honeydew-Melon_004.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first picture shows watermelons, which have a characteristic green striped skin. The second picture shows cantaloupes, which have a tan or orange-yellow skin with a net-like texture. These are different types of melons.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_168",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_1/Anjou_014.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_1/Conference_007.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures show different types of fruit. The first picture shows a pile of green apples with stickers on them, while the second picture shows pears and kiwi fruits in a crate.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_169",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_6/Tropicana-Golden-Grapefruit_008.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_6/Tropicana-Juice-Smooth_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures show different products from the Tropicana brand. \n\n- The first picture shows a bottle of Tropicana Golden Grapefruit juice.\n- The second picture shows a bottle of Tropicana Smooth Orange Juice with no pulp.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_170",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/sour_cream/Arla-Ecological-Sour-Cream_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/sour_cream/Arla-Sour-Cream_007.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a package of Arla Gräddfil (a type of cream) with the \"eko\" (organic) label on it. The packaging design and branding are consistent in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_171",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato/Regular-Tomato_012.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato/Beef-Tomato_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the images:\n\n1. **Picture 1**: Shows a hand holding a single small, round, red tomato.\n2. **Picture 2**: Shows a box containing multiple larger, round, red tomatoes.\n\nBased on the size and context:\n- The tomato in Picture 1 is smaller and appears to be a cherry tomato.\n- The tomatoes in Picture 2 are larger and appear to be regular-sized tomatoes.\n\nGiven these observations, the correct answer is:\n\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_172",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_2/Bravo-Orange-Juice_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_2/Tropicana-Mandarin-Morning_011.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two pictures show different objects. \n\n- The first picture shows a carton of orange juice with the brand name \"RANO\" and labeled as \"Apelsinjuice,\" which is Swedish for orange juice.\n- The second picture shows a carton of Tropicana \"Mandarin Morning\" juice, which is a blend of mandarin and other fruits.\n\nWhile both are fruit juices, they are different brands and types of juice.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_173",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_2/Red-Delicious_042.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_2/Royal-Gala_007.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show apples that appear to be of the same variety, characterized by their red color with some yellow and a similar shape and size. The stickers on the apples in both images also seem to be from the same brand or distributor, which further suggests they are the same type of apple.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_174",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_4/God-Morgon-Orange-Red-Grapefruit-Juice_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_4/God-Morgon-Orange-Juice_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures show different products. The first picture shows a juice blend of orange and red grapefruit, while the second picture shows pure orange juice.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_175",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_3/Garant-Ecological-Standard-Milk_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_3/Arla-Standard-Milk_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two pictures show different types of milk. The first picture shows a carton of organic milk (ekologisk mjölk) with 3.0% fat content, and the second picture shows a carton of summer milk (sommar mjölk) from Arla.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_176",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato_2/Vine-Tomato_008.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato_2/Beef-Tomato_015.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows a bunch of small, cherry-sized tomatoes still on the vine. The second image shows a single, larger beefsteak tomato being held in someone's hand. These are different types of tomatoes.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_177",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_1/Cantaloupe_016.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_1/Galia-Melon_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the characteristics of the fruits in each image:\n\n1. **First Image**:\n   - The fruit has a greenish rind with a net-like pattern.\n   - It appears to be a type of melon, possibly a cantaloupe or honeydew.\n\n2. **Second Image**:\n   - The fruit has a yellowish rind with a net-like pattern.\n   - It also appears to be a type of melon, specifically a cantaloupe.\n\nGiven these observations:\n- Both fruits are types of melons.\n- The first fruit is greenish, while the second one is yellowish.\n\nBased on these differences, the two images do not show the same object.\n\nSo, the answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_178",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_2/Arla-Lactose-Medium-Fat-Milk_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_2/Arla-Medium-Fat-Milk_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a carton of Arla Sommarmjölk milk. The packaging, branding, and product details are identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_179",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_4/Arla-Ecological-Medium-Fat-Milk_015.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_4/Garant-Ecological-Medium-Fat-Milk_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Let's analyze the images step by step:\n\n1. **Brand and Type**:\n   - Image 1 shows a carton of Arla milk with the label \"EKO MELLANMJÖLK.\"\n   - Image 2 shows a carton of milk with the label \"EKOLANDAN MJÖLK.\"\n\n2. **Design and Labels**:\n   - Both cartons have similar design elements, such as the green color scheme and eco-friendly labels.\n   - The logos and text are different, indicating different product lines or brands.\n\n3. **Content**:\n   - Both products are types of milk, but they are from different product lines within the same brand (Arla).\n\nGiven these observations, the two images do not show the same object. They are different products from the same general category (milk) but with distinct branding and labeling.\n\nSo, the answer is:\n(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_180",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/orange/Satsumas_014.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/orange/Red-Grapefruit_014.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) No\n\nThe two pictures do not show the same object. \n\n- The first picture shows a collection of lemons and a container of cherry tomatoes.\n- The second picture shows a basket of oranges.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_181",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_3/God-Morgon-Apple-Juice_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_3/God-Morgon-Orange-Juice_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two pictures show different objects. The first picture shows a bottle of apple juice, while the second picture shows a carton of orange juice.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_182",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_1/Red-Delicious_037.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_1/Pink-Lady_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows a variety of apples, both red and green, displayed in a market setting. The second image shows a single apple being held by a person's hand. While both images feature apples, they do not show the same object.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_183",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato/Sweet-Potato_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato/Solid-Potato_009.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two pictures do not show the same object. The first picture shows a sweet potato, which has a characteristic orange flesh and a more elongated shape. The second picture shows a regular potato, which typically has white or yellow flesh and a rounder shape. Additionally, the skin texture and color are different between the two types of potatoes.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_184",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/pepper/Orange-Bell-Pepper_014.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/pepper/Red-Bell-Pepper_004.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show bell peppers, which are the same type of object. The first image shows orange bell peppers, and the second image shows red bell peppers.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_185",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/melon/Galia-Melon_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/melon/Cantaloupe_013.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe melons in the two pictures appear to be different types. The melons in the first picture are cantaloupes, which have a tan, rough skin. The melons in the second picture are honeydews, which have a greenish, smoother skin with a net-like texture.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_186",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/pear/Conference_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/pear/Anjou_034.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A) Yes\n\nBoth pictures show pears. The pears in both images appear to be of the same variety, characterized by their green color and shape.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_187",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_1/Bravo-Orange-Juice_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_1/Bravo-Apple-Juice_005.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures show different products. The first picture shows a carton of orange juice (Apelsinjuice), while the second picture shows a carton of apple juice.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_188",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_1/Garant-Ecological-Medium-Fat-Milk_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_1/Arla-Ecological-Medium-Fat-Milk_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures show different milk products. \n\nIn the first picture, the product is \"Ekologisk Mellanmjölk\" which means \"Organic Semi-Skimmed Milk\" in Swedish. It has a green and white carton with a label indicating it is from \"Svenska Gårdar\" (Swedish Farms) and has a fat content of 1.5%.\n\nIn the second picture, the product is \"NY Eko Mellanmjölk\" which also means \"New Organic Semi-Skimmed Milk\" in Swedish. This carton is beige with a red lion logo and is produced by Arla. The design and branding are different from the first product.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_189",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_4/Yoggi-Vanilla-Yoghurt_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_4/Valio-Vanilla-Yoghurt_004.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) No\n\nThe two pictures do not show the same object. \n\n- The first picture shows a product with the brand name \"Yoggi\" and is labeled as \"original vanilla.\"\n- The second picture shows a product with the brand name \"Valio\" and is labeled as \"Sommar Vanilj Original.\"\n\nWhile both products appear to be dairy-related and vanilla-flavored, they are from different brands and have different packaging designs.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_190",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/apple/Red-Delicious_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/apple/Royal-Gala_010.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show apples. The first image shows a box of red apples with stickers on them, and the second image shows a hand holding a red apple with a similar appearance to those in the first image. The color, shape, and presence of stickers suggest they are the same type of object.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_191",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_5/Tropicana-Juice-Smooth_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_5/Tropicana-Mandarin-Morning_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) No\n\nThe two pictures show different products from the Tropicana brand. \n\n- The first picture shows a carton of Tropicana Pure Premium Smooth Orange Juice.\n- The second picture shows a carton of Tropicana Mandarin Morning, which is a different product with a blend of mandarin and other fruits.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_192",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/soyghurt/Alpro-Blueberry-Soyghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/soyghurt/Alpro-Vanilla-Soyghurt_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a carton of Alpro Mild & Creamy soy drink. The packaging and branding are consistent in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_193",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/sour_cream/Arla-Ecological-Sour-Cream_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/sour_cream/Arla-Sour-Cream_011.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nThe two pictures show the same object, which is a carton of Arla Eko Semmar Gräddfil (a type of cream). The packaging and branding are identical in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_194",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_2/Arla-Natural-Yoghurt_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_2/Valio-Vanilla-Yoghurt_010.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two pictures show different products. The first picture shows a package of Arla natural yogurt, while the second picture shows a package of Valio vanilla-flavored milk.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_195",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_1/Arla-Mild-Vanilla-Yoghurt_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_1/Arla-Natural-Mild-Low-Fat-Yoghurt_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two pictures show different products from the same brand, Arla. \n\n- The first picture shows a product labeled \"MILD YOGHURT VANILJ,\" which indicates it is vanilla-flavored mild yogurt.\n- The second picture shows a product labeled \"MILD LÄTTYOGHURT NATURELL,\" which indicates it is natural (unflavored) mild light yogurt.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_196",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/tomato/Beef-Tomato_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/tomato/Regular-Tomato_013.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A) Yes\n\nBoth pictures show tomatoes. The first image displays a close-up of larger tomatoes, while the second image shows both larger tomatoes and cherry tomatoes alongside other vegetables.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_197",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_2/God-Morgon-Apple-Juice_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_2/God-Morgon-Orange-Juice_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B) No\n\nThe two pictures show different objects. The first picture is of an apple juice carton, while the second picture is of an orange juice carton.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_198",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/soy_milk/Alpro-Shelf-Soy-Milk_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/soy_milk/Alpro-Fresh-Soy-Milk_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_199",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_3/Yoggi-Vanilla-Yoghurt_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_3/Yoggi-Strawberry-Yoghurt_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes\n\nBoth images show a bottle of \"Yoggi original 2% vanilj\" (vanilla-flavored yogurt drink). The packaging, branding, and product details are consistent between the two images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_200",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato_2/Red-Beet_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato_2/Floury-Potato_016.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first picture shows a pile of turnips, which are round and have a rough, dirty skin. The second picture shows a single potato being held in a hand, which has a smoother skin and a different shape compared to the turnips in the first picture.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_201",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_4/Tropicana-Golden-Grapefruit_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_4/Tropicana-Apple-Juice_010.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures show different products from the Tropicana brand. The first picture shows a carton of Tropicana orange juice, while the second picture shows a carton of Tropicana pressed apple juice.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_202",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_3/Arla-Standard-Milk_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_3/Garant-Ecological-Standard-Milk_006.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures do not show the same object. \n\nIn the first picture, the product is a carton of \"Shuanghui\" brand milk, which is a Chinese brand. The text on the carton is in Chinese and it indicates that the product is pasteurized milk.\n\nIn the second picture, the product is a carton of \"Ekologisk Mjölk\" which translates to \"Organic Milk\" in Swedish. The text on the carton is in Swedish and it indicates that the milk is from Swedish farms and has a fat content of 3.0%.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_203",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_2/Arla-Medium-Fat-Milk_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_2/Arla-Lactose-Medium-Fat-Milk_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes\n\nBoth images show a carton of Arla Sommarmjölk, which is a type of milk. The packaging and branding are consistent in both images, indicating that it is the same product.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_204",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_3/God-Morgon-Orange-Red-Grapefruit-Juice_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_3/God-Morgon-Red-Grapefruit-Juice_013.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe first image shows a juice carton labeled \"Orange & Red Grapefruit,\" while the second image shows a juice carton labeled \"Red Grapefruit.\" Although both are from the same brand, \"God Morgen,\" and are grapefruit juices, they are not the same product.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_205",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato/Floury-Potato_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato/Sweet-Potato_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first picture shows white potatoes, while the second picture shows sweet potatoes. They are different types of root vegetables with distinct characteristics.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_206",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_2/Yellow-Bell-Pepper_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_2/Orange-Bell-Pepper_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show yellow bell peppers, which appear to be the same type of object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_207",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_1/Red-Bell-Pepper_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_1/Orange-Bell-Pepper_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe two pictures show different types of bell peppers. The first picture shows red bell peppers, while the second picture shows orange bell peppers.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_208",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_1/Garant-Ecological-Medium-Fat-Milk_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_1/Arla-Ecological-Medium-Fat-Milk_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes\n\nBoth pictures show cartons of Arla Eko Mellanmjölk, which is a type of organic milk with a fat content of 1.5%. The packaging and branding are consistent in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_209",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/soyghurt/Alpro-Blueberry-Soyghurt_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/soyghurt/Alpro-Vanilla-Soyghurt_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A) No\n\nThe first image shows a product labeled \"Mild & Creamy\" with blueberries, indicating it is likely a blueberry-flavored product. The second image shows products labeled \"alpro Mild & Creamy Vanilla,\" indicating they are vanilla-flavored. While both products are from the same brand and seem to be in the same product line, the flavors are different.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_210",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_2/Watermelon_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_2/Honeydew-Melon_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first picture shows watermelons, which have a green striped exterior. The second picture shows a cantaloupe, which has a tan or orange-colored exterior with a net-like texture. These are different types of melons.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_211",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_2/Yoggi-Vanilla-Yoghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_2/Yoggi-Strawberry-Yoghurt_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B) Yes\n\nBoth images show a bottle of Yeozi vanilla-flavored milk. The packaging, design, and label details are consistent between the two images, indicating that they are the same product.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_212",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_1/Arla-Mild-Vanilla-Yoghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_1/Valio-Vanilla-Yoghurt_004.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two pictures show different products. \n\nPicture 1 shows bottles of Arla Mild Yoghurt in vanilla flavor.\n\nPicture 2 shows a carton of Vanilj Original milk with a vanilla bean depicted on the packaging, indicating it is flavored milk rather than yogurt.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_213",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/tomato/Vine-Tomato_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/tomato/Beef-Tomato_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A) Yes\n\nBoth pictures show tomatoes. The first image shows a larger quantity of smaller, red cherry tomatoes still on the vine, while the second image shows a smaller quantity of larger red tomatoes that have been picked and are placed in a tray. Despite the differences in size and presentation, both are indeed tomatoes.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_214",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_2/Royal-Gala_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_2/Pink-Lady_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes\n\nBoth pictures show apples as the main object.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_215",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato_2/Red-Beet_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato_2/Floury-Potato_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two pictures show different objects. The first picture shows a beetroot, which has a dark skin and is typically purple or deep red in color. The second picture shows a potato, which has a lighter skin and is usually white, yellow, or brown in color.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_216",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_3/Arla-Standard-Milk_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_3/Garant-Ecological-Standard-Milk_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the details of each image:\n\n1. **Picture 1**:\n   - The product is a milk carton.\n   - The label shows \"FÄRSK MJÖLK.\"\n   - The brand logo appears to be a red and white design with an animal figure.\n\n2. **Picture 2**:\n   - The product is also a milk carton.\n   - The label shows \"EKOLAGSK MJÖLK\" and \"30%.\"\n   - The brand logo is similar, with a red and white design and an animal figure.\n\nBoth images show milk cartons with similar branding and logos. However, there are some differences:\n- The first image shows \"FÄRSK MJÖLK,\" which means \"fresh milk.\"\n- The second image shows \"EKOLAGSK MJÖLK,\" which means \"organic milk,\" and indicates a fat content of \"30%.\"\n\nGiven these observations, the products appear to be from the same brand but are different types of milk (fresh vs. organic).\n\nTherefore, the answer is:\n(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_217",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_1/Galia-Melon_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_1/Cantaloupe_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two pictures show different objects. The first picture shows a yellow fruit that resembles a pear, while the second picture shows a cantaloupe, which is a type of melon with a net-like texture on its skin.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_218",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_2/Arla-Medium-Fat-Milk_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_2/Garant-Ecological-Medium-Fat-Milk_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No\n\nThe two pictures do not show the same object. \n\n- The first picture shows a carton of Arla milk with the label \"Färsk Mellanmjölk,\" which is a type of milk with an intermediate fat content.\n- The second picture shows a carton of Eko milk with the label \"Eko Mjölk 1.5%,\" indicating it is organic milk with 1.5% fat content.\n\nWhile both are milk products, they are from different brands and have different fat contents.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_219",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_1/Granny-Smith_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_1/Golden-Delicious_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's analyze the images:\n\n1. **Picture 1**: Shows a hand holding a green apple with a smooth surface and a slight yellowish tint. The background shows various types of apples in trays.\n2. **Picture 2**: Shows a close-up of a tray filled with green apples that have stickers on them. The apples are uniformly green and appear to be of the same variety.\n\nBased on the visual analysis:\n- Both images feature green apples.\n- The apple in Picture 1 is being held and has a similar appearance to the apples in Picture 2.\n- The apples in both images have a similar color and texture.\n\nGiven these observations, it is reasonable to conclude that the apple in Picture 1 is likely from the same batch or variety as the apples in Picture 2.\n\nTherefore, the answer is:\n(B) Yes",
+      "model_extracted_answer": "B"
+    }
+  ]
+}

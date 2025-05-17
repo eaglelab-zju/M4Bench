@@ -1,0 +1,2581 @@
+{
+  "model_name": "InternVL2-4B",
+  "task_name": "Detailed_Difference_Generated_Images",
+  "score": 0.14102564102564102,
+  "results": [
+    {
+      "id": "Detailed_Difference_generated_images_1",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[923, 101, 974, 627]]</box> in figure 1 and <box>[[923, 101, 974, 627]]</box> in figure 2\nB. <box>[[96, 0, 787, 393]]</box> in figure 1 and <box>[[96, 0, 787, 393]]</box> in figure 2\nC. <box>[[370, 628, 733, 695]]</box> in figure 1 and <box>[[370, 628, 733, 695]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/308507_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/308507_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_2",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[882, 475, 941, 824]]</box> in figure 1 and <box>[[882, 475, 941, 824]]</box> in figure 2\nB. <box>[[640, 662, 771, 843]]</box> in figure 1 and <box>[[640, 662, 771, 843]]</box> in figure 2\nC. <box>[[0, 440, 635, 1000]]</box> in figure 1 and <box>[[0, 440, 635, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/57357_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/57357_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A. [[882, 475, 941, 824]]  in figure 1 and [[882, 475, 941, 824]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_3",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[842, 451, 881, 970]]</box> in figure 1 and <box>[[842, 451, 881, 970]]</box> in figure 2\nB. <box>[[913, 341, 951, 879]]</box> in figure 1 and <box>[[913, 341, 951, 879]]</box> in figure 2\nC. <box>[[550, 0, 928, 308]]</box> in figure 1 and <box>[[550, 0, 928, 308]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/426040_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/426040_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_4",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[824, 169, 934, 429]]</box> in figure 1 and <box>[[824, 169, 934, 429]]</box> in figure 2\nB. <box>[[522, 533, 1000, 1000]]</box> in figure 1 and <box>[[522, 533, 1000, 1000]]</box> in figure 2\nC. <box>[[61, 279, 502, 335]]</box> in figure 1 and <box>[[61, 279, 502, 335]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/557105_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/557105_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. [[522, 533, 1000, 1000]]  in figure 1 and [[522, 533, 1000, 1000]]  in figure 2",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_5",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[329, 652, 474, 857]]</box> in figure 1 and <box>[[329, 652, 474, 857]]</box> in figure 2\nB. <box>[[716, 57, 935, 516]]</box> in figure 1 and <box>[[716, 57, 935, 516]]</box> in figure 2\nC. <box>[[523, 623, 928, 937]]</box> in figure 1 and <box>[[523, 623, 928, 937]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/158726_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/158726_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_6",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[543, 514, 755, 889]]</box> in figure 1 and <box>[[543, 514, 755, 889]]</box> in figure 2\nB. <box>[[852, 411, 970, 588]]</box> in figure 1 and <box>[[852, 411, 970, 588]]</box> in figure 2\nC. <box>[[170, 37, 835, 82]]</box> in figure 1 and <box>[[170, 37, 835, 82]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/75065_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/75065_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. [[852, 411, 970, 588]]  in figure 1 and [[852, 411, 970, 588]]  in figure 2",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_7",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[257, 90, 822, 218]]</box> in figure 1 and <box>[[257, 90, 822, 218]]</box> in figure 2\nB. <box>[[335, 706, 568, 940]]</box> in figure 1 and <box>[[335, 706, 568, 940]]</box> in figure 2\nC. <box>[[461, 550, 686, 644]]</box> in figure 1 and <box>[[461, 550, 686, 644]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/237569_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/237569_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_8",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[666, 451, 808, 604]]</box> in figure 1 and <box>[[666, 451, 808, 604]]</box> in figure 2\nB. <box>[[766, 753, 915, 952]]</box> in figure 1 and <box>[[766, 753, 915, 952]]</box> in figure 2\nC. <box>[[0, 422, 505, 1000]]</box> in figure 1 and <box>[[0, 422, 505, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/129587_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/129587_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_9",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[901, 601, 999, 834]]</box> in figure 1 and <box>[[901, 601, 999, 834]]</box> in figure 2\nB. <box>[[234, 0, 1000, 367]]</box> in figure 1 and <box>[[234, 0, 1000, 367]]</box> in figure 2\nC. <box>[[262, 411, 327, 836]]</box> in figure 1 and <box>[[262, 411, 327, 836]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/299200_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/299200_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_10",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[477, 371, 586, 599]]</box> in figure 1 and <box>[[477, 371, 586, 599]]</box> in figure 2\nB. <box>[[0, 349, 269, 481]]</box> in figure 1 and <box>[[0, 349, 269, 481]]</box> in figure 2\nC. <box>[[621, 697, 985, 928]]</box> in figure 1 and <box>[[621, 697, 985, 928]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/134597_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/134597_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_11",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[390, 705, 723, 789]]</box> in figure 1 and <box>[[390, 705, 723, 789]]</box> in figure 2\nB. <box>[[332, 868, 930, 908]]</box> in figure 1 and <box>[[332, 868, 930, 908]]</box> in figure 2\nC. <box>[[79, 146, 519, 391]]</box> in figure 1 and <box>[[79, 146, 519, 391]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/7730_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/7730_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_12",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[790, 567, 854, 952]]</box> in figure 1 and <box>[[790, 567, 854, 952]]</box> in figure 2\nB. <box>[[931, 379, 994, 830]]</box> in figure 1 and <box>[[931, 379, 994, 830]]</box> in figure 2\nC. <box>[[0, 325, 682, 1000]]</box> in figure 1 and <box>[[0, 325, 682, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/563122_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/563122_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A.  [[790, 567, 854, 952]]  in figure 1 and  [[790, 567, 854, 952]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_13",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[749, 160, 956, 282]]</box> in figure 1 and <box>[[749, 160, 956, 282]]</box> in figure 2\nB. <box>[[436, 434, 615, 536]]</box> in figure 1 and <box>[[436, 434, 615, 536]]</box> in figure 2\nC. <box>[[633, 580, 728, 891]]</box> in figure 1 and <box>[[633, 580, 728, 891]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/75065_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/75065_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_14",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[751, 88, 821, 420]]</box> in figure 1 and <box>[[751, 88, 821, 420]]</box> in figure 2\nB. <box>[[204, 203, 695, 639]]</box> in figure 1 and <box>[[204, 203, 695, 639]]</box> in figure 2\nC. <box>[[29, 798, 203, 935]]</box> in figure 1 and <box>[[29, 798, 203, 935]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/240967_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/240967_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_15",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[204, 197, 998, 223]]</box> in figure 1 and <box>[[204, 197, 998, 223]]</box> in figure 2\nB. <box>[[302, 35, 678, 108]]</box> in figure 1 and <box>[[302, 35, 678, 108]]</box> in figure 2\nC. <box>[[0, 224, 773, 587]]</box> in figure 1 and <box>[[0, 224, 773, 587]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/193680_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/193680_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_16",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[850, 71, 970, 667]]</box> in figure 1 and <box>[[850, 71, 970, 667]]</box> in figure 2\nB. <box>[[513, 639, 690, 800]]</box> in figure 1 and <box>[[513, 639, 690, 800]]</box> in figure 2\nC. <box>[[709, 823, 910, 952]]</box> in figure 1 and <box>[[709, 823, 910, 952]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/5434_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/5434_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_17",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 5, 738, 362]]</box> in figure 1 and <box>[[0, 5, 738, 362]]</box> in figure 2\nB. <box>[[656, 619, 845, 751]]</box> in figure 1 and <box>[[656, 619, 845, 751]]</box> in figure 2\nC. <box>[[945, 326, 994, 884]]</box> in figure 1 and <box>[[945, 326, 994, 884]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/535902_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/535902_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_18",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 0, 443, 490]]</box> in figure 1 and <box>[[0, 0, 443, 490]]</box> in figure 2\nB. <box>[[272, 755, 898, 799]]</box> in figure 1 and <box>[[272, 755, 898, 799]]</box> in figure 2\nC. <box>[[812, 817, 986, 973]]</box> in figure 1 and <box>[[812, 817, 986, 973]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/262161_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/262161_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_19",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[809, 682, 1000, 1000]]</box> in figure 1 and <box>[[809, 682, 1000, 1000]]</box> in figure 2\nB. <box>[[518, 405, 684, 526]]</box> in figure 1 and <box>[[518, 405, 684, 526]]</box> in figure 2\nC. <box>[[344, 186, 475, 982]]</box> in figure 1 and <box>[[344, 186, 475, 982]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/25139_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/25139_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.\nThe difference between figure 1 and figure 2 is the region marked with  [[809, 682, 1000, 1000]]  in figure 1 and  [[809, 682, 1000, 1000]]  in figure 2.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_20",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[122, 359, 435, 863]]</box> in figure 1 and <box>[[122, 359, 435, 863]]</box> in figure 2\nB. <box>[[657, 778, 994, 862]]</box> in figure 1 and <box>[[657, 778, 994, 862]]</box> in figure 2\nC. <box>[[120, 295, 644, 337]]</box> in figure 1 and <box>[[120, 295, 644, 337]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/129587_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/129587_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_21",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[827, 212, 876, 692]]</box> in figure 1 and <box>[[827, 212, 876, 692]]</box> in figure 2\nB. <box>[[744, 177, 815, 595]]</box> in figure 1 and <box>[[744, 177, 815, 595]]</box> in figure 2\nC. <box>[[0, 540, 730, 1000]]</box> in figure 1 and <box>[[0, 540, 730, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/536073_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/536073_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_22",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[446, 818, 693, 922]]</box> in figure 1 and <box>[[446, 818, 693, 922]]</box> in figure 2\nB. <box>[[0, 98, 1000, 699]]</box> in figure 1 and <box>[[0, 98, 1000, 699]]</box> in figure 2\nC. <box>[[745, 784, 899, 939]]</box> in figure 1 and <box>[[745, 784, 899, 939]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/429011_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/429011_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_23",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[142, 56, 589, 101]]</box> in figure 1 and <box>[[142, 56, 589, 101]]</box> in figure 2\nB. <box>[[716, 29, 999, 114]]</box> in figure 1 and <box>[[716, 29, 999, 114]]</box> in figure 2\nC. <box>[[364, 312, 1000, 1000]]</box> in figure 1 and <box>[[364, 312, 1000, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/163114_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/163114_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_24",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[109, 713, 728, 870]]</box> in figure 1 and <box>[[109, 713, 728, 870]]</box> in figure 2\nB. <box>[[0, 0, 1000, 500]]</box> in figure 1 and <box>[[0, 0, 1000, 500]]</box> in figure 2\nC. <box>[[104, 871, 431, 939]]</box> in figure 1 and <box>[[104, 871, 431, 939]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/140513_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/140513_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_25",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[299, 778, 986, 809]]</box> in figure 1 and <box>[[299, 778, 986, 809]]</box> in figure 2\nB. <box>[[385, 873, 619, 979]]</box> in figure 1 and <box>[[385, 873, 619, 979]]</box> in figure 2\nC. <box>[[0, 462, 126, 594]]</box> in figure 1 and <box>[[0, 462, 126, 594]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/358868_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/358868_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_26",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[497, 357, 783, 460]]</box> in figure 1 and <box>[[497, 357, 783, 460]]</box> in figure 2\nB. <box>[[560, 0, 915, 189]]</box> in figure 1 and <box>[[560, 0, 915, 189]]</box> in figure 2\nC. <box>[[138, 809, 304, 930]]</box> in figure 1 and <box>[[138, 809, 304, 930]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/536073_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/536073_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_27",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[637, 758, 788, 910]]</box> in figure 1 and <box>[[637, 758, 788, 910]]</box> in figure 2\nB. <box>[[307, 672, 761, 719]]</box> in figure 1 and <box>[[307, 672, 761, 719]]</box> in figure 2\nC. <box>[[194, 754, 410, 1000]]</box> in figure 1 and <box>[[194, 754, 410, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/234956_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/234956_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_28",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[950, 340, 991, 849]]</box> in figure 1 and <box>[[950, 340, 991, 849]]</box> in figure 2\nB. <box>[[393, 470, 591, 566]]</box> in figure 1 and <box>[[393, 470, 591, 566]]</box> in figure 2\nC. <box>[[334, 689, 435, 949]]</box> in figure 1 and <box>[[334, 689, 435, 949]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/187866_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/187866_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A.\nThe only difference between the two figures is the bird in the bottom right corner. In figure 1, the bird is a blue and white parrot, while in figure 2, the bird is a blue and white parrot.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_29",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[153, 684, 765, 1000]]</box> in figure 1 and <box>[[153, 684, 765, 1000]]</box> in figure 2\nB. <box>[[362, 26, 563, 152]]</box> in figure 1 and <box>[[362, 26, 563, 152]]</box> in figure 2\nC. <box>[[629, 440, 880, 633]]</box> in figure 1 and <box>[[629, 440, 880, 633]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/6484_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/6484_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_30",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[907, 353, 999, 618]]</box> in figure 1 and <box>[[907, 353, 999, 618]]</box> in figure 2\nB. <box>[[656, 199, 709, 729]]</box> in figure 1 and <box>[[656, 199, 709, 729]]</box> in figure 2\nC. <box>[[0, 349, 424, 747]]</box> in figure 1 and <box>[[0, 349, 424, 747]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/17320_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/17320_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A.  [[907, 353, 999, 618]]  in figure 1 and  [[907, 353, 999, 618]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_31",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[584, 845, 828, 960]]</box> in figure 1 and <box>[[584, 845, 828, 960]]</box> in figure 2\nB. <box>[[158, 49, 424, 266]]</box> in figure 1 and <box>[[158, 49, 424, 266]]</box> in figure 2\nC. <box>[[793, 444, 878, 757]]</box> in figure 1 and <box>[[793, 444, 878, 757]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/142510_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/142510_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_32",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[124, 684, 323, 918]]</box> in figure 1 and <box>[[124, 684, 323, 918]]</box> in figure 2\nB. <box>[[135, 455, 285, 644]]</box> in figure 1 and <box>[[135, 455, 285, 644]]</box> in figure 2\nC. <box>[[736, 272, 836, 972]]</box> in figure 1 and <box>[[736, 272, 836, 972]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/158548_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/158548_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_33",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[930, 239, 979, 692]]</box> in figure 1 and <box>[[930, 239, 979, 692]]</box> in figure 2\nB. <box>[[398, 150, 898, 1000]]</box> in figure 1 and <box>[[398, 150, 898, 1000]]</box> in figure 2\nC. <box>[[297, 551, 362, 979]]</box> in figure 1 and <box>[[297, 551, 362, 979]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/134290_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/134290_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_34",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[357, 320, 443, 614]]</box> in figure 1 and <box>[[357, 320, 443, 614]]</box> in figure 2\nB. <box>[[569, 673, 877, 942]]</box> in figure 1 and <box>[[569, 673, 877, 942]]</box> in figure 2\nC. <box>[[591, 133, 906, 445]]</box> in figure 1 and <box>[[591, 133, 906, 445]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/34_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/34_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_35",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[125, 867, 544, 928]]</box> in figure 1 and <box>[[125, 867, 544, 928]]</box> in figure 2\nB. <box>[[258, 142, 723, 438]]</box> in figure 1 and <box>[[258, 142, 723, 438]]</box> in figure 2\nC. <box>[[650, 462, 759, 658]]</box> in figure 1 and <box>[[650, 462, 759, 658]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/417832_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/417832_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_36",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[223, 851, 774, 889]]</box> in figure 1 and <box>[[223, 851, 774, 889]]</box> in figure 2\nB. <box>[[220, 389, 460, 724]]</box> in figure 1 and <box>[[220, 389, 460, 724]]</box> in figure 2\nC. <box>[[696, 166, 864, 331]]</box> in figure 1 and <box>[[696, 166, 864, 331]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/429011_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/429011_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_37",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[149, 499, 282, 631]]</box> in figure 1 and <box>[[149, 499, 282, 631]]</box> in figure 2\nB. <box>[[828, 185, 885, 700]]</box> in figure 1 and <box>[[828, 185, 885, 700]]</box> in figure 2\nC. <box>[[363, 553, 572, 684]]</box> in figure 1 and <box>[[363, 553, 572, 684]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/341070_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/341070_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_38",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 528, 684, 989]]</box> in figure 1 and <box>[[0, 528, 684, 989]]</box> in figure 2\nB. <box>[[88, 277, 341, 389]]</box> in figure 1 and <box>[[88, 277, 341, 389]]</box> in figure 2\nC. <box>[[845, 26, 902, 470]]</box> in figure 1 and <box>[[845, 26, 902, 470]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/483587_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/483587_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_39",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[393, 90, 610, 354]]</box> in figure 1 and <box>[[393, 90, 610, 354]]</box> in figure 2\nB. <box>[[947, 23, 987, 600]]</box> in figure 1 and <box>[[947, 23, 987, 600]]</box> in figure 2\nC. <box>[[638, 676, 948, 741]]</box> in figure 1 and <box>[[638, 676, 948, 741]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/410182_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/410182_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_40",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[826, 751, 1000, 1000]]</box> in figure 1 and <box>[[826, 751, 1000, 1000]]</box> in figure 2\nB. <box>[[94, 875, 571, 917]]</box> in figure 1 and <box>[[94, 875, 571, 917]]</box> in figure 2\nC. <box>[[612, 532, 751, 748]]</box> in figure 1 and <box>[[612, 532, 751, 748]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/429011_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/429011_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[826, 751, 1000, 1000]]  in figure 1 and  [[826, 751, 1000, 1000]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_41",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[908, 289, 962, 741]]</box> in figure 1 and <box>[[908, 289, 962, 741]]</box> in figure 2\nB. <box>[[109, 350, 823, 1000]]</box> in figure 1 and <box>[[109, 350, 823, 1000]]</box> in figure 2\nC. <box>[[98, 213, 532, 267]]</box> in figure 1 and <box>[[98, 213, 532, 267]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/96497_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/96497_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. [[908, 289, 962, 741]]  in figure 1 and [[908, 289, 962, 741]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_42",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[532, 584, 874, 994]]</box> in figure 1 and <box>[[532, 584, 874, 994]]</box> in figure 2\nB. <box>[[292, 0, 1000, 449]]</box> in figure 1 and <box>[[292, 0, 1000, 449]]</box> in figure 2\nC. <box>[[303, 717, 502, 846]]</box> in figure 1 and <box>[[303, 717, 502, 846]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/253975_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/253975_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_43",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[84, 940, 645, 983]]</box> in figure 1 and <box>[[84, 940, 645, 983]]</box> in figure 2\nB. <box>[[0, 0, 348, 445]]</box> in figure 1 and <box>[[0, 0, 348, 445]]</box> in figure 2\nC. <box>[[386, 805, 688, 918]]</box> in figure 1 and <box>[[386, 805, 688, 918]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/557105_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/557105_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_44",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[664, 53, 874, 153]]</box> in figure 1 and <box>[[664, 53, 874, 153]]</box> in figure 2\nB. <box>[[430, 447, 899, 924]]</box> in figure 1 and <box>[[430, 447, 899, 924]]</box> in figure 2\nC. <box>[[690, 251, 859, 425]]</box> in figure 1 and <box>[[690, 251, 859, 425]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/17320_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/17320_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_45",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[461, 118, 751, 403]]</box> in figure 1 and <box>[[461, 118, 751, 403]]</box> in figure 2\nB. <box>[[140, 454, 523, 928]]</box> in figure 1 and <box>[[140, 454, 523, 928]]</box> in figure 2\nC. <box>[[946, 408, 992, 899]]</box> in figure 1 and <box>[[946, 408, 992, 899]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/34_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/34_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_46",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[184, 393, 456, 497]]</box> in figure 1 and <box>[[184, 393, 456, 497]]</box> in figure 2\nB. <box>[[625, 307, 1000, 925]]</box> in figure 1 and <box>[[625, 307, 1000, 925]]</box> in figure 2\nC. <box>[[45, 317, 166, 911]]</box> in figure 1 and <box>[[45, 317, 166, 911]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/150812_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/150812_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. [[625, 307, 1000, 925]]  in figure 1 and [[625, 307, 1000, 925]]  in figure 2",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_47",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[589, 790, 872, 1000]]</box> in figure 1 and <box>[[589, 790, 872, 1000]]</box> in figure 2\nB. <box>[[213, 208, 298, 451]]</box> in figure 1 and <box>[[213, 208, 298, 451]]</box> in figure 2\nC. <box>[[487, 299, 739, 393]]</box> in figure 1 and <box>[[487, 299, 739, 393]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/529376_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/529376_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.\nThe difference between figure 1 and figure 2 is the [[589, 790, 872, 1000]]  in figure 1 and [[589, 790, 872, 1000]]  in figure 2.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_48",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[893, 353, 958, 749]]</box> in figure 1 and <box>[[893, 353, 958, 749]]</box> in figure 2\nB. <box>[[284, 335, 825, 864]]</box> in figure 1 and <box>[[284, 335, 825, 864]]</box> in figure 2\nC. <box>[[541, 910, 848, 986]]</box> in figure 1 and <box>[[541, 910, 848, 986]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/102724_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/102724_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_49",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[390, 82, 625, 375]]</box> in figure 1 and <box>[[390, 82, 625, 375]]</box> in figure 2\nB. <box>[[908, 135, 979, 418]]</box> in figure 1 and <box>[[908, 135, 979, 418]]</box> in figure 2\nC. <box>[[59, 786, 857, 881]]</box> in figure 1 and <box>[[59, 786, 857, 881]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/57357_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/57357_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_50",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[279, 406, 626, 635]]</box> in figure 1 and <box>[[279, 406, 626, 635]]</box> in figure 2\nB. <box>[[857, 28, 954, 312]]</box> in figure 1 and <box>[[857, 28, 954, 312]]</box> in figure 2\nC. <box>[[767, 412, 886, 662]]</box> in figure 1 and <box>[[767, 412, 886, 662]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/493074_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/493074_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_51",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[75, 245, 369, 328]]</box> in figure 1 and <box>[[75, 245, 369, 328]]</box> in figure 2\nB. <box>[[644, 829, 929, 908]]</box> in figure 1 and <box>[[644, 829, 929, 908]]</box> in figure 2\nC. <box>[[519, 420, 674, 490]]</box> in figure 1 and <box>[[519, 420, 674, 490]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/393224_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/393224_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_52",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[396, 416, 640, 932]]</box> in figure 1 and <box>[[396, 416, 640, 932]]</box> in figure 2\nB. <box>[[703, 233, 1000, 596]]</box> in figure 1 and <box>[[703, 233, 1000, 596]]</box> in figure 2\nC. <box>[[233, 674, 377, 857]]</box> in figure 1 and <box>[[233, 674, 377, 857]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/234956_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/234956_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_53",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[230, 388, 456, 519]]</box> in figure 1 and <box>[[230, 388, 456, 519]]</box> in figure 2\nB. <box>[[845, 68, 904, 563]]</box> in figure 1 and <box>[[845, 68, 904, 563]]</box> in figure 2\nC. <box>[[72, 714, 588, 887]]</box> in figure 1 and <box>[[72, 714, 588, 887]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/6484_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/6484_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_54",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[486, 596, 560, 928]]</box> in figure 1 and <box>[[486, 596, 560, 928]]</box> in figure 2\nB. <box>[[756, 245, 1000, 999]]</box> in figure 1 and <box>[[756, 245, 1000, 999]]</box> in figure 2\nC. <box>[[626, 201, 676, 644]]</box> in figure 1 and <box>[[626, 201, 676, 644]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/262161_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/262161_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_55",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[440, 431, 788, 607]]</box> in figure 1 and <box>[[440, 431, 788, 607]]</box> in figure 2\nB. <box>[[822, 390, 876, 779]]</box> in figure 1 and <box>[[822, 390, 876, 779]]</box> in figure 2\nC. <box>[[904, 231, 994, 547]]</box> in figure 1 and <box>[[904, 231, 994, 547]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/221427_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/221427_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[440, 431, 788, 607]]  in figure 1 and [[440, 431, 788, 607]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_56",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[892, 121, 978, 467]]</box> in figure 1 and <box>[[892, 121, 978, 467]]</box> in figure 2\nB. <box>[[123, 125, 381, 207]]</box> in figure 1 and <box>[[123, 125, 381, 207]]</box> in figure 2\nC. <box>[[0, 692, 1000, 1000]]</box> in figure 1 and <box>[[0, 692, 1000, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/249441_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/249441_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_57",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[37, 0, 1000, 797]]</box> in figure 1 and <box>[[37, 0, 1000, 797]]</box> in figure 2\nB. <box>[[343, 931, 928, 980]]</box> in figure 1 and <box>[[343, 931, 928, 980]]</box> in figure 2\nC. <box>[[395, 842, 681, 915]]</box> in figure 1 and <box>[[395, 842, 681, 915]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/134290_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/134290_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[37, 0, 1000, 797]]  in figure 1 and [[37, 0, 1000, 797]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_58",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[707, 620, 915, 810]]</box> in figure 1 and <box>[[707, 620, 915, 810]]</box> in figure 2\nB. <box>[[740, 222, 973, 335]]</box> in figure 1 and <box>[[740, 222, 973, 335]]</box> in figure 2\nC. <box>[[233, 869, 751, 919]]</box> in figure 1 and <box>[[233, 869, 751, 919]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/357220_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/357220_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[707, 620, 915, 810]]  in figure 1 and  [[707, 620, 915, 810]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_59",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[644, 859, 953, 929]]</box> in figure 1 and <box>[[644, 859, 953, 929]]</box> in figure 2\nB. <box>[[538, 739, 876, 846]]</box> in figure 1 and <box>[[538, 739, 876, 846]]</box> in figure 2\nC. <box>[[0, 0, 1000, 623]]</box> in figure 1 and <box>[[0, 0, 1000, 623]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/483587_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/483587_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_60",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[645, 383, 932, 470]]</box> in figure 1 and <box>[[645, 383, 932, 470]]</box> in figure 2\nB. <box>[[803, 624, 871, 995]]</box> in figure 1 and <box>[[803, 624, 871, 995]]</box> in figure 2\nC. <box>[[395, 745, 785, 1000]]</box> in figure 1 and <box>[[395, 745, 785, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/302107_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/302107_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_61",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[641, 598, 886, 979]]</box> in figure 1 and <box>[[641, 598, 886, 979]]</box> in figure 2\nB. <box>[[435, 383, 771, 528]]</box> in figure 1 and <box>[[435, 383, 771, 528]]</box> in figure 2\nC. <box>[[280, 614, 495, 802]]</box> in figure 1 and <box>[[280, 614, 495, 802]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/100081_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/100081_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[641, 598, 886, 979]]  in figure 1 and [[641, 598, 886, 979]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_62",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[226, 607, 333, 810]]</box> in figure 1 and <box>[[226, 607, 333, 810]]</box> in figure 2\nB. <box>[[522, 756, 1000, 1000]]</box> in figure 1 and <box>[[522, 756, 1000, 1000]]</box> in figure 2\nC. <box>[[465, 536, 606, 739]]</box> in figure 1 and <box>[[465, 536, 606, 739]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/563122_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/563122_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_63",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[608, 72, 654, 509]]</box> in figure 1 and <box>[[608, 72, 654, 509]]</box> in figure 2\nB. <box>[[430, 660, 748, 975]]</box> in figure 1 and <box>[[430, 660, 748, 975]]</box> in figure 2\nC. <box>[[181, 338, 278, 602]]</box> in figure 1 and <box>[[181, 338, 278, 602]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/204863_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/204863_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_64",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[569, 157, 701, 289]]</box> in figure 1 and <box>[[569, 157, 701, 289]]</box> in figure 2\nB. <box>[[920, 375, 988, 807]]</box> in figure 1 and <box>[[920, 375, 988, 807]]</box> in figure 2\nC. <box>[[116, 480, 703, 523]]</box> in figure 1 and <box>[[116, 480, 703, 523]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/369969_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/369969_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_65",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[843, 78, 990, 834]]</box> in figure 1 and <box>[[843, 78, 990, 834]]</box> in figure 2\nB. <box>[[0, 252, 311, 967]]</box> in figure 1 and <box>[[0, 252, 311, 967]]</box> in figure 2\nC. <box>[[350, 560, 474, 792]]</box> in figure 1 and <box>[[350, 560, 474, 792]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/308507_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/308507_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_66",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 381, 865, 1000]]</box> in figure 1 and <box>[[0, 381, 865, 1000]]</box> in figure 2\nB. <box>[[94, 139, 354, 253]]</box> in figure 1 and <box>[[94, 139, 354, 253]]</box> in figure 2\nC. <box>[[881, 310, 957, 619]]</box> in figure 1 and <box>[[881, 310, 957, 619]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/92009_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/92009_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[0, 381, 865, 1000]]  in figure 1 and  [[0, 381, 865, 1000]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_67",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[171, 778, 346, 948]]</box> in figure 1 and <box>[[171, 778, 346, 948]]</box> in figure 2\nB. <box>[[667, 622, 967, 1000]]</box> in figure 1 and <box>[[667, 622, 967, 1000]]</box> in figure 2\nC. <box>[[512, 105, 780, 198]]</box> in figure 1 and <box>[[512, 105, 780, 198]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/291614_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/291614_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_68",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 461, 247, 891]]</box> in figure 1 and <box>[[0, 461, 247, 891]]</box> in figure 2\nB. <box>[[829, 671, 996, 816]]</box> in figure 1 and <box>[[829, 671, 996, 816]]</box> in figure 2\nC. <box>[[536, 759, 729, 890]]</box> in figure 1 and <box>[[536, 759, 729, 890]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/240967_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/240967_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_69",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[765, 183, 986, 315]]</box> in figure 1 and <box>[[765, 183, 986, 315]]</box> in figure 2\nB. <box>[[386, 730, 520, 946]]</box> in figure 1 and <box>[[386, 730, 520, 946]]</box> in figure 2\nC. <box>[[671, 446, 872, 589]]</box> in figure 1 and <box>[[671, 446, 872, 589]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/538741_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/538741_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_70",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[559, 761, 720, 921]]</box> in figure 1 and <box>[[559, 761, 720, 921]]</box> in figure 2\nB. <box>[[233, 761, 497, 840]]</box> in figure 1 and <box>[[233, 761, 497, 840]]</box> in figure 2\nC. <box>[[733, 411, 1000, 842]]</box> in figure 1 and <box>[[733, 411, 1000, 842]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/538741_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/538741_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_71",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[29, 826, 556, 874]]</box> in figure 1 and <box>[[29, 826, 556, 874]]</box> in figure 2\nB. <box>[[594, 674, 726, 806]]</box> in figure 1 and <box>[[594, 674, 726, 806]]</box> in figure 2\nC. <box>[[704, 808, 816, 992]]</box> in figure 1 and <box>[[704, 808, 816, 992]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/553827_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/553827_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. [[29, 826, 556, 874]]  in figure 1 and [[29, 826, 556, 874]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_72",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[239, 918, 868, 975]]</box> in figure 1 and <box>[[239, 918, 868, 975]]</box> in figure 2\nB. <box>[[948, 216, 987, 793]]</box> in figure 1 and <box>[[948, 216, 987, 793]]</box> in figure 2\nC. <box>[[195, 386, 901, 751]]</box> in figure 1 and <box>[[195, 386, 901, 751]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/468505_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/468505_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_73",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 0, 1000, 446]]</box> in figure 1 and <box>[[0, 0, 1000, 446]]</box> in figure 2\nB. <box>[[670, 794, 826, 968]]</box> in figure 1 and <box>[[670, 794, 826, 968]]</box> in figure 2\nC. <box>[[547, 631, 627, 979]]</box> in figure 1 and <box>[[547, 631, 627, 979]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/77596_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/77596_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_74",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[290, 894, 901, 931]]</box> in figure 1 and <box>[[290, 894, 901, 931]]</box> in figure 2\nB. <box>[[130, 617, 206, 890]]</box> in figure 1 and <box>[[130, 617, 206, 890]]</box> in figure 2\nC. <box>[[0, 0, 897, 526]]</box> in figure 1 and <box>[[0, 0, 897, 526]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/122896_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/122896_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_75",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[510, 408, 651, 509]]</box> in figure 1 and <box>[[510, 408, 651, 509]]</box> in figure 2\nB. <box>[[759, 499, 948, 743]]</box> in figure 1 and <box>[[759, 499, 948, 743]]</box> in figure 2\nC. <box>[[136, 754, 379, 853]]</box> in figure 1 and <box>[[136, 754, 379, 853]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/529376_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/529376_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_76",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[506, 33, 854, 327]]</box> in figure 1 and <box>[[506, 33, 854, 327]]</box> in figure 2\nB. <box>[[345, 497, 938, 547]]</box> in figure 1 and <box>[[345, 497, 938, 547]]</box> in figure 2\nC. <box>[[70, 834, 941, 988]]</box> in figure 1 and <box>[[70, 834, 941, 988]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/134597_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/134597_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_77",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[880, 244, 914, 869]]</box> in figure 1 and <box>[[880, 244, 914, 869]]</box> in figure 2\nB. <box>[[37, 232, 455, 1000]]</box> in figure 1 and <box>[[37, 232, 455, 1000]]</box> in figure 2\nC. <box>[[507, 532, 772, 617]]</box> in figure 1 and <box>[[507, 532, 772, 617]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/529376_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/529376_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_78",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[133, 517, 325, 952]]</box> in figure 1 and <box>[[133, 517, 325, 952]]</box> in figure 2\nB. <box>[[343, 853, 587, 950]]</box> in figure 1 and <box>[[343, 853, 587, 950]]</box> in figure 2\nC. <box>[[778, 197, 866, 979]]</box> in figure 1 and <box>[[778, 197, 866, 979]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/393271_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/393271_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_79",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[294, 172, 587, 362]]</box> in figure 1 and <box>[[294, 172, 587, 362]]</box> in figure 2\nB. <box>[[917, 173, 979, 614]]</box> in figure 1 and <box>[[917, 173, 979, 614]]</box> in figure 2\nC. <box>[[627, 695, 907, 957]]</box> in figure 1 and <box>[[627, 695, 907, 957]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/417830_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/417830_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_80",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[274, 702, 521, 993]]</box> in figure 1 and <box>[[274, 702, 521, 993]]</box> in figure 2\nB. <box>[[101, 0, 573, 339]]</box> in figure 1 and <box>[[101, 0, 573, 339]]</box> in figure 2\nC. <box>[[622, 377, 885, 565]]</box> in figure 1 and <box>[[622, 377, 885, 565]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/319096_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/319096_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_81",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[530, 138, 823, 333]]</box> in figure 1 and <box>[[530, 138, 823, 333]]</box> in figure 2\nB. <box>[[677, 780, 792, 979]]</box> in figure 1 and <box>[[677, 780, 792, 979]]</box> in figure 2\nC. <box>[[131, 508, 514, 888]]</box> in figure 1 and <box>[[131, 508, 514, 888]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/399759_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/399759_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_82",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[349, 628, 584, 984]]</box> in figure 1 and <box>[[349, 628, 584, 984]]</box> in figure 2\nB. <box>[[363, 49, 735, 116]]</box> in figure 1 and <box>[[363, 49, 735, 116]]</box> in figure 2\nC. <box>[[797, 298, 1000, 536]]</box> in figure 1 and <box>[[797, 298, 1000, 536]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/17320_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/17320_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A.\nThe difference between figure 1 and figure 2 is the region marked with  [[349, 628, 584, 984]]  in figure 1 and  [[349, 628, 584, 984]]  in figure 2.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_83",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[575, 854, 821, 959]]</box> in figure 1 and <box>[[575, 854, 821, 959]]</box> in figure 2\nB. <box>[[455, 472, 680, 703]]</box> in figure 1 and <box>[[455, 472, 680, 703]]</box> in figure 2\nC. <box>[[133, 792, 940, 829]]</box> in figure 1 and <box>[[133, 792, 940, 829]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/158548_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/158548_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_84",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[612, 29, 740, 227]]</box> in figure 1 and <box>[[612, 29, 740, 227]]</box> in figure 2\nB. <box>[[184, 938, 684, 988]]</box> in figure 1 and <box>[[184, 938, 684, 988]]</box> in figure 2\nC. <box>[[425, 459, 934, 898]]</box> in figure 1 and <box>[[425, 459, 934, 898]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/319096_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/319096_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_85",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[236, 836, 470, 954]]</box> in figure 1 and <box>[[236, 836, 470, 954]]</box> in figure 2\nB. <box>[[885, 585, 987, 869]]</box> in figure 1 and <box>[[885, 585, 987, 869]]</box> in figure 2\nC. <box>[[467, 513, 719, 735]]</box> in figure 1 and <box>[[467, 513, 719, 735]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/291614_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/291614_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_86",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[370, 707, 686, 1000]]</box> in figure 1 and <box>[[370, 707, 686, 1000]]</box> in figure 2\nB. <box>[[459, 250, 583, 433]]</box> in figure 1 and <box>[[459, 250, 583, 433]]</box> in figure 2\nC. <box>[[869, 312, 995, 507]]</box> in figure 1 and <box>[[869, 312, 995, 507]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/302107_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/302107_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_87",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[947, 44, 976, 987]]</box> in figure 1 and <box>[[947, 44, 976, 987]]</box> in figure 2\nB. <box>[[809, 699, 947, 858]]</box> in figure 1 and <box>[[809, 699, 947, 858]]</box> in figure 2\nC. <box>[[526, 415, 633, 519]]</box> in figure 1 and <box>[[526, 415, 633, 519]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/100081_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/100081_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_88",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[65, 883, 719, 915]]</box> in figure 1 and <box>[[65, 883, 719, 915]]</box> in figure 2\nB. <box>[[391, 421, 835, 783]]</box> in figure 1 and <box>[[391, 421, 835, 783]]</box> in figure 2\nC. <box>[[921, 126, 979, 482]]</box> in figure 1 and <box>[[921, 126, 979, 482]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/91839_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/91839_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_89",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[175, 732, 540, 881]]</box> in figure 1 and <box>[[175, 732, 540, 881]]</box> in figure 2\nB. <box>[[682, 423, 830, 713]]</box> in figure 1 and <box>[[682, 423, 830, 713]]</box> in figure 2\nC. <box>[[197, 0, 570, 619]]</box> in figure 1 and <box>[[197, 0, 570, 619]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/415314_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/415314_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_90",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[345, 429, 639, 504]]</box> in figure 1 and <box>[[345, 429, 639, 504]]</box> in figure 2\nB. <box>[[355, 73, 726, 293]]</box> in figure 1 and <box>[[355, 73, 726, 293]]</box> in figure 2\nC. <box>[[638, 544, 832, 690]]</box> in figure 1 and <box>[[638, 544, 832, 690]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/393224_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/393224_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A.\nThe difference between figure 1 and figure 2 is in the shirt[[345, 429, 639, 504]] .",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_91",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[21, 545, 250, 819]]</box> in figure 1 and <box>[[21, 545, 250, 819]]</box> in figure 2\nB. <box>[[880, 331, 923, 943]]</box> in figure 1 and <box>[[880, 331, 923, 943]]</box> in figure 2\nC. <box>[[303, 155, 783, 1000]]</box> in figure 1 and <box>[[303, 155, 783, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/415314_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/415314_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_92",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[491, 682, 584, 953]]</box> in figure 1 and <box>[[491, 682, 584, 953]]</box> in figure 2\nB. <box>[[0, 347, 531, 650]]</box> in figure 1 and <box>[[0, 347, 531, 650]]</box> in figure 2\nC. <box>[[788, 737, 889, 975]]</box> in figure 1 and <box>[[788, 737, 889, 975]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/369969_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/369969_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_93",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[178, 238, 470, 328]]</box> in figure 1 and <box>[[178, 238, 470, 328]]</box> in figure 2\nB. <box>[[0, 419, 1000, 1000]]</box> in figure 1 and <box>[[0, 419, 1000, 1000]]</box> in figure 2\nC. <box>[[610, 194, 931, 259]]</box> in figure 1 and <box>[[610, 194, 931, 259]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/299200_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/299200_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_94",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[751, 438, 937, 692]]</box> in figure 1 and <box>[[751, 438, 937, 692]]</box> in figure 2\nB. <box>[[266, 685, 576, 762]]</box> in figure 1 and <box>[[266, 685, 576, 762]]</box> in figure 2\nC. <box>[[248, 376, 558, 568]]</box> in figure 1 and <box>[[248, 376, 558, 568]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/399759_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/399759_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_95",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[154, 607, 306, 765]]</box> in figure 1 and <box>[[154, 607, 306, 765]]</box> in figure 2\nB. <box>[[284, 48, 326, 567]]</box> in figure 1 and <box>[[284, 48, 326, 567]]</box> in figure 2\nC. <box>[[486, 562, 1000, 949]]</box> in figure 1 and <box>[[486, 562, 1000, 949]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/465301_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/465301_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_96",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 175, 506, 959]]</box> in figure 1 and <box>[[0, 175, 506, 959]]</box> in figure 2\nB. <box>[[746, 276, 915, 398]]</box> in figure 1 and <box>[[746, 276, 915, 398]]</box> in figure 2\nC. <box>[[644, 711, 852, 831]]</box> in figure 1 and <box>[[644, 711, 852, 831]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/158726_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/158726_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_97",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[225, 765, 755, 811]]</box> in figure 1 and <box>[[225, 765, 755, 811]]</box> in figure 2\nB. <box>[[140, 526, 809, 726]]</box> in figure 1 and <box>[[140, 526, 809, 726]]</box> in figure 2\nC. <box>[[337, 0, 1000, 513]]</box> in figure 1 and <box>[[337, 0, 1000, 513]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/493074_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/493074_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_98",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[162, 468, 487, 777]]</box> in figure 1 and <box>[[162, 468, 487, 777]]</box> in figure 2\nB. <box>[[494, 594, 822, 862]]</box> in figure 1 and <box>[[494, 594, 822, 862]]</box> in figure 2\nC. <box>[[626, 322, 738, 542]]</box> in figure 1 and <box>[[626, 322, 738, 542]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/393375_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/393375_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[162, 468, 487, 777]]  in figure 1 and [[162, 468, 487, 777]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_99",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 357, 410, 745]]</box> in figure 1 and <box>[[0, 357, 410, 745]]</box> in figure 2\nB. <box>[[708, 472, 913, 864]]</box> in figure 1 and <box>[[708, 472, 913, 864]]</box> in figure 2\nC. <box>[[584, 12, 653, 650]]</box> in figure 1 and <box>[[584, 12, 653, 650]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/163114_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/163114_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[0, 357, 410, 745]]  in figure 1 and [[0, 357, 410, 745]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_100",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[673, 712, 1000, 1000]]</box> in figure 1 and <box>[[673, 712, 1000, 1000]]</box> in figure 2\nB. <box>[[266, 625, 358, 857]]</box> in figure 1 and <box>[[266, 625, 358, 857]]</box> in figure 2\nC. <box>[[143, 144, 409, 476]]</box> in figure 1 and <box>[[143, 144, 409, 476]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/417830_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/417830_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[673, 712, 1000, 1000]]  in figure 1 and [[673, 712, 1000, 1000]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_101",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[28, 662, 103, 942]]</box> in figure 1 and <box>[[28, 662, 103, 942]]</box> in figure 2\nB. <box>[[729, 80, 899, 252]]</box> in figure 1 and <box>[[729, 80, 899, 252]]</box> in figure 2\nC. <box>[[606, 327, 1000, 1000]]</box> in figure 1 and <box>[[606, 327, 1000, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/453302_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/453302_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_102",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[686, 727, 952, 805]]</box> in figure 1 and <box>[[686, 727, 952, 805]]</box> in figure 2\nB. <box>[[0, 255, 1000, 696]]</box> in figure 1 and <box>[[0, 255, 1000, 696]]</box> in figure 2\nC. <box>[[119, 17, 306, 176]]</box> in figure 1 and <box>[[119, 17, 306, 176]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/249441_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/249441_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A.  [[686, 727, 952, 805]]  in figure 1 and  [[686, 727, 952, 805]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_103",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[438, 841, 648, 959]]</box> in figure 1 and <box>[[438, 841, 648, 959]]</box> in figure 2\nB. <box>[[0, 272, 699, 604]]</box> in figure 1 and <box>[[0, 272, 699, 604]]</box> in figure 2\nC. <box>[[767, 617, 912, 759]]</box> in figure 1 and <box>[[767, 617, 912, 759]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/234956_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/234956_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_104",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[731, 763, 857, 934]]</box> in figure 1 and <box>[[731, 763, 857, 934]]</box> in figure 2\nB. <box>[[533, 363, 978, 635]]</box> in figure 1 and <box>[[533, 363, 978, 635]]</box> in figure 2\nC. <box>[[86, 716, 391, 801]]</box> in figure 1 and <box>[[86, 716, 391, 801]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/24585_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/24585_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_105",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[963, 11, 998, 644]]</box> in figure 1 and <box>[[963, 11, 998, 644]]</box> in figure 2\nB. <box>[[823, 568, 890, 958]]</box> in figure 1 and <box>[[823, 568, 890, 958]]</box> in figure 2\nC. <box>[[43, 332, 291, 502]]</box> in figure 1 and <box>[[43, 332, 291, 502]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/100081_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/100081_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_106",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[162, 137, 375, 310]]</box> in figure 1 and <box>[[162, 137, 375, 310]]</box> in figure 2\nB. <box>[[207, 349, 292, 622]]</box> in figure 1 and <box>[[207, 349, 292, 622]]</box> in figure 2\nC. <box>[[341, 547, 441, 814]]</box> in figure 1 and <box>[[341, 547, 441, 814]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/458821_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/458821_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_107",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[535, 496, 842, 738]]</box> in figure 1 and <box>[[535, 496, 842, 738]]</box> in figure 2\nB. <box>[[396, 201, 469, 711]]</box> in figure 1 and <box>[[396, 201, 469, 711]]</box> in figure 2\nC. <box>[[707, 907, 993, 983]]</box> in figure 1 and <box>[[707, 907, 993, 983]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/393375_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/393375_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[535, 496, 842, 738]]  in figure 1 and  [[535, 496, 842, 738]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_108",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[281, 956, 885, 989]]</box> in figure 1 and <box>[[281, 956, 885, 989]]</box> in figure 2\nB. <box>[[95, 335, 170, 709]]</box> in figure 1 and <box>[[95, 335, 170, 709]]</box> in figure 2\nC. <box>[[187, 17, 1000, 934]]</box> in figure 1 and <box>[[187, 17, 1000, 934]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/7730_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/7730_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_109",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[899, 128, 967, 485]]</box> in figure 1 and <box>[[899, 128, 967, 485]]</box> in figure 2\nB. <box>[[418, 314, 556, 456]]</box> in figure 1 and <box>[[418, 314, 556, 456]]</box> in figure 2\nC. <box>[[188, 773, 681, 823]]</box> in figure 1 and <box>[[188, 773, 681, 823]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/563122_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/563122_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_110",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[245, 945, 657, 998]]</box> in figure 1 and <box>[[245, 945, 657, 998]]</box> in figure 2\nB. <box>[[689, 910, 936, 993]]</box> in figure 1 and <box>[[689, 910, 936, 993]]</box> in figure 2\nC. <box>[[0, 0, 633, 766]]</box> in figure 1 and <box>[[0, 0, 633, 766]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/75065_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/75065_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_111",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[283, 730, 894, 768]]</box> in figure 1 and <box>[[283, 730, 894, 768]]</box> in figure 2\nB. <box>[[191, 566, 390, 716]]</box> in figure 1 and <box>[[191, 566, 390, 716]]</box> in figure 2\nC. <box>[[175, 239, 706, 556]]</box> in figure 1 and <box>[[175, 239, 706, 556]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/417830_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/417830_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A. [[283, 730, 894, 768]]  in figure 1 and [[283, 730, 894, 768]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_112",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[902, 262, 992, 549]]</box> in figure 1 and <box>[[902, 262, 992, 549]]</box> in figure 2\nB. <box>[[467, 678, 684, 994]]</box> in figure 1 and <box>[[467, 678, 684, 994]]</box> in figure 2\nC. <box>[[40, 0, 477, 669]]</box> in figure 1 and <box>[[40, 0, 477, 669]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/536073_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/536073_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_113",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[811, 242, 922, 962]]</box> in figure 1 and <box>[[811, 242, 922, 962]]</box> in figure 2\nB. <box>[[327, 638, 788, 858]]</box> in figure 1 and <box>[[327, 638, 788, 858]]</box> in figure 2\nC. <box>[[192, 188, 329, 367]]</box> in figure 1 and <box>[[192, 188, 329, 367]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/254387_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/254387_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_114",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[296, 815, 551, 1000]]</box> in figure 1 and <box>[[296, 815, 551, 1000]]</box> in figure 2\nB. <box>[[308, 607, 656, 688]]</box> in figure 1 and <box>[[308, 607, 656, 688]]</box> in figure 2\nC. <box>[[950, 282, 1000, 812]]</box> in figure 1 and <box>[[950, 282, 1000, 812]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/source/308507_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00000-of-00004/target/308507_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_115",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[248, 571, 308, 924]]</box> in figure 1 and <box>[[248, 571, 308, 924]]</box> in figure 2\nB. <box>[[193, 934, 732, 987]]</box> in figure 1 and <box>[[193, 934, 732, 987]]</box> in figure 2\nC. <box>[[404, 287, 731, 440]]</box> in figure 1 and <box>[[404, 287, 731, 440]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/512576_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/512576_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_116",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[883, 36, 1000, 444]]</box> in figure 1 and <box>[[883, 36, 1000, 444]]</box> in figure 2\nB. <box>[[406, 39, 433, 893]]</box> in figure 1 and <box>[[406, 39, 433, 893]]</box> in figure 2\nC. <box>[[137, 289, 177, 968]]</box> in figure 1 and <box>[[137, 289, 177, 968]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/398575_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/398575_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_117",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[245, 391, 790, 789]]</box> in figure 1 and <box>[[245, 391, 790, 789]]</box> in figure 2\nB. <box>[[764, 156, 872, 368]]</box> in figure 1 and <box>[[764, 156, 872, 368]]</box> in figure 2\nC. <box>[[423, 884, 670, 982]]</box> in figure 1 and <box>[[423, 884, 670, 982]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/407550_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/407550_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[245, 391, 790, 789]]  in figure 1 and  [[245, 391, 790, 789]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_118",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[884, 380, 1000, 628]]</box> in figure 1 and <box>[[884, 380, 1000, 628]]</box> in figure 2\nB. <box>[[140, 329, 880, 1000]]</box> in figure 1 and <box>[[140, 329, 880, 1000]]</box> in figure 2\nC. <box>[[114, 184, 598, 229]]</box> in figure 1 and <box>[[114, 184, 598, 229]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/184184_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/184184_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_119",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 0, 1000, 428]]</box> in figure 1 and <box>[[0, 0, 1000, 428]]</box> in figure 2\nB. <box>[[228, 885, 553, 960]]</box> in figure 1 and <box>[[228, 885, 553, 960]]</box> in figure 2\nC. <box>[[632, 472, 701, 872]]</box> in figure 1 and <box>[[632, 472, 701, 872]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/155790_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/155790_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_120",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[388, 883, 794, 951]]</box> in figure 1 and <box>[[388, 883, 794, 951]]</box> in figure 2\nB. <box>[[274, 594, 697, 643]]</box> in figure 1 and <box>[[274, 594, 697, 643]]</box> in figure 2\nC. <box>[[525, 138, 1000, 521]]</box> in figure 1 and <box>[[525, 138, 1000, 521]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/142400_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/142400_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_121",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[919, 102, 968, 585]]</box> in figure 1 and <box>[[919, 102, 968, 585]]</box> in figure 2\nB. <box>[[698, 788, 944, 903]]</box> in figure 1 and <box>[[698, 788, 944, 903]]</box> in figure 2\nC. <box>[[238, 374, 649, 622]]</box> in figure 1 and <box>[[238, 374, 649, 622]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/229301_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/229301_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_122",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[349, 0, 811, 142]]</box> in figure 1 and <box>[[349, 0, 811, 142]]</box> in figure 2\nB. <box>[[178, 608, 711, 650]]</box> in figure 1 and <box>[[178, 608, 711, 650]]</box> in figure 2\nC. <box>[[577, 805, 779, 922]]</box> in figure 1 and <box>[[577, 805, 779, 922]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/496215_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/496215_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_123",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[442, 573, 882, 640]]</box> in figure 1 and <box>[[442, 573, 882, 640]]</box> in figure 2\nB. <box>[[354, 726, 913, 1000]]</box> in figure 1 and <box>[[354, 726, 913, 1000]]</box> in figure 2\nC. <box>[[904, 167, 997, 390]]</box> in figure 1 and <box>[[904, 167, 997, 390]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/182759_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/182759_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_124",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[951, 126, 989, 661]]</box> in figure 1 and <box>[[951, 126, 989, 661]]</box> in figure 2\nB. <box>[[15, 0, 327, 468]]</box> in figure 1 and <box>[[15, 0, 327, 468]]</box> in figure 2\nC. <box>[[429, 804, 787, 880]]</box> in figure 1 and <box>[[429, 804, 787, 880]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/50507_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/50507_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_125",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[140, 142, 302, 308]]</box> in figure 1 and <box>[[140, 142, 302, 308]]</box> in figure 2\nB. <box>[[203, 920, 718, 969]]</box> in figure 1 and <box>[[203, 920, 718, 969]]</box> in figure 2\nC. <box>[[298, 319, 835, 779]]</box> in figure 1 and <box>[[298, 319, 835, 779]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/155790_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/155790_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_126",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[152, 65, 835, 362]]</box> in figure 1 and <box>[[152, 65, 835, 362]]</box> in figure 2\nB. <box>[[41, 906, 725, 946]]</box> in figure 1 and <box>[[41, 906, 725, 946]]</box> in figure 2\nC. <box>[[766, 600, 846, 950]]</box> in figure 1 and <box>[[766, 600, 846, 950]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/31749_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/31749_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_127",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[750, 580, 1000, 968]]</box> in figure 1 and <box>[[750, 580, 1000, 968]]</box> in figure 2\nB. <box>[[350, 320, 618, 426]]</box> in figure 1 and <box>[[350, 320, 618, 426]]</box> in figure 2\nC. <box>[[231, 623, 402, 796]]</box> in figure 1 and <box>[[231, 623, 402, 796]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/189893_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/189893_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[750, 580, 1000, 968]]  in figure 1 and [[750, 580, 1000, 968]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_128",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[574, 423, 953, 924]]</box> in figure 1 and <box>[[574, 423, 953, 924]]</box> in figure 2\nB. <box>[[46, 885, 328, 964]]</box> in figure 1 and <box>[[46, 885, 328, 964]]</box> in figure 2\nC. <box>[[51, 257, 252, 398]]</box> in figure 1 and <box>[[51, 257, 252, 398]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/54492_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/54492_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. \nThe difference between figure 1 and figure 2 is the presence of a laptop in figure 2.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_129",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[422, 461, 768, 888]]</box> in figure 1 and <box>[[422, 461, 768, 888]]</box> in figure 2\nB. <box>[[892, 121, 921, 880]]</box> in figure 1 and <box>[[892, 121, 921, 880]]</box> in figure 2\nC. <box>[[198, 567, 309, 756]]</box> in figure 1 and <box>[[198, 567, 309, 756]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/381199_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/381199_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[422, 461, 768, 888]]  in figure 1 and  [[422, 461, 768, 888]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_130",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[615, 478, 990, 539]]</box> in figure 1 and <box>[[615, 478, 990, 539]]</box> in figure 2\nB. <box>[[240, 233, 468, 582]]</box> in figure 1 and <box>[[240, 233, 468, 582]]</box> in figure 2\nC. <box>[[943, 45, 995, 457]]</box> in figure 1 and <box>[[943, 45, 995, 457]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/376859_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/376859_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_131",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[200, 580, 770, 628]]</box> in figure 1 and <box>[[200, 580, 770, 628]]</box> in figure 2\nB. <box>[[922, 347, 974, 917]]</box> in figure 1 and <box>[[922, 347, 974, 917]]</box> in figure 2\nC. <box>[[375, 123, 914, 355]]</box> in figure 1 and <box>[[375, 123, 914, 355]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/381112_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/381112_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_132",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[362, 187, 723, 499]]</box> in figure 1 and <box>[[362, 187, 723, 499]]</box> in figure 2\nB. <box>[[177, 951, 781, 993]]</box> in figure 1 and <box>[[177, 951, 781, 993]]</box> in figure 2\nC. <box>[[727, 320, 882, 476]]</box> in figure 1 and <box>[[727, 320, 882, 476]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/54492_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/54492_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_133",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[115, 586, 178, 980]]</box> in figure 1 and <box>[[115, 586, 178, 980]]</box> in figure 2\nB. <box>[[336, 629, 407, 987]]</box> in figure 1 and <box>[[336, 629, 407, 987]]</box> in figure 2\nC. <box>[[466, 216, 1000, 668]]</box> in figure 1 and <box>[[466, 216, 1000, 668]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/480776_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/480776_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_134",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[3, 703, 518, 916]]</box> in figure 1 and <box>[[3, 703, 518, 916]]</box> in figure 2\nB. <box>[[728, 535, 1000, 967]]</box> in figure 1 and <box>[[728, 535, 1000, 967]]</box> in figure 2\nC. <box>[[259, 31, 368, 291]]</box> in figure 1 and <box>[[259, 31, 368, 291]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/214848_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/214848_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B.  [[728, 535, 1000, 967]]  in figure 1 and  [[728, 535, 1000, 967]]  in figure 2",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_135",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[645, 497, 711, 838]]</box> in figure 1 and <box>[[645, 497, 711, 838]]</box> in figure 2\nB. <box>[[82, 282, 569, 806]]</box> in figure 1 and <box>[[82, 282, 569, 806]]</box> in figure 2\nC. <box>[[890, 140, 921, 932]]</box> in figure 1 and <box>[[890, 140, 921, 932]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/577847_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/577847_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_136",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[832, 0, 1000, 508]]</box> in figure 1 and <box>[[832, 0, 1000, 508]]</box> in figure 2\nB. <box>[[548, 5, 582, 766]]</box> in figure 1 and <box>[[548, 5, 582, 766]]</box> in figure 2\nC. <box>[[910, 731, 994, 997]]</box> in figure 1 and <box>[[910, 731, 994, 997]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/580685_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/580685_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[832, 0, 1000, 508]]  in figure 1 and [[832, 0, 1000, 508]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_137",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[817, 504, 989, 628]]</box> in figure 1 and <box>[[817, 504, 989, 628]]</box> in figure 2\nB. <box>[[301, 16, 782, 370]]</box> in figure 1 and <box>[[301, 16, 782, 370]]</box> in figure 2\nC. <box>[[7, 73, 112, 545]]</box> in figure 1 and <box>[[7, 73, 112, 545]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/315319_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/315319_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. [[817, 504, 989, 628]]  in figure 1 and [[817, 504, 989, 628]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_138",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[329, 865, 862, 942]]</box> in figure 1 and <box>[[329, 865, 862, 942]]</box> in figure 2\nB. <box>[[137, 268, 377, 373]]</box> in figure 1 and <box>[[137, 268, 377, 373]]</box> in figure 2\nC. <box>[[669, 19, 1000, 355]]</box> in figure 1 and <box>[[669, 19, 1000, 355]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/142400_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/142400_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_139",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 328, 296, 537]]</box> in figure 1 and <box>[[0, 328, 296, 537]]</box> in figure 2\nB. <box>[[41, 758, 520, 807]]</box> in figure 1 and <box>[[41, 758, 520, 807]]</box> in figure 2\nC. <box>[[413, 503, 782, 745]]</box> in figure 1 and <box>[[413, 503, 782, 745]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/398575_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/398575_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_140",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[319, 94, 665, 566]]</box> in figure 1 and <box>[[319, 94, 665, 566]]</box> in figure 2\nB. <box>[[391, 840, 587, 958]]</box> in figure 1 and <box>[[391, 840, 587, 958]]</box> in figure 2\nC. <box>[[389, 739, 702, 830]]</box> in figure 1 and <box>[[389, 739, 702, 830]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/15653_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/15653_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_141",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[582, 329, 718, 582]]</box> in figure 1 and <box>[[582, 329, 718, 582]]</box> in figure 2\nB. <box>[[469, 619, 775, 797]]</box> in figure 1 and <box>[[469, 619, 775, 797]]</box> in figure 2\nC. <box>[[217, 21, 247, 811]]</box> in figure 1 and <box>[[217, 21, 247, 811]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/357865_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/357865_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[582, 329, 718, 582]]  in figure 1 and [[582, 329, 718, 582]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_142",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[14, 606, 276, 1000]]</box> in figure 1 and <box>[[14, 606, 276, 1000]]</box> in figure 2\nB. <box>[[757, 307, 898, 470]]</box> in figure 1 and <box>[[757, 307, 898, 470]]</box> in figure 2\nC. <box>[[769, 510, 948, 857]]</box> in figure 1 and <box>[[769, 510, 948, 857]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/129062_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/129062_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_143",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[326, 620, 615, 856]]</box> in figure 1 and <box>[[326, 620, 615, 856]]</box> in figure 2\nB. <box>[[839, 372, 968, 538]]</box> in figure 1 and <box>[[839, 372, 968, 538]]</box> in figure 2\nC. <box>[[350, 414, 707, 478]]</box> in figure 1 and <box>[[350, 414, 707, 478]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/524924_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/524924_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_144",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[393, 545, 926, 594]]</box> in figure 1 and <box>[[393, 545, 926, 594]]</box> in figure 2\nB. <box>[[69, 0, 1000, 526]]</box> in figure 1 and <box>[[69, 0, 1000, 526]]</box> in figure 2\nC. <box>[[12, 971, 803, 997]]</box> in figure 1 and <box>[[12, 971, 803, 997]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/395040_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/395040_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_145",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[419, 790, 664, 897]]</box> in figure 1 and <box>[[419, 790, 664, 897]]</box> in figure 2\nB. <box>[[230, 799, 355, 988]]</box> in figure 1 and <box>[[230, 799, 355, 988]]</box> in figure 2\nC. <box>[[0, 0, 1000, 728]]</box> in figure 1 and <box>[[0, 0, 1000, 728]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/352426_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/352426_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A.  [[419, 790, 664, 897]]  in figure 1 and  [[419, 790, 664, 897]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_146",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[272, 284, 425, 465]]</box> in figure 1 and <box>[[272, 284, 425, 465]]</box> in figure 2\nB. <box>[[354, 830, 684, 918]]</box> in figure 1 and <box>[[354, 830, 684, 918]]</box> in figure 2\nC. <box>[[547, 59, 1000, 812]]</box> in figure 1 and <box>[[547, 59, 1000, 812]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/577847_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/577847_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_147",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[963, 53, 998, 773]]</box> in figure 1 and <box>[[963, 53, 998, 773]]</box> in figure 2\nB. <box>[[903, 239, 941, 934]]</box> in figure 1 and <box>[[903, 239, 941, 934]]</box> in figure 2\nC. <box>[[293, 578, 740, 894]]</box> in figure 1 and <box>[[293, 578, 740, 894]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/577847_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/577847_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_148",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[899, 248, 937, 975]]</box> in figure 1 and <box>[[899, 248, 937, 975]]</box> in figure 2\nB. <box>[[450, 595, 814, 688]]</box> in figure 1 and <box>[[450, 595, 814, 688]]</box> in figure 2\nC. <box>[[89, 53, 768, 418]]</box> in figure 1 and <box>[[89, 53, 768, 418]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/381199_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/381199_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_149",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[500, 753, 954, 815]]</box> in figure 1 and <box>[[500, 753, 954, 815]]</box> in figure 2\nB. <box>[[0, 462, 455, 989]]</box> in figure 1 and <box>[[0, 462, 455, 989]]</box> in figure 2\nC. <box>[[231, 3, 393, 146]]</box> in figure 1 and <box>[[231, 3, 393, 146]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/519172_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/519172_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_150",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[346, 605, 713, 796]]</box> in figure 1 and <box>[[346, 605, 713, 796]]</box> in figure 2\nB. <box>[[840, 567, 924, 947]]</box> in figure 1 and <box>[[840, 567, 924, 947]]</box> in figure 2\nC. <box>[[183, 247, 435, 505]]</box> in figure 1 and <box>[[183, 247, 435, 505]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/182759_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/182759_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_151",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[46, 939, 785, 979]]</box> in figure 1 and <box>[[46, 939, 785, 979]]</box> in figure 2\nB. <box>[[724, 298, 1000, 813]]</box> in figure 1 and <box>[[724, 298, 1000, 813]]</box> in figure 2\nC. <box>[[177, 263, 536, 410]]</box> in figure 1 and <box>[[177, 263, 536, 410]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/155790_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/155790_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_152",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[143, 631, 787, 957]]</box> in figure 1 and <box>[[143, 631, 787, 957]]</box> in figure 2\nB. <box>[[889, 142, 971, 492]]</box> in figure 1 and <box>[[889, 142, 971, 492]]</box> in figure 2\nC. <box>[[302, 155, 617, 478]]</box> in figure 1 and <box>[[302, 155, 617, 478]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/214848_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/214848_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[143, 631, 787, 957]]  in figure 1 and  [[143, 631, 787, 957]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_153",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[316, 769, 586, 862]]</box> in figure 1 and <box>[[316, 769, 586, 862]]</box> in figure 2\nB. <box>[[142, 310, 355, 673]]</box> in figure 1 and <box>[[142, 310, 355, 673]]</box> in figure 2\nC. <box>[[395, 85, 654, 286]]</box> in figure 1 and <box>[[395, 85, 654, 286]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/315319_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/315319_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "C. [[395, 85, 654, 286]]  in figure 1 and [[395, 85, 654, 286]]  in figure 2",
+      "model_extracted_answer": "C"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_154",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[486, 104, 1000, 556]]</box> in figure 1 and <box>[[486, 104, 1000, 556]]</box> in figure 2\nB. <box>[[768, 567, 840, 847]]</box> in figure 1 and <box>[[768, 567, 840, 847]]</box> in figure 2\nC. <box>[[64, 922, 717, 954]]</box> in figure 1 and <box>[[64, 922, 717, 954]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/416315_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/416315_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_155",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[318, 180, 1000, 689]]</box> in figure 1 and <box>[[318, 180, 1000, 689]]</box> in figure 2\nB. <box>[[582, 932, 931, 995]]</box> in figure 1 and <box>[[582, 932, 931, 995]]</box> in figure 2\nC. <box>[[225, 875, 486, 965]]</box> in figure 1 and <box>[[225, 875, 486, 965]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/352426_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/352426_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_156",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[679, 460, 1000, 772]]</box> in figure 1 and <box>[[679, 460, 1000, 772]]</box> in figure 2\nB. <box>[[541, 812, 796, 922]]</box> in figure 1 and <box>[[541, 812, 796, 922]]</box> in figure 2\nC. <box>[[498, 339, 892, 400]]</box> in figure 1 and <box>[[498, 339, 892, 400]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/524924_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/524924_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[679, 460, 1000, 772]]  in figure 1 and [[679, 460, 1000, 772]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_157",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[343, 459, 463, 649]]</box> in figure 1 and <box>[[343, 459, 463, 649]]</box> in figure 2\nB. <box>[[629, 560, 1000, 880]]</box> in figure 1 and <box>[[629, 560, 1000, 880]]</box> in figure 2\nC. <box>[[199, 911, 602, 968]]</box> in figure 1 and <box>[[199, 911, 602, 968]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/403265_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/403265_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. [[629, 560, 1000, 880]]  in figure 1 and [[629, 560, 1000, 880]]  in figure 2",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_158",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[434, 766, 826, 833]]</box> in figure 1 and <box>[[434, 766, 826, 833]]</box> in figure 2\nB. <box>[[670, 213, 849, 553]]</box> in figure 1 and <box>[[670, 213, 849, 553]]</box> in figure 2\nC. <box>[[0, 0, 595, 547]]</box> in figure 1 and <box>[[0, 0, 595, 547]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/403265_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/403265_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_159",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[97, 107, 727, 561]]</box> in figure 1 and <box>[[97, 107, 727, 561]]</box> in figure 2\nB. <box>[[799, 582, 951, 765]]</box> in figure 1 and <box>[[799, 582, 951, 765]]</box> in figure 2\nC. <box>[[162, 660, 332, 813]]</box> in figure 1 and <box>[[162, 660, 332, 813]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/265748_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/265748_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_160",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 531, 1000, 1000]]</box> in figure 1 and <box>[[0, 531, 1000, 1000]]</box> in figure 2\nB. <box>[[850, 153, 915, 487]]</box> in figure 1 and <box>[[850, 153, 915, 487]]</box> in figure 2\nC. <box>[[454, 144, 840, 321]]</box> in figure 1 and <box>[[454, 144, 840, 321]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/352426_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/352426_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[0, 531, 1000, 1000]]  in figure 1 and  [[0, 531, 1000, 1000]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_161",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[100, 475, 643, 619]]</box> in figure 1 and <box>[[100, 475, 643, 619]]</box> in figure 2\nB. <box>[[276, 771, 445, 922]]</box> in figure 1 and <box>[[276, 771, 445, 922]]</box> in figure 2\nC. <box>[[345, 96, 652, 300]]</box> in figure 1 and <box>[[345, 96, 652, 300]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/211860_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/211860_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_162",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[258, 454, 731, 499]]</box> in figure 1 and <box>[[258, 454, 731, 499]]</box> in figure 2\nB. <box>[[903, 339, 948, 898]]</box> in figure 1 and <box>[[903, 339, 948, 898]]</box> in figure 2\nC. <box>[[0, 0, 1000, 261]]</box> in figure 1 and <box>[[0, 0, 1000, 261]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/409181_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/409181_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_163",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[315, 746, 981, 867]]</box> in figure 1 and <box>[[315, 746, 981, 867]]</box> in figure 2\nB. <box>[[680, 355, 807, 555]]</box> in figure 1 and <box>[[680, 355, 807, 555]]</box> in figure 2\nC. <box>[[41, 172, 440, 398]]</box> in figure 1 and <box>[[41, 172, 440, 398]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/111376_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/111376_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_164",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[237, 30, 312, 301]]</box> in figure 1 and <box>[[237, 30, 312, 301]]</box> in figure 2\nB. <box>[[664, 157, 715, 731]]</box> in figure 1 and <box>[[664, 157, 715, 731]]</box> in figure 2\nC. <box>[[158, 365, 474, 931]]</box> in figure 1 and <box>[[158, 365, 474, 931]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/519172_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/519172_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_165",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[932, 86, 960, 973]]</box> in figure 1 and <box>[[932, 86, 960, 973]]</box> in figure 2\nB. <box>[[0, 838, 644, 1000]]</box> in figure 1 and <box>[[0, 838, 644, 1000]]</box> in figure 2\nC. <box>[[788, 141, 878, 413]]</box> in figure 1 and <box>[[788, 141, 878, 413]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/519172_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/519172_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_166",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[46, 376, 84, 947]]</box> in figure 1 and <box>[[46, 376, 84, 947]]</box> in figure 2\nB. <box>[[106, 100, 1000, 759]]</box> in figure 1 and <box>[[106, 100, 1000, 759]]</box> in figure 2\nC. <box>[[627, 760, 950, 844]]</box> in figure 1 and <box>[[627, 760, 950, 844]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/90192_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/90192_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_167",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[424, 420, 556, 522]]</box> in figure 1 and <box>[[424, 420, 556, 522]]</box> in figure 2\nB. <box>[[609, 403, 729, 842]]</box> in figure 1 and <box>[[609, 403, 729, 842]]</box> in figure 2\nC. <box>[[428, 855, 807, 914]]</box> in figure 1 and <box>[[428, 855, 807, 914]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/7996_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/7996_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_168",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[267, 780, 417, 933]]</box> in figure 1 and <box>[[267, 780, 417, 933]]</box> in figure 2\nB. <box>[[543, 684, 875, 753]]</box> in figure 1 and <box>[[543, 684, 875, 753]]</box> in figure 2\nC. <box>[[52, 118, 934, 627]]</box> in figure 1 and <box>[[52, 118, 934, 627]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/334809_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/334809_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_169",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[81, 321, 271, 438]]</box> in figure 1 and <box>[[81, 321, 271, 438]]</box> in figure 2\nB. <box>[[814, 208, 931, 402]]</box> in figure 1 and <box>[[814, 208, 931, 402]]</box> in figure 2\nC. <box>[[355, 617, 826, 1000]]</box> in figure 1 and <box>[[355, 617, 826, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/7996_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/7996_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_170",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[482, 147, 621, 333]]</box> in figure 1 and <box>[[482, 147, 621, 333]]</box> in figure 2\nB. <box>[[0, 491, 891, 1000]]</box> in figure 1 and <box>[[0, 491, 891, 1000]]</box> in figure 2\nC. <box>[[886, 97, 941, 489]]</box> in figure 1 and <box>[[886, 97, 941, 489]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/403265_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/403265_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_171",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[689, 121, 807, 295]]</box> in figure 1 and <box>[[689, 121, 807, 295]]</box> in figure 2\nB. <box>[[0, 516, 1000, 1000]]</box> in figure 1 and <box>[[0, 516, 1000, 1000]]</box> in figure 2\nC. <box>[[297, 57, 548, 159]]</box> in figure 1 and <box>[[297, 57, 548, 159]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/398575_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/398575_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_172",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[745, 0, 1000, 416]]</box> in figure 1 and <box>[[745, 0, 1000, 416]]</box> in figure 2\nB. <box>[[69, 812, 310, 931]]</box> in figure 1 and <box>[[69, 812, 310, 931]]</box> in figure 2\nC. <box>[[188, 966, 992, 1000]]</box> in figure 1 and <box>[[188, 966, 992, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/270186_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/270186_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[745, 0, 1000, 416]]  in figure 1 and [[745, 0, 1000, 416]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_173",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[584, 0, 1000, 189]]</box> in figure 1 and <box>[[584, 0, 1000, 189]]</box> in figure 2\nB. <box>[[406, 513, 457, 953]]</box> in figure 1 and <box>[[406, 513, 457, 953]]</box> in figure 2\nC. <box>[[771, 604, 834, 956]]</box> in figure 1 and <box>[[771, 604, 834, 956]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/229301_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/229301_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_174",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[248, 271, 459, 393]]</box> in figure 1 and <box>[[248, 271, 459, 393]]</box> in figure 2\nB. <box>[[443, 725, 640, 917]]</box> in figure 1 and <box>[[443, 725, 640, 917]]</box> in figure 2\nC. <box>[[781, 254, 965, 579]]</box> in figure 1 and <box>[[781, 254, 965, 579]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/129062_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/129062_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_175",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[959, 172, 993, 911]]</box> in figure 1 and <box>[[959, 172, 993, 911]]</box> in figure 2\nB. <box>[[449, 576, 581, 708]]</box> in figure 1 and <box>[[449, 576, 581, 708]]</box> in figure 2\nC. <box>[[309, 191, 819, 365]]</box> in figure 1 and <box>[[309, 191, 819, 365]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/148240_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/148240_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_176",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[137, 86, 526, 479]]</box> in figure 1 and <box>[[137, 86, 526, 479]]</box> in figure 2\nB. <box>[[565, 720, 971, 775]]</box> in figure 1 and <box>[[565, 720, 971, 775]]</box> in figure 2\nC. <box>[[127, 646, 257, 870]]</box> in figure 1 and <box>[[127, 646, 257, 870]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/381112_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/381112_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_177",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 0, 1000, 346]]</box> in figure 1 and <box>[[0, 0, 1000, 346]]</box> in figure 2\nB. <box>[[430, 708, 989, 746]]</box> in figure 1 and <box>[[430, 708, 989, 746]]</box> in figure 2\nC. <box>[[771, 840, 946, 996]]</box> in figure 1 and <box>[[771, 840, 946, 996]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/112286_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/112286_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_178",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[670, 431, 874, 561]]</box> in figure 1 and <box>[[670, 431, 874, 561]]</box> in figure 2\nB. <box>[[0, 631, 736, 1000]]</box> in figure 1 and <box>[[0, 631, 736, 1000]]</box> in figure 2\nC. <box>[[898, 177, 996, 904]]</box> in figure 1 and <box>[[898, 177, 996, 904]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/189893_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/189893_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A.  [[670, 431, 874, 561]]  in figure 1 and  [[670, 431, 874, 561]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_179",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[217, 117, 706, 514]]</box> in figure 1 and <box>[[217, 117, 706, 514]]</box> in figure 2\nB. <box>[[809, 552, 974, 708]]</box> in figure 1 and <box>[[809, 552, 974, 708]]</box> in figure 2\nC. <box>[[427, 837, 644, 963]]</box> in figure 1 and <box>[[427, 837, 644, 963]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/130518_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/130518_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_180",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[431, 740, 975, 1000]]</box> in figure 1 and <box>[[431, 740, 975, 1000]]</box> in figure 2\nB. <box>[[255, 577, 318, 902]]</box> in figure 1 and <box>[[255, 577, 318, 902]]</box> in figure 2\nC. <box>[[726, 513, 920, 625]]</box> in figure 1 and <box>[[726, 513, 920, 625]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/524924_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/524924_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[431, 740, 975, 1000]]  in figure 1 and [[431, 740, 975, 1000]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_181",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[270, 152, 330, 579]]</box> in figure 1 and <box>[[270, 152, 330, 579]]</box> in figure 2\nB. <box>[[359, 168, 936, 831]]</box> in figure 1 and <box>[[359, 168, 936, 831]]</box> in figure 2\nC. <box>[[335, 835, 567, 960]]</box> in figure 1 and <box>[[335, 835, 567, 960]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/177824_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/177824_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_182",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[525, 899, 827, 976]]</box> in figure 1 and <box>[[525, 899, 827, 976]]</box> in figure 2\nB. <box>[[229, 0, 548, 189]]</box> in figure 1 and <box>[[229, 0, 548, 189]]</box> in figure 2\nC. <box>[[754, 644, 958, 770]]</box> in figure 1 and <box>[[754, 644, 958, 770]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/229301_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/229301_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_183",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[253, 606, 938, 639]]</box> in figure 1 and <box>[[253, 606, 938, 639]]</box> in figure 2\nB. <box>[[0, 0, 1000, 351]]</box> in figure 1 and <box>[[0, 0, 1000, 351]]</box> in figure 2\nC. <box>[[396, 685, 739, 909]]</box> in figure 1 and <box>[[396, 685, 739, 909]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/49_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/49_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_184",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[88, 646, 466, 828]]</box> in figure 1 and <box>[[88, 646, 466, 828]]</box> in figure 2\nB. <box>[[137, 340, 624, 613]]</box> in figure 1 and <box>[[137, 340, 624, 613]]</box> in figure 2\nC. <box>[[703, 574, 836, 745]]</box> in figure 1 and <box>[[703, 574, 836, 745]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/177824_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/177824_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_185",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[667, 196, 785, 432]]</box> in figure 1 and <box>[[667, 196, 785, 432]]</box> in figure 2\nB. <box>[[83, 738, 670, 785]]</box> in figure 1 and <box>[[83, 738, 670, 785]]</box> in figure 2\nC. <box>[[798, 116, 979, 284]]</box> in figure 1 and <box>[[798, 116, 979, 284]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/129062_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/129062_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_186",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[765, 83, 953, 230]]</box> in figure 1 and <box>[[765, 83, 953, 230]]</box> in figure 2\nB. <box>[[927, 275, 1000, 651]]</box> in figure 1 and <box>[[927, 275, 1000, 651]]</box> in figure 2\nC. <box>[[297, 429, 841, 814]]</box> in figure 1 and <box>[[297, 429, 841, 814]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/570297_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/570297_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_187",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[554, 404, 703, 578]]</box> in figure 1 and <box>[[554, 404, 703, 578]]</box> in figure 2\nB. <box>[[317, 0, 1000, 397]]</box> in figure 1 and <box>[[317, 0, 1000, 397]]</box> in figure 2\nC. <box>[[772, 475, 835, 951]]</box> in figure 1 and <box>[[772, 475, 835, 951]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/50151_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/50151_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A.  [[554, 404, 703, 578]]  in figure 1 and  [[554, 404, 703, 578]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_188",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[138, 466, 312, 599]]</box> in figure 1 and <box>[[138, 466, 312, 599]]</box> in figure 2\nB. <box>[[264, 702, 345, 922]]</box> in figure 1 and <box>[[264, 702, 345, 922]]</box> in figure 2\nC. <box>[[533, 284, 862, 546]]</box> in figure 1 and <box>[[533, 284, 862, 546]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/106508_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/106508_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_189",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[627, 609, 734, 824]]</box> in figure 1 and <box>[[627, 609, 734, 824]]</box> in figure 2\nB. <box>[[226, 450, 359, 773]]</box> in figure 1 and <box>[[226, 450, 359, 773]]</box> in figure 2\nC. <box>[[462, 28, 855, 534]]</box> in figure 1 and <box>[[462, 28, 855, 534]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/475195_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/475195_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_190",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[451, 435, 567, 607]]</box> in figure 1 and <box>[[451, 435, 567, 607]]</box> in figure 2\nB. <box>[[0, 317, 341, 545]]</box> in figure 1 and <box>[[0, 317, 341, 545]]</box> in figure 2\nC. <box>[[632, 521, 880, 987]]</box> in figure 1 and <box>[[632, 521, 880, 987]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/475645_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/475645_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_191",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[364, 194, 512, 384]]</box> in figure 1 and <box>[[364, 194, 512, 384]]</box> in figure 2\nB. <box>[[533, 606, 674, 768]]</box> in figure 1 and <box>[[533, 606, 674, 768]]</box> in figure 2\nC. <box>[[252, 512, 505, 1000]]</box> in figure 1 and <box>[[252, 512, 505, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/475645_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/475645_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_192",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[847, 325, 954, 979]]</box> in figure 1 and <box>[[847, 325, 954, 979]]</box> in figure 2\nB. <box>[[57, 479, 130, 887]]</box> in figure 1 and <box>[[57, 479, 130, 887]]</box> in figure 2\nC. <box>[[322, 418, 842, 802]]</box> in figure 1 and <box>[[322, 418, 842, 802]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/50151_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/50151_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A.  [[847, 325, 954, 979]]  in figure 1 and  [[847, 325, 954, 979]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_193",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[428, 207, 551, 329]]</box> in figure 1 and <box>[[428, 207, 551, 329]]</box> in figure 2\nB. <box>[[689, 303, 816, 553]]</box> in figure 1 and <box>[[689, 303, 816, 553]]</box> in figure 2\nC. <box>[[108, 567, 277, 922]]</box> in figure 1 and <box>[[108, 567, 277, 922]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/139276_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/139276_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_194",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[747, 95, 888, 239]]</box> in figure 1 and <box>[[747, 95, 888, 239]]</box> in figure 2\nB. <box>[[365, 798, 702, 1000]]</box> in figure 1 and <box>[[365, 798, 702, 1000]]</box> in figure 2\nC. <box>[[401, 620, 769, 679]]</box> in figure 1 and <box>[[401, 620, 769, 679]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/265748_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/265748_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_195",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[368, 669, 829, 729]]</box> in figure 1 and <box>[[368, 669, 829, 729]]</box> in figure 2\nB. <box>[[729, 397, 983, 484]]</box> in figure 1 and <box>[[729, 397, 983, 484]]</box> in figure 2\nC. <box>[[0, 351, 354, 824]]</box> in figure 1 and <box>[[0, 351, 354, 824]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/480776_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/480776_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_196",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[61, 570, 321, 676]]</box> in figure 1 and <box>[[61, 570, 321, 676]]</box> in figure 2\nB. <box>[[53, 717, 1000, 1000]]</box> in figure 1 and <box>[[53, 717, 1000, 1000]]</box> in figure 2\nC. <box>[[708, 167, 878, 286]]</box> in figure 1 and <box>[[708, 167, 878, 286]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/177824_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/177824_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_197",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[497, 84, 680, 557]]</box> in figure 1 and <box>[[497, 84, 680, 557]]</box> in figure 2\nB. <box>[[840, 687, 924, 968]]</box> in figure 1 and <box>[[840, 687, 924, 968]]</box> in figure 2\nC. <box>[[214, 462, 312, 562]]</box> in figure 1 and <box>[[214, 462, 312, 562]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/359569_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/359569_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "B. [[840, 687, 924, 968]]  in figure 1 and [[840, 687, 924, 968]]  in figure 2",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_198",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[568, 417, 963, 1000]]</box> in figure 1 and <box>[[568, 417, 963, 1000]]</box> in figure 2\nB. <box>[[628, 16, 691, 384]]</box> in figure 1 and <box>[[628, 16, 691, 384]]</box> in figure 2\nC. <box>[[179, 188, 237, 957]]</box> in figure 1 and <box>[[179, 188, 237, 957]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/523394_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/523394_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[568, 417, 963, 1000]]  in figure 1 and [[568, 417, 963, 1000]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_199",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[740, 141, 869, 333]]</box> in figure 1 and <box>[[740, 141, 869, 333]]</box> in figure 2\nB. <box>[[2, 393, 1000, 849]]</box> in figure 1 and <box>[[2, 393, 1000, 849]]</box> in figure 2\nC. <box>[[299, 875, 658, 937]]</box> in figure 1 and <box>[[299, 875, 658, 937]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/112286_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/112286_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_200",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[652, 72, 991, 141]]</box> in figure 1 and <box>[[652, 72, 991, 141]]</box> in figure 2\nB. <box>[[0, 838, 1000, 1000]]</box> in figure 1 and <box>[[0, 838, 1000, 1000]]</box> in figure 2\nC. <box>[[331, 470, 855, 608]]</box> in figure 1 and <box>[[331, 470, 855, 608]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/49_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/49_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_201",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[480, 264, 708, 538]]</box> in figure 1 and <box>[[480, 264, 708, 538]]</box> in figure 2\nB. <box>[[28, 290, 190, 472]]</box> in figure 1 and <box>[[28, 290, 190, 472]]</box> in figure 2\nC. <box>[[518, 660, 747, 776]]</box> in figure 1 and <box>[[518, 660, 747, 776]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/211860_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/211860_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_202",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[183, 0, 779, 164]]</box> in figure 1 and <box>[[183, 0, 779, 164]]</box> in figure 2\nB. <box>[[10, 290, 774, 450]]</box> in figure 1 and <box>[[10, 290, 774, 450]]</box> in figure 2\nC. <box>[[133, 837, 919, 1000]]</box> in figure 1 and <box>[[133, 837, 919, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/190360_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/190360_turn3.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_203",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[350, 123, 532, 489]]</box> in figure 1 and <box>[[350, 123, 532, 489]]</box> in figure 2\nB. <box>[[542, 0, 987, 158]]</box> in figure 1 and <box>[[542, 0, 987, 158]]</box> in figure 2\nC. <box>[[69, 207, 142, 534]]</box> in figure 1 and <box>[[69, 207, 142, 534]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/265748_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/265748_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_204",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[283, 963, 993, 998]]</box> in figure 1 and <box>[[283, 963, 993, 998]]</box> in figure 2\nB. <box>[[0, 389, 723, 876]]</box> in figure 1 and <box>[[0, 389, 723, 876]]</box> in figure 2\nC. <box>[[729, 605, 909, 771]]</box> in figure 1 and <box>[[729, 605, 909, 771]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/428304_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/428304_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_205",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[459, 907, 870, 960]]</box> in figure 1 and <box>[[459, 907, 870, 960]]</box> in figure 2\nB. <box>[[188, 856, 448, 941]]</box> in figure 1 and <box>[[188, 856, 448, 941]]</box> in figure 2\nC. <box>[[0, 260, 856, 842]]</box> in figure 1 and <box>[[0, 260, 856, 842]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/580685_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/580685_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_206",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[416, 703, 979, 819]]</box> in figure 1 and <box>[[416, 703, 979, 819]]</box> in figure 2\nB. <box>[[645, 541, 743, 671]]</box> in figure 1 and <box>[[645, 541, 743, 671]]</box> in figure 2\nC. <box>[[110, 519, 208, 804]]</box> in figure 1 and <box>[[110, 519, 208, 804]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/190360_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/190360_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_207",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[401, 266, 575, 412]]</box> in figure 1 and <box>[[401, 266, 575, 412]]</box> in figure 2\nB. <box>[[184, 732, 313, 928]]</box> in figure 1 and <box>[[184, 732, 313, 928]]</box> in figure 2\nC. <box>[[833, 549, 996, 696]]</box> in figure 1 and <box>[[833, 549, 996, 696]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/182759_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/182759_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_208",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[58, 367, 901, 888]]</box> in figure 1 and <box>[[58, 367, 901, 888]]</box> in figure 2\nB. <box>[[73, 934, 906, 967]]</box> in figure 1 and <box>[[73, 934, 906, 967]]</box> in figure 2\nC. <box>[[430, 267, 753, 346]]</box> in figure 1 and <box>[[430, 267, 753, 346]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/428304_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/428304_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[58, 367, 901, 888]]  in figure 1 and [[58, 367, 901, 888]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_209",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[665, 78, 794, 305]]</box> in figure 1 and <box>[[665, 78, 794, 305]]</box> in figure 2\nB. <box>[[682, 317, 857, 513]]</box> in figure 1 and <box>[[682, 317, 857, 513]]</box> in figure 2\nC. <box>[[88, 597, 456, 1000]]</box> in figure 1 and <box>[[88, 597, 456, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/357865_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/357865_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_210",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[922, 412, 989, 904]]</box> in figure 1 and <box>[[922, 412, 989, 904]]</box> in figure 2\nB. <box>[[60, 526, 300, 890]]</box> in figure 1 and <box>[[60, 526, 300, 890]]</box> in figure 2\nC. <box>[[651, 247, 895, 610]]</box> in figure 1 and <box>[[651, 247, 895, 610]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/151_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/151_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_211",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[605, 185, 915, 273]]</box> in figure 1 and <box>[[605, 185, 915, 273]]</box> in figure 2\nB. <box>[[45, 577, 1000, 1000]]</box> in figure 1 and <box>[[45, 577, 1000, 1000]]</box> in figure 2\nC. <box>[[604, 24, 994, 94]]</box> in figure 1 and <box>[[604, 24, 994, 94]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/5434_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/5434_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. [[605, 185, 915, 273]]  in figure 1 and [[605, 185, 915, 273]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_212",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[668, 319, 985, 560]]</box> in figure 1 and <box>[[668, 319, 985, 560]]</box> in figure 2\nB. <box>[[219, 825, 762, 939]]</box> in figure 1 and <box>[[219, 825, 762, 939]]</box> in figure 2\nC. <box>[[683, 0, 1000, 228]]</box> in figure 1 and <box>[[683, 0, 1000, 228]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/184184_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/184184_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_213",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[31, 461, 136, 905]]</box> in figure 1 and <box>[[31, 461, 136, 905]]</box> in figure 2\nB. <box>[[194, 103, 297, 372]]</box> in figure 1 and <box>[[194, 103, 297, 372]]</box> in figure 2\nC. <box>[[630, 241, 1000, 823]]</box> in figure 1 and <box>[[630, 241, 1000, 823]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/294973_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/294973_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_214",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[175, 391, 275, 619]]</box> in figure 1 and <box>[[175, 391, 275, 619]]</box> in figure 2\nB. <box>[[365, 626, 728, 1000]]</box> in figure 1 and <box>[[365, 626, 728, 1000]]</box> in figure 2\nC. <box>[[704, 57, 970, 618]]</box> in figure 1 and <box>[[704, 57, 970, 618]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/54492_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/54492_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_215",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[344, 147, 440, 447]]</box> in figure 1 and <box>[[344, 147, 440, 447]]</box> in figure 2\nB. <box>[[0, 183, 227, 394]]</box> in figure 1 and <box>[[0, 183, 227, 394]]</box> in figure 2\nC. <box>[[806, 9, 961, 200]]</box> in figure 1 and <box>[[806, 9, 961, 200]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/496215_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/496215_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_216",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[733, 333, 801, 945]]</box> in figure 1 and <box>[[733, 333, 801, 945]]</box> in figure 2\nB. <box>[[227, 183, 868, 300]]</box> in figure 1 and <box>[[227, 183, 868, 300]]</box> in figure 2\nC. <box>[[0, 314, 142, 658]]</box> in figure 1 and <box>[[0, 314, 142, 658]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/112286_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/112286_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_217",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[428, 297, 819, 584]]</box> in figure 1 and <box>[[428, 297, 819, 584]]</box> in figure 2\nB. <box>[[972, 24, 997, 931]]</box> in figure 1 and <box>[[972, 24, 997, 931]]</box> in figure 2\nC. <box>[[830, 359, 958, 546]]</box> in figure 1 and <box>[[830, 359, 958, 546]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/204837_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/204837_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_218",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[479, 878, 663, 999]]</box> in figure 1 and <box>[[479, 878, 663, 999]]</box> in figure 2\nB. <box>[[0, 345, 1000, 705]]</box> in figure 1 and <box>[[0, 345, 1000, 705]]</box> in figure 2\nC. <box>[[29, 22, 352, 104]]</box> in figure 1 and <box>[[29, 22, 352, 104]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/147546_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/147546_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_219",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[7, 588, 296, 849]]</box> in figure 1 and <box>[[7, 588, 296, 849]]</box> in figure 2\nB. <box>[[304, 643, 416, 882]]</box> in figure 1 and <box>[[304, 643, 416, 882]]</box> in figure 2\nC. <box>[[746, 418, 791, 892]]</box> in figure 1 and <box>[[746, 418, 791, 892]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/513580_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/513580_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A.  [[7, 588, 296, 849]]  in figure 1 and  [[7, 588, 296, 849]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_220",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[407, 177, 615, 312]]</box> in figure 1 and <box>[[407, 177, 615, 312]]</box> in figure 2\nB. <box>[[431, 912, 935, 964]]</box> in figure 1 and <box>[[431, 912, 935, 964]]</box> in figure 2\nC. <box>[[276, 433, 888, 897]]</box> in figure 1 and <box>[[276, 433, 888, 897]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/106508_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/106508_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A.\nThe difference between figure 1 and figure 2 is the bus in the middle of the road.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_221",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[479, 688, 829, 771]]</box> in figure 1 and <box>[[479, 688, 829, 771]]</box> in figure 2\nB. <box>[[42, 505, 255, 786]]</box> in figure 1 and <box>[[42, 505, 255, 786]]</box> in figure 2\nC. <box>[[847, 96, 876, 960]]</box> in figure 1 and <box>[[847, 96, 876, 960]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/148240_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/148240_turn2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_222",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[540, 456, 756, 782]]</box> in figure 1 and <box>[[540, 456, 756, 782]]</box> in figure 2\nB. <box>[[35, 826, 240, 927]]</box> in figure 1 and <box>[[35, 826, 240, 927]]</box> in figure 2\nC. <box>[[141, 184, 438, 479]]</box> in figure 1 and <box>[[141, 184, 438, 479]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/190360_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/190360_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "A. [[540, 456, 756, 782]]  in figure 1 and [[540, 456, 756, 782]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_223",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[68, 345, 123, 828]]</box> in figure 1 and <box>[[68, 345, 123, 828]]</box> in figure 2\nB. <box>[[345, 351, 382, 997]]</box> in figure 1 and <box>[[345, 351, 382, 997]]</box> in figure 2\nC. <box>[[521, 474, 993, 1000]]</box> in figure 1 and <box>[[521, 474, 993, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/207833_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/207833_turn1.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_224",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[105, 508, 631, 684]]</box> in figure 1 and <box>[[105, 508, 631, 684]]</box> in figure 2\nB. <box>[[81, 0, 641, 475]]</box> in figure 1 and <box>[[81, 0, 641, 475]]</box> in figure 2\nC. <box>[[90, 837, 980, 935]]</box> in figure 1 and <box>[[90, 837, 980, 935]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/357865_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/357865_turn3.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_225",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[548, 436, 992, 1000]]</box> in figure 1 and <box>[[548, 436, 992, 1000]]</box> in figure 2\nB. <box>[[339, 323, 482, 513]]</box> in figure 1 and <box>[[339, 323, 482, 513]]</box> in figure 2\nC. <box>[[94, 300, 204, 505]]</box> in figure 1 and <box>[[94, 300, 204, 505]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/130518_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/130518_turn2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[548, 436, 992, 1000]]  in figure 1 and [[548, 436, 992, 1000]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_226",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[0, 241, 799, 810]]</box> in figure 1 and <box>[[0, 241, 799, 810]]</box> in figure 2\nB. <box>[[884, 317, 933, 812]]</box> in figure 1 and <box>[[884, 317, 933, 812]]</box> in figure 2\nC. <box>[[570, 830, 836, 921]]</box> in figure 1 and <box>[[570, 830, 836, 921]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/580685_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/580685_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. [[0, 241, 799, 810]]  in figure 1 and [[0, 241, 799, 810]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_227",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[466, 414, 838, 811]]</box> in figure 1 and <box>[[466, 414, 838, 811]]</box> in figure 2\nB. <box>[[345, 71, 871, 109]]</box> in figure 1 and <box>[[345, 71, 871, 109]]</box> in figure 2\nC. <box>[[286, 653, 349, 980]]</box> in figure 1 and <box>[[286, 653, 349, 980]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/475195_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/475195_turn1.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_228",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[164, 100, 216, 533]]</box> in figure 1 and <box>[[164, 100, 216, 533]]</box> in figure 2\nB. <box>[[744, 629, 945, 762]]</box> in figure 1 and <box>[[744, 629, 945, 762]]</box> in figure 2\nC. <box>[[372, 22, 577, 175]]</box> in figure 1 and <box>[[372, 22, 577, 175]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/44437_turn2.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/44437_turn2.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_229",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[841, 7, 949, 199]]</box> in figure 1 and <box>[[841, 7, 949, 199]]</box> in figure 2\nB. <box>[[178, 367, 900, 1000]]</box> in figure 1 and <box>[[178, 367, 900, 1000]]</box> in figure 2\nC. <box>[[48, 468, 177, 664]]</box> in figure 1 and <box>[[48, 468, 177, 664]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/203920_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/203920_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_230",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[405, 874, 923, 924]]</box> in figure 1 and <box>[[405, 874, 923, 924]]</box> in figure 2\nB. <box>[[197, 158, 651, 684]]</box> in figure 1 and <box>[[197, 158, 651, 684]]</box> in figure 2\nC. <box>[[385, 763, 783, 824]]</box> in figure 1 and <box>[[385, 763, 783, 824]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/460254_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/460254_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A.\nThe difference between figure 1 and figure 2 is the region in the lower part of the image. In figure 1, the lower part of the image shows the net of the tennis court, while in figure 2, the lower part of the image shows the net of the tennis court.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_231",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[56, 770, 431, 992]]</box> in figure 1 and <box>[[56, 770, 431, 992]]</box> in figure 2\nB. <box>[[401, 130, 520, 222]]</box> in figure 1 and <box>[[401, 130, 520, 222]]</box> in figure 2\nC. <box>[[623, 903, 928, 993]]</box> in figure 1 and <box>[[623, 903, 928, 993]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/44437_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/44437_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_232",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[961, 245, 998, 846]]</box> in figure 1 and <box>[[961, 245, 998, 846]]</box> in figure 2\nB. <box>[[0, 434, 567, 881]]</box> in figure 1 and <box>[[0, 434, 567, 881]]</box> in figure 2\nC. <box>[[758, 157, 831, 431]]</box> in figure 1 and <box>[[758, 157, 831, 431]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/50151_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/50151_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A.  [[961, 245, 998, 846]]  in figure 1 and  [[961, 245, 998, 846]]  in figure 2",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_233",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[303, 8, 587, 107]]</box> in figure 1 and <box>[[303, 8, 587, 107]]</box> in figure 2\nB. <box>[[99, 117, 805, 1000]]</box> in figure 1 and <box>[[99, 117, 805, 1000]]</box> in figure 2\nC. <box>[[810, 342, 906, 590]]</box> in figure 1 and <box>[[810, 342, 906, 590]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/381112_turn1.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/381112_turn1.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    },
+    {
+      "id": "Detailed_Difference_generated_images_234",
+      "prompt": "Which of the following region is the difference between figure 1 and figure 2 ?\nA. <box>[[888, 299, 938, 764]]</box> in figure 1 and <box>[[888, 299, 938, 764]]</box> in figure 2\nB. <box>[[730, 340, 879, 498]]</box> in figure 1 and <box>[[730, 340, 879, 498]]</box> in figure 2\nC. <box>[[0, 645, 310, 1000]]</box> in figure 1 and <box>[[0, 645, 310, 1000]]</box> in figure 2\nD. No difference.",
+      "images": [
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/source/7996_turn3.png",
+        "M4Bench/data/Detailed_Difference/DDGI_imgs/dev/dev-00001-of-00004/target/7996_turn3.png"
+      ],
+      "answer": "C",
+      "model_full_prediction": "D. No difference.",
+      "model_extracted_answer": "D"
+    }
+  ]
+}

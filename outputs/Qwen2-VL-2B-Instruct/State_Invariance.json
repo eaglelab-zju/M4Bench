@@ -1,0 +1,2416 @@
+{
+  "model_name": "Qwen2-VL-2B-Instruct",
+  "task_name": "State_Invariance",
+  "score": 0.6438356164383562,
+  "results": [
+    {
+      "id": "state_invariance_1",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/116/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/116/8.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Design**: Both pictures show a metallic object with a cityscape design. The object has a base with the word \"HONG KONG\" and a star symbol.\n\n2. **Material and Color**: The object appears to be made of a shiny, metallic material, likely brass or pewter, and is silver in color.\n\n3. **Details on the Base**: The base has the word \"HONG KONG\" and a star symbol, which are consistent in both pictures.\n\nGiven these observations, the object in both pictures is the same.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_2",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/225/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/225/20.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_3",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/311/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/311/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Umbrella Position**: Both pictures show an umbrella on a tiled floor.\n2. **Umbrella Orientation**: The umbrella is open in both pictures.\n3. **Umbrella Shape**: The shape of the umbrella is consistent in both pictures.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_4",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/193/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/193/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_5",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/62/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/62/16.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both pictures show a rolled-up object that appears to be a fabric or cloth. The shape is similar, but the details are different.\n\n2. **Color and Texture**: The color of the fabric is the same, but the texture and pattern are different. The first picture has a more uniform texture, while the second picture has a slightly crinkled texture.\n\n3. **Positioning**: The positioning of the fabric is slightly different in the two pictures. In the first picture, the fabric is rolled up and placed on a surface, while in the second picture, the fabric is placed on a chair.\n\nBased on these observations, the two pictures show different objects.\n\n**Answer: A. No**",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_6",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/309/7.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/309/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Umbrella Structure**: Both pictures show an umbrella with a handle and a canopy.\n2. **Positioning**: Both pictures show the umbrella positioned on a flat surface, likely a floor or a table.\n3. **Background**: Both pictures have a background that includes a building and a wall, indicating the same setting.\n\nGiven these similarities, the two pictures likely show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_7",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/76/21.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/76/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_8",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/123/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/123/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_9",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/136/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/136/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_10",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/213/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/213/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_11",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/38/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/38/6.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_12",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/180/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/180/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Position and Orientation**: Both pictures show a plant in a red pot. However, the orientation and angle of the plant are different. In the first picture, the plant is positioned on a balcony with a view of a building, while in the second picture, the plant is on a tiled floor.\n\n2. **Background**: The background in both pictures is different. The first picture has a balcony with a view of a building, while the second picture has a plain tiled floor.\n\n3. **Lighting and Shadows**: The lighting and shadows in both pictures are different. The first picture has natural light coming from the balcony, while the second picture has artificial lighting.\n\nBased on these observations, the two pictures do not show the same object. Therefore, the answer is:\n\nA. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_13",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/233/30.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/233/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_14",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/47/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/47/8.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_15",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/7/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/7/7.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_16",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/282/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/282/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_17",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/160/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/160/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Size**: Both pictures show a rectangular pillow with a zipper on one side. The shape and size appear to be identical.\n\n2. **Color and Material**: The pillow in both pictures is yellow. The texture and material look consistent.\n\n3. **Positioning**: Both pictures show the pillow resting on a surface, with the zipper facing upwards.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_18",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/4/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/4/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_19",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/13/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/13/15.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_20",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/75/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/75/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_21",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/102/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/102/32.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Flowers**: Both pictures feature yellow flowers with a white background.\n2. **Branches**: Both pictures have branches with yellow flowers.\n3. **Lighting**: The lighting in both pictures is similar, with a warm, glowing light that highlights the flowers.\n\nGiven these similarities, it is likely that these two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_22",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/74/20.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/74/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_23",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/110/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/110/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Figure's Body and Arms**: Both pictures show a figure with arms and a body. However, the details of the arms and body are slightly different in the two pictures.\n\n2. **Head and Face**: The head and face are also different. In the first picture, the head is more detailed, with a green hat and a small face. In the second picture, the head is simplified, with a green hat and a small face.\n\n3. **Wings**: The wings are also different. In the first picture, the wings are green and appear to be made of a material that reflects light, while in the second picture, the wings are blue and appear to be made of a different material.\n\n4. **Background**: The background in both pictures is different. The first picture has a white background, while the second picture has a colorful background with flowers.\n\nBased on these differences, the two pictures do not show the same object. Therefore, the answer is:\n\nA. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_24",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/16/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/16/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Color and Material**: Both pictures show a yellow bag with a black zipper and a black strap. The bag appears to be made of a mesh-like material.\n\n2. **Positioning**: The bag is placed on a wooden floor in both pictures.\n\n3. **Overall Shape and Design**: The bag has a similar shape and design in both pictures.\n\nGiven these observations, the bags appear to be the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_25",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/166/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/166/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_26",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/111/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/111/18.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_27",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/58/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/58/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_28",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/93/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/93/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **First Picture**:\n   - The object is a decorative handle or hook.\n   - It has a metallic finish with intricate patterns.\n   - It is attached to a window or a similar structure.\n\n2. **Second Picture**:\n   - The object is also a decorative handle or hook.\n   - It has a similar metallic finish with intricate patterns.\n   - It is also attached to a window or a similar structure.\n\nBoth pictures show the same object, which is a decorative handle or hook with a metallic finish and intricate patterns. Therefore, the answer is:\n\nB. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_29",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/310/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/310/21.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_30",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/237/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/237/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Box Design**: Both boxes have a similar design with a white background and a colorful front design.\n2. **Brand and Model**: The boxes have the \"Samsung\" brand and the \"Tab S6 Lite\" model.\n3. **QR Code**: Both boxes have a QR code on them.\n\nBased on these observations, the boxes appear to be identical.\n\nTherefore, the answer is:\nB. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_31",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/214/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/214/17.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_32",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/188/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/188/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_33",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/140/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/140/30.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both pictures show a bracelet with a floral design. The bracelet has a chain with small, sparkling stones arranged in a floral pattern.\n\n2. **Material and Design**: The bracelet appears to be made of a shiny, gold-colored metal, likely gold or silver. The stones are small and clear, which are typical for jewelry.\n\n3. **Positioning**: Both pictures show the bracelet in a similar position, with the bracelet hanging from a hook or loop.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_34",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/219/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/219/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Position**: Both pictures show a bag of pistachios on a surface.\n2. **Content**: Both pictures show a bag of pistachios.\n3. **Color and Design**: The bag in both pictures has a red and white design.\n\nGiven these points, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_35",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/72/17.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/72/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_36",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/211/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/211/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_37",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/89/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/89/21.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Design**: Both pictures show a mug with a handle and a design on it. The shape and design are identical.\n\n2. **Color and Pattern**: The color of the mug is brown with a white rim and a black and white polka dot design on the side. The pattern on the mug is also the same.\n\n3. **Positioning**: Both pictures show the mug placed on a surface, likely a table or countertop.\n\nBased on these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_38",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/94/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/94/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the objects in both images:\n\n1. **Object in Image 1**: This is a metal sculpture of a deer. The sculpture is made of a metallic material with a textured surface, and it appears to be suspended in a wooden shelf.\n\n2. **Object in Image 2**: This is a wooden sculpture of a deer. The sculpture is also made of wood and has a similar textured surface, but it is mounted on a metal frame.\n\nSince both sculptures are made of wood and have a similar texture, they appear to be the same object.\n\nTherefore, the answer is:\nB. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_39",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/63/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/63/13.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Color and Texture**: Both pictures show a pink, crinkled fabric. The color and texture are consistent.\n2. **Positioning**: In both pictures, the fabric is placed on a white surface, and it is wrapped around a metal rod or pole.\n3. **Context**: The background in both pictures appears to be a white surface, possibly a table or a shelf.\n\nGiven these observations, the fabric in both pictures is the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_40",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/215/7.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/215/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_41",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/86/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/86/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_42",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/205/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/205/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_43",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/2/13.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/2/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_44",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/157/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/157/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_45",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/201/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/201/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_46",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/26/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/26/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_47",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/191/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/191/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_48",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/15/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/15/6.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_49",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/35/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/35/7.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_50",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/200/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/200/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_51",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/11/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/11/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_52",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/161/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/161/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_53",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/68/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/68/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Color and Texture**: Both pictures show a light purple, ribbed sweater with a zipper.\n2. **Positioning**: Both pictures show the sweater laid out on a flat surface.\n\nBased on these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_54",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/204/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/204/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_55",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/197/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/197/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_56",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/198/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/198/10.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_57",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/28/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/28/13.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_58",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/139/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/139/12.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Clock Face**: Both pictures show a clock face with a white background and black numbers.\n2. **Shape and Structure**: The clock in the first picture is a traditional analog clock with a round face and a rectangular body. The clock in the second picture is a tall, slender tower with a rectangular base and a pointed top, resembling the shape of the Big Ben clock tower.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_59",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/39/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/39/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_60",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/223/30.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/223/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Shape and Size**: Both pictures show a triangular-shaped object.\n2. **Material and Texture**: Both pictures show a bag with a textured surface.\n3. **Color and Pattern**: The bag in both pictures has a black and yellow color scheme with a pattern on the side.\n\nGiven these similarities, it is likely that these two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_61",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/27/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/27/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_62",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/241/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/241/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_63",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/12/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/12/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_64",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/24/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/24/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Shape and Structure**: Both pictures show a bag with a rectangular shape and a strap.\n2. **Color and Stripes**: The bag in both pictures has a white background with black stripes.\n3. **Material and Texture**: The bag appears to be made of a canvas material with a leather-like strap.\n\nGiven these similarities, the bags in both pictures appear to be the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_65",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/81/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/81/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_66",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/169/2.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/169/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Color and Pattern**: Both pictures show a plant with leaves that have a pattern of red and green. The leaves have a striped or variegated appearance.\n2. **Position and Orientation**: The plant is positioned on a surface, and the leaves are oriented in a similar manner in both pictures.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_67",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/56/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/56/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_68",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/212/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/212/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_69",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/30/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/30/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_70",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/40/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/40/13.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_71",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/222/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/222/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_72",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/203/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/203/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_73",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/92/23.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/92/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Design**: Both pictures show a mug with a handle and a design on the side. The shape and design are identical.\n\n2. **Color and Pattern**: The color of the mug is brown with a white background, and the design on the side is also brown with white and orange text.\n\n3. **Positioning**: Both pictures show the mug placed on a surface, with the handle pointing upwards.\n\nBased on these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_74",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/73/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/73/16.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_75",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/103/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/103/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Trophy Shape and Design**:\n   - Both pictures show a trophy with a figure on top.\n   - The figure is gold and appears to be a statue or a sculpture.\n\n2. **Trophy Base**:\n   - Both pictures show a base with a plaque.\n   - The plaque in the first picture has the text \"HAPPY BIRTHDAY\" on it.\n\n3. **Background and Setting**:\n   - Both pictures have a wooden background.\n   - The first picture has a wooden wall, while the second picture has a colorful patterned rug.\n\nGiven these observations, the objects in both pictures are identical in shape, design, and base. Therefore, the answer is:\n\nB. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_76",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/209/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/209/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_77",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/66/27.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/66/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_78",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/168/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/168/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_79",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/137/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/137/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Color and Shape**:\n   - The object in both pictures has a clear, transparent base with blue glass-like accents.\n   - The base is cylindrical and has a small opening at the top, which is typical of a perfume bottle.\n\n2. **Design and Details**:\n   - The design and details of the base and the blue glass-like accents are consistent in both pictures.\n\n3. **Context and Setting**:\n   - The background in both pictures is a woven fabric with floral patterns, which is a common setting for perfume bottles.\n\nGiven these observations, the object in both pictures is the same.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_80",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/87/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/87/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_81",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/59/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/59/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Structure**: Both pictures show a red, folded object that appears to be a piece of clothing, possibly a dress or a top.\n2. **Color and Texture**: The color and texture of the fabric are consistent between the two pictures.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_82",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/95/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/95/14.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Position and Orientation**: Both pictures show two statues of women. However, the orientation and positioning of the statues are different. In the first picture, the statues are standing upright, while in the second picture, they are leaning against each other.\n\n2. **Material and Color**: The statues are made of a shiny, gold-like material. The color and material are consistent in both pictures.\n\n3. **Details of the Statues**: The first picture shows a statue of a woman with a white dress and a small, curly hair accessory. The second picture shows a similar statue but with a different dress and hair accessory.\n\nBased on these observations, the statues in the two pictures are not the same object.\n\nTherefore, the answer is:\nA. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_83",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/14/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/14/15.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Color and Material**: Both pictures show a black backpack with a red logo.\n2. **Interior Design**: The interior of both backpacks appears to be similar, with a main compartment and a smaller pocket.\n3. **Zippers and Pockets**: The zippers and pockets in both backpacks are consistent in design and placement.\n\nGiven these similarities, it is likely that these two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_84",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/45/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/45/10.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_85",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/3/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/3/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_86",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/82/20.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/82/21.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Design**: Both pictures show a clear, transparent glass cup with a handle. The design and shape are identical.\n\n2. **Color and Texture**: The background in both pictures is a floral pattern, but the colors and textures are slightly different. The first picture has a more vibrant and detailed floral pattern, while the second picture has a simpler, more abstract pattern.\n\n3. **Lighting and Reflection**: The lighting and reflections on the cup are similar in both pictures, but the reflections are slightly different due to the different angles and lighting conditions.\n\nBased on these observations, the two pictures show the same object, which is a clear, transparent glass cup with a handle.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_87",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/185/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/185/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Position and Orientation**: Both pictures show a plant in a white pot with green leaves and small white flowers. The orientation and positioning of the plant are similar in both pictures.\n\n2. **Background and Surroundings**: The background in both pictures shows a balcony or a similar outdoor setting with a railing and a view of a building and parked cars.\n\n3. **Details of the Plant**: Both pictures show the same plant with green leaves and small white flowers.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_88",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/29/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/29/14.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_89",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/113/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/113/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both pictures show a clear, transparent object with a pointed top and a rectangular base. The shape and structure are identical.\n\n2. **Color and Material**: The object in both pictures appears to be made of a clear, transparent material, likely glass or crystal.\n\n3. **Background**: Both pictures have a wooden background, which is consistent in both images.\n\nGiven these observations, the object in both pictures is the same.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_90",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/67/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/67/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_91",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/51/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/51/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_92",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/142/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/142/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_93",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/224/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/224/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_94",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/97/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/97/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both pictures show a decorative object with a central stem and multiple red glass-like objects attached to it. The shape and structure are similar.\n\n2. **Color and Material**: The object in both pictures has a red glass-like appearance, which is consistent across the two images.\n\n3. **Background**: The background in both pictures appears to be a textured surface, possibly a table or a surface with a pattern.\n\nGiven these observations, the objects in both pictures are identical in shape, color, and structure. Therefore, the answer is:\n\nB. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_95",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/83/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/83/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Design**: Both pictures show a yellow cup with a handle. The shape and design are identical.\n2. **Color and Texture**: The color and texture of the cup are consistent in both pictures.\n\nBased on these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_96",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/106/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/106/12.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the objects in both images:\n\n1. **Object in Image 1:**\n   - The object is a decorative item with a metallic cage and clear crystals.\n   - The cage has a decorative design with a central point and a series of smaller crystals around it.\n\n2. **Object in Image 2:**\n   - The object is also a decorative item with a metallic cage and clear crystals.\n   - The cage has a similar design with a central point and a series of smaller crystals around it.\n\nBoth objects have a similar design and material, with a metallic cage and clear crystals. The only difference is the background and lighting in Image 2, which is different from Image 1.\n\nTherefore, the answer is:\nA. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_97",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/53/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/53/3.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_98",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/296/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/296/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Color and Material**: Both pictures show a red suitcase with a zipper and wheels.\n2. **Shape and Design**: The suitcase has a rectangular shape with a zipper and wheels.\n3. **Positioning**: Both pictures show the suitcase on a tiled floor.\n\nGiven these similarities, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_99",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/112/27.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/112/29.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_100",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/32/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/32/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_101",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/41/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/41/16.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_102",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/85/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/85/20.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_103",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/65/16.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/65/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether the two pictures show the same object, let's compare them:\n\n1. **Shape and Size**: Both pictures show a folded object that appears to be a blanket or a similar fabric.\n2. **Color and Texture**: The color and texture of the fabric in both pictures are similar, indicating that the object is the same.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_104",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/122/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/122/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both pictures show a decorative object that resembles a bird. The bird has a body with wings and a tail, and it is adorned with various shells and flowers.\n\n2. **Color and Details**: The bird in both pictures has a beige or light brown body, black eyes, and a red flower on its back. The wings and tail are made of different types of shells, and there are flowers and leaves on the body.\n\n3. **Background**: Both pictures have a background that includes a patterned fabric or wallpaper. The background in both pictures is colorful and intricate, featuring various patterns and colors.\n\nGiven these observations, the objects in both pictures are identical in shape, structure, color, and details.\n\n**Answer**: B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_105",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/22/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/22/21.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_106",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/61/36.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/61/15.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_107",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/202/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/202/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_108",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/8/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/8/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Structure**: Both pictures show a purple bag with a patterned design.\n2. **Color and Pattern**: The bag in both pictures is purple with a pattern that includes swirls and a rose.\n3. **Text and Design**: The bag in both pictures has text that reads \"Golden Rose\" and \"24K,\" which are consistent with the design and branding.\n\nGiven these similarities, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_109",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/159/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/159/6.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_110",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/108/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/108/12.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_111",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/124/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/124/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Color and Shape**:\n   - The first picture shows a decorative object with a gold base and three gemstones, one of which is purple.\n   - The second picture shows a similar object with a gold base and three gemstones, one of which is purple.\n\n2. **Design and Structure**:\n   - Both pictures feature a gold base with three gemstones.\n   - The first picture has a more intricate design with a floral pattern, while the second picture has a simpler design with a more uniform pattern.\n\n3. **Background**:\n   - The background in both pictures is the same, featuring a patterned fabric with a floral design.\n\nBased on these observations, the objects in both pictures are identical in terms of color, shape, and design.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_112",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/69/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/69/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Position and Orientation**: The first picture shows the shirt hanging on a window sill, while the second picture shows the shirt lying flat on a tiled floor. The orientation and position of the shirt are different.\n\n2. **Details and Texture**: The first picture shows the shirt with a pattern of small flowers and butterflies, while the second picture shows the shirt with a solid color and no pattern.\n\nBased on these observations, the two pictures do not show the same object.\n\n**Answer: A. No**",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_113",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/249/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/249/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_114",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/17/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/17/12.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_115",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/20/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/20/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Color and Texture**: Both pictures show a brown wallet with a woven texture.\n2. **Design and Branding**: The wallet in both pictures has a woven design and a brand name \"Lavie\" on it.\n\nGiven these similarities, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_116",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/100/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/100/17.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Design**: Both pictures show a ceramic or porcelain object with a stylized design. The object has a central wheel-like structure with a fish or dolphin design around it.\n\n2. **Color and Texture**: The color and texture of the object in both pictures are consistent. The object has a blue and white color scheme with a glossy finish.\n\n3. **Positioning**: The positioning of the object in both pictures is similar. The object is placed on a surface, and the background is different in each picture.\n\nGiven these observations, the objects in both pictures are identical.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_117",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/242/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/242/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_118",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/31/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/31/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_119",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/54/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/54/16.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Position and Orientation**: Both pictures show a white, long-sleeved shirt with a zipper. However, the orientation of the shirt in the two pictures is different. In the first picture, the shirt is hanging on a clothesline, while in the second picture, the shirt is lying flat on a surface.\n\n2. **Details and Texture**: The texture and pattern of the shirt in both pictures are similar, but the positioning and orientation of the shirt differ.\n\nBased on these observations, the two pictures do not show the same object.\n\n**Answer: A. No**",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_120",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/107/14.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/107/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_121",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/170/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/170/3.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the elements in each image:\n\n1. **Flowers**: Both pictures feature a bouquet of red roses.\n2. **Vase**: The vase in the first picture is green with black and white stripes, while the vase in the second picture is also green with black and white stripes.\n\nSince the flowers and the vase are identical in both pictures, the answer is:\n\nA. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_122",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/48/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/48/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_123",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/21/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/21/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both pictures show a bag with a strap and a handle.\n2. **Color and Pattern**: The bag in both pictures has a beige and black pattern.\n3. **Material and Texture**: The bag appears to be made of a fabric material with a textured pattern.\n\nGiven these similarities, the bags in both pictures are likely the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_124",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/109/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/109/5.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Figure and Instrument**: Both pictures feature a figure holding a guitar. The figure is dressed in traditional attire and is holding the guitar in a similar manner.\n\n2. **Background and Setting**: The background in both pictures appears to be a similar setting, possibly an indoor space with a textured surface and a patterned or striped wall.\n\n3. **Overall Composition**: The overall composition and positioning of the figure and the guitar are consistent between the two pictures.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_125",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/115/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/115/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**: Both pictures show a cluster of light bulbs arranged in a similar pattern. The light bulbs are spherical and arranged in a fan-like shape.\n\n2. **Color and Lighting**: The light bulbs in both pictures are white, and the lighting appears to be warm, suggesting they are likely used for decorative purposes.\n\n3. **Positioning**: Both pictures show the light bulbs on a surface, likely a table or a similar flat surface.\n\nGiven these observations, the two pictures show the same object. Therefore, the answer is:\n\nB. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_126",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/10/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/10/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_127",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/165/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/165/16.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Shape and Size**: Both pictures show a round cushion with a floral pattern.\n2. **Material and Pattern**: The material appears to be fabric with a floral pattern.\n3. **Positioning**: Both pictures show the cushion on a surface, possibly a chair or a table.\n\nGiven these similarities, it is likely that these two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_128",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/199/5.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/199/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_129",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/187/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/187/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_130",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/37/4.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/37/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_131",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/220/28.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/220/30.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Shape and Size**: Both pictures show a circular object with a white rim.\n2. **Color and Design**: The color and design of the label are identical.\n3. **Text and Images**: The text and images on the label are the same.\n\nGiven these similarities, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_132",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/206/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/206/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_133",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/297/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/297/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Color and Design**: Both pictures show a blue suitcase with a textured surface.\n2. **Shape and Size**: The suitcase in both pictures appears to be the same size and shape.\n3. **Luggage Type**: Both pictures depict a suitcase, which is a type of luggage.\n\nGiven these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_134",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/55/18.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/55/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_135",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/101/15.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/101/6.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **First Picture**:\n   - The object is a decorative item with a detailed, colorful pattern.\n   - It appears to be a handbag or a similar accessory.\n   - The pattern includes fruits and other decorative elements.\n\n2. **Second Picture**:\n   - The object is a model of a screwdriver or a similar tool.\n   - It is made of metal and has a long, slender shape with a pointed tip.\n\nSince the first picture shows a decorative item and the second picture shows a model of a screwdriver, the two objects are not the same.\n\nTherefore, the answer is:\nA. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_136",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/288/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/288/2.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Color and Texture**: Both pictures show a red towel with a textured surface.\n2. **Positioning**: Both pictures show the towel hanging on a blue hanger.\n3. **Background**: The background in both pictures appears to be a white wall and a white chair.\n\nGiven these similarities, the objects in both pictures are the same.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_137",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/155/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/155/4.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_138",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/23/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/23/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Color and Material**: Both pictures show a black backpack with a mesh-like texture.\n2. **Zippers and Pockets**: Both pictures show the backpack with multiple zippers and pockets.\n3. **Brand and Design**: The backpack in the first picture has a logo that appears to be a triangle with a circle inside, while the backpack in the second picture has a logo that is more abstract and does not clearly resemble a triangle with a circle inside.\n\nBased on these observations, the two pictures show different backpacks.\n\n**Answer: A. No**",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_139",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/36/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/36/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_140",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/70/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/70/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Position and Orientation**: Both pictures show a pair of blue jeans. However, the orientation and positioning of the jeans are different. In the first picture, the jeans are hanging on a balcony, while in the second picture, the jeans are lying flat on a surface.\n\n2. **Details and Features**: The jeans in both pictures have the same features, such as the blue color, buttons, and stitching. However, the positioning and angle of the jeans in the pictures are different.\n\nBased on these observations, the jeans in the two pictures are not the same object.\n\n**Answer: A. No**",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_141",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/125/12.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/125/14.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_142",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/60/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/60/21.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_143",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/43/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/43/13.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_144",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/104/21.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/104/1.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_145",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/34/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/34/3.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_146",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/114/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/114/3.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's analyze the details:\n\n1. **Shape and Structure**:\n   - Both pictures show a clear, transparent object with a pointed tip and a wider base.\n   - The object has a symmetrical design with a clear, glass-like appearance.\n\n2. **Material and Texture**:\n   - The object appears to be made of a clear, glass-like material.\n   - The texture on the object looks smooth and reflective.\n\n3. **Background and Setting**:\n   - Both pictures show the object in a similar setting, with a textured background and a patterned surface.\n\nGiven these observations, the object in both pictures appears to be the same. Therefore, the answer is:\n\nB. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_147",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/218/8.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/218/11.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_148",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/234/24.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/234/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_149",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/71/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/71/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_150",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/221/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/221/11.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_151",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/33/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/33/7.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_152",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/172/16.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/172/18.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare the details:\n\n1. **Plant Type**: Both pictures show a plant with green leaves and a pot.\n2. **Position**: Both pictures show the plant hanging from a window frame.\n3. **Background**: Both pictures show a building with windows and a street view.\n\nGiven these similarities, it is likely that these two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_153",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/5/1.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/5/2.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_154",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/6/6.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/6/1.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_155",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/284/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/284/8.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_156",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/9/9.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/9/5.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_157",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/49/3.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/49/4.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "To determine whether these two pictures show the same object, let's compare them:\n\n1. **Shape and Design**: Both pictures show a bowl with a similar shape and design. The bowl has a white base with a blue interior and a floral pattern on the exterior.\n\n2. **Color and Design**: The color of the bowl is white with a blue interior and a floral pattern. The design is consistent between the two pictures.\n\n3. **Positioning**: Both pictures show the bowl on a dark-colored surface, likely a leather couch.\n\nBased on these observations, the two pictures show the same object.\n\n**Answer: B. Yes**",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_158",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/differenct_state/171/10.jpg",
+        "M4Bench/data/State_Invariance/imgs/differenct_state/171/8.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_159",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/potato/Floury-Potato_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/potato/Red-Beet_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_160",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper/Orange-Bell-Pepper_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper/Green-Bell-Pepper_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_161",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_1/Tropicana-Apple-Juice_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_1/Bravo-Apple-Juice_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_162",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper_2/Orange-Bell-Pepper_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pepper_2/Red-Bell-Pepper_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_163",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_1/Arla-Ecological-Medium-Fat-Milk_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_1/Arla-Lactose-Medium-Fat-Milk_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_164",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_2/Conference_026.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_2/Kaiser_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_165",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_5/God-Morgon-Orange-Red-Grapefruit-Juice_011.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_5/God-Morgon-Red-Grapefruit-Juice_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_166",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/soyghurt/Alpro-Vanilla-Soyghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/soyghurt/Alpro-Blueberry-Soyghurt_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_167",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_2/Watermelon_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_2/Honeydew-Melon_004.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_168",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_1/Anjou_014.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/pear_1/Conference_007.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_169",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_6/Tropicana-Golden-Grapefruit_008.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_6/Tropicana-Juice-Smooth_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_170",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/sour_cream/Arla-Ecological-Sour-Cream_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/sour_cream/Arla-Sour-Cream_007.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_171",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato/Regular-Tomato_012.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato/Beef-Tomato_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_172",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_2/Bravo-Orange-Juice_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_2/Tropicana-Mandarin-Morning_011.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_173",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_2/Red-Delicious_042.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_2/Royal-Gala_007.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_174",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_4/God-Morgon-Orange-Red-Grapefruit-Juice_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_4/God-Morgon-Orange-Juice_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_175",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_3/Garant-Ecological-Standard-Milk_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_3/Arla-Standard-Milk_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_176",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato_2/Vine-Tomato_008.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/tomato_2/Beef-Tomato_015.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_177",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_1/Cantaloupe_016.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/melon_1/Galia-Melon_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_178",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_2/Arla-Lactose-Medium-Fat-Milk_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_2/Arla-Medium-Fat-Milk_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_179",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_4/Arla-Ecological-Medium-Fat-Milk_015.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/milk_4/Garant-Ecological-Medium-Fat-Milk_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_180",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/orange/Satsumas_014.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/orange/Red-Grapefruit_014.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_181",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_3/God-Morgon-Apple-Juice_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/juice_3/God-Morgon-Orange-Juice_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_182",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_1/Red-Delicious_037.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/train/apple_1/Pink-Lady_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_183",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato/Sweet-Potato_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato/Solid-Potato_009.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_184",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/pepper/Orange-Bell-Pepper_014.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/pepper/Red-Bell-Pepper_004.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_185",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/melon/Galia-Melon_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/melon/Cantaloupe_013.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_186",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/pear/Conference_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/pear/Anjou_034.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_187",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_1/Bravo-Orange-Juice_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_1/Bravo-Apple-Juice_005.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_188",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_1/Garant-Ecological-Medium-Fat-Milk_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_1/Arla-Ecological-Medium-Fat-Milk_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_189",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_4/Yoggi-Vanilla-Yoghurt_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_4/Valio-Vanilla-Yoghurt_004.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_190",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/apple/Red-Delicious_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/apple/Royal-Gala_010.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_191",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_5/Tropicana-Juice-Smooth_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_5/Tropicana-Mandarin-Morning_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_192",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/soyghurt/Alpro-Blueberry-Soyghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/soyghurt/Alpro-Vanilla-Soyghurt_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_193",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/sour_cream/Arla-Ecological-Sour-Cream_007.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/sour_cream/Arla-Sour-Cream_011.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_194",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_2/Arla-Natural-Yoghurt_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_2/Valio-Vanilla-Yoghurt_010.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_195",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_1/Arla-Mild-Vanilla-Yoghurt_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_1/Arla-Natural-Mild-Low-Fat-Yoghurt_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_196",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/tomato/Beef-Tomato_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/tomato/Regular-Tomato_013.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_197",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_2/God-Morgon-Apple-Juice_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_2/God-Morgon-Orange-Juice_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_198",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/soy_milk/Alpro-Shelf-Soy-Milk_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/soy_milk/Alpro-Fresh-Soy-Milk_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_199",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_3/Yoggi-Vanilla-Yoghurt_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/yoghurt_3/Yoggi-Strawberry-Yoghurt_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_200",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato_2/Red-Beet_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/potato_2/Floury-Potato_016.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_201",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_4/Tropicana-Golden-Grapefruit_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_4/Tropicana-Apple-Juice_010.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_202",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_3/Arla-Standard-Milk_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_3/Garant-Ecological-Standard-Milk_006.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_203",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_2/Arla-Medium-Fat-Milk_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/milk_2/Arla-Lactose-Medium-Fat-Milk_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_204",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_3/God-Morgon-Orange-Red-Grapefruit-Juice_009.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/test/juice_3/God-Morgon-Red-Grapefruit-Juice_013.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_205",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato/Floury-Potato_004.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato/Sweet-Potato_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_206",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_2/Yellow-Bell-Pepper_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_2/Orange-Bell-Pepper_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_207",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_1/Red-Bell-Pepper_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/pepper_1/Orange-Bell-Pepper_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_208",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_1/Garant-Ecological-Medium-Fat-Milk_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_1/Arla-Ecological-Medium-Fat-Milk_001.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_209",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/soyghurt/Alpro-Blueberry-Soyghurt_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/soyghurt/Alpro-Vanilla-Soyghurt_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_210",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_2/Watermelon_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_2/Honeydew-Melon_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_211",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_2/Yoggi-Vanilla-Yoghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_2/Yoggi-Strawberry-Yoghurt_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_212",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_1/Arla-Mild-Vanilla-Yoghurt_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/yoghurt_1/Valio-Vanilla-Yoghurt_004.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_213",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/tomato/Vine-Tomato_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/tomato/Beef-Tomato_002.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_214",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_2/Royal-Gala_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_2/Pink-Lady_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_215",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato_2/Red-Beet_005.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/potato_2/Floury-Potato_002.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_216",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_3/Arla-Standard-Milk_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_3/Garant-Ecological-Standard-Milk_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_217",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_1/Galia-Melon_002.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/melon_1/Cantaloupe_003.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "state_invariance_218",
+      "prompt": "Whether these two pictures show same object? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_2/Arla-Medium-Fat-Milk_001.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/milk_2/Garant-Ecological-Medium-Fat-Milk_003.jpg"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "state_invariance_219",
+      "prompt": "Whether these two pictures show same object? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_1/Granny-Smith_003.jpg",
+        "M4Bench/data/State_Invariance/imgs/similar/val/apple_1/Golden-Delicious_001.jpg"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    }
+  ]
+}

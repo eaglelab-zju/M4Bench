@@ -1,0 +1,2295 @@
+{
+  "model_name": "GPT-4o",
+  "task_name": "State_Comparison",
+  "score": 0.6682692307692307,
+  "results": [
+    {
+      "id": "State_Comparison_1",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe apples in the two images display distinct disparities in both color and handling manner. The first image portrays a red apple, while the second one shows a green apple. Consequently, they do not exemplify the same apple at an identical stage.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_2",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images show apples in different states. The first image shows a red apple that is whole, while the second image shows a green apple that is being peeled.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_3",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows an unpeeled apple, while the second image shows a peeled apple. Therefore, they are not in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_4",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_5",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe two images depict apples of different colors being peeled - one is red and the other is green, indicating they are in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_6",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_7",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_8",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe images depict two apples in different states of being peeled. The first image shows an apple with a lot of the skin removed, while the second image shows an apple with a portion of the skin still intact. Additionally, the apples appear to be of different varieties due to their different colors and textures.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_9",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_10",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_11",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_12",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_13",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThese two images do not depict the apple in the same state. The first image shows an apple being peeled with its peel partially removed, while the second image shows a whole, unpeeled apple.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_14",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth images depict an apple in the process of being peeled, with the assistance of a hand drill and a peeler.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_15",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_16",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two images do not depict the apple in the same state. The first image shows a peeled apple, while the second image shows an unpeeled apple with tools next to it.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_17",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows an apple that has already been completely peeled, while the second image shows an apple in the process of being peeled. Thus, the apples in the two images are not in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_18",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_19",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_20",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows a whole avocado with its skin intact, while the second image shows a split avocado with the seed revealed, and flesh visible. Therefore, the avocado is in different states in each image.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_21",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows an uncut avocado with its dark, rough skin, while the second image shows the inside of an avocado, which is sliced and exhibits the green flesh. These images depict the avocado in different states: uncut and sliced.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_22",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_23",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_24",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows an avocado that is cut open and has brown spots indicating it might be overripe or spoiled, while the second image shows a nicely sliced avocado in seemingly good condition without any noticeable blemishes.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_25",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images depict avocados in different states. The first image shows an avocado that has been sliced, while the second image shows a whole avocado that hasn't been cut yet.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_26",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes\n\nBoth images depict sliced avocado that is fresh and greenish in color, indicating similar states of ripeness.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_27",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe avocados in these images are not in the same state. In the first image, the avocado slices appear firm and neatly sliced; in the second image, the avocado slices appear more mushy and unevenly cut.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_28",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows a ripe, darker-skinned avocado, while the second image displays a less ripe or different variety of avocado with greener skin.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_29",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows an avocado that is whole and uncut, while the second image shows an avocado that has been cut open.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_30",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_31",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images depict an avocado in different states. The first image shows a cut avocado, while the second image shows a whole, uncut avocado.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_32",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows a ripe avocado with a green hue and fully developed pit, while the second image depicts an overripe avocado with discoloration and an unhealthy appearance.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_33",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image depicts a green avocado, while the second image depicts a more yellowish avocado, indicating that they are in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_34",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows avocado that has been peeled, cut, and placed in a bowl, while the second image shows a whole, unpeeled avocado. These two images depict avocado in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_35",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_36",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows avocado cut into pieces in a bowl, while the second image shows a whole avocado sliced open. They are in different states of preparation.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_37",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe two images show avocados in different states. In the first image, the avocado is being held and appears to be whole. In the second image, it appears that the avocado is about to be cut with a knife. The context and action in each image are different enough to indicate that the avocados are not in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_38",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) Yes\n\nBoth images show an avocado in a ripe state. The first image shows a whole ripe avocado with dark skin, and the second image shows a ripe avocado that has been cut open, revealing its green flesh and pit. Both are in the same ripe state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_39",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_40",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_41",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_42",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_43",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_44",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two images depict avocados in different states. In the first image, the avocado has been cut into pieces and placed on a plate. In the second image, the avocado is in halves, with one half still containing the pit.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_45",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe avocados in the two images are in different states. In the first image, the avocado is diced into small cubes, while in the second image, it is cut into larger slices.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_46",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_47",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_48",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows whole avocados, some of which are unripe and have green skins, while others appear riper with darker skins. The second image shows avocados that have been cut open and appear to be in a ripe state, ready to be eaten. Therefore, they do not depict avocados in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_49",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_50",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict an avocado cut in half with one half containing the seed and the other half being empty. This suggests that the avocado is in the same state in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_51",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image depicts an avocado variety called \"Fuerte\" with a seed in one half and empty in the other half. The second image shows multiple avocados in a different state, with all halves being empty. Therefore, the avocados shown in the images are not in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_52",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_53",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_54",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_55",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_56",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_57",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_58",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images do not depict avocados in the same state. The first image shows an avocado that has already been cut open, revealing its insides, while the second image shows an avocado that is still whole and being held by someone, presumably about to be prepared.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_59",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes\n\nBoth images depict avocados that have been cut in half and are in a similar state. ",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_60",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image depicts a freshly cut avocado with a clean, green interior. The second image shows sliced avocado with visible browning and spots, indicating that it has started to oxidize or overripe. Therefore, the avocados are not in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_61",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_62",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_63",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows avocados in a fresh and ripe state, while the second image depicts an avocado that has browned and shows signs of overripeness or bruising.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_64",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThese two images show bacon in different states. The first image depicts uncooked bacon on a tray, ready to be cooked in an air fryer. The second image shows partially cooked bacon.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_65",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_66",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image depicts cooked, crispy bacon, while the second image shows raw bacon strips.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_67",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows a piece of bacon that has been cooked and is being held on a plate using tongs. It appears crispy and looks fully cooked. \n\nThe second image shows raw or partially cooked bacon that is still being cooked in a pan, as indicated by the text suggesting to check and rearrange it. The bacon in this image appears less crispy and not fully cooked.\n\nTherefore, the two images depict bacon in different states of cooking.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_68",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict raw strips of bacon.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_69",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_70",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_71",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows bacon that is crispy and well-cooked, while the second image shows bacon that appears to be less cooked and still somewhat raw.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_72",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_73",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows raw bacon, while the second image shows cooked bacon. Therefore, the bacon is not in the same state in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_74",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image depicts cooked bacon, while the second image shows raw bacon.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_75",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_76",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_77",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_78",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_79",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_80",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe two images show milk being heated in different pots and under different conditions. Therefore, it can be concluded that the two images do not depict milk in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_81",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images do not depict milk in the same state. In the first image, the milk appears calm and not actively boiling, while the second image shows the milk in a more agitated state with bubbles, indicating that it is boiling.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_82",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThese two images depict boiled milk at different states. The first image shows milk that is actively boiling with considerable froth and bubbles, indicating it has reached a much higher temperature. The second image shows milk that is heating but not actively boiling, with significantly less froth and fewer bubbles.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_83",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe two images show milk in slightly different states of boiling. The first image has more froth and bubbles, indicating it is in a more vigorous boiling state than the second image.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_84",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_85",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images show milk in different states. The first image depicts milk being poured through a strainer, likely soon after boiling. The second image shows a thickened or curdled milk, potentially after being left to cool or form a skin on top.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_86",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe images depict milk in different states. The first image shows milk in a boiled state with a layer of skim formed on top, while the second image shows fresh milk being poured.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_87",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_88",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_89",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two images depict butter in different states. The first image shows butter in a solid state, while the second image shows butter in a liquid or melted state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_90",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image depicts butter in a melted, liquid state, and the second image shows butter in a solid state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_91",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows butter in a completely melted (liquid) state, whereas the second image displays butter that is only partially melted and still has solid portions.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_92",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_93",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_94",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows melted chocolate in a liquid state, while the second image shows solid pieces of chocolate in a solid state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_95",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict chocolate in a melted or liquid state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_96",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows chocolate in the process of melting in a pan, while the second image shows solid chocolate bars. Thus, the chocolate is in different states in the two images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_97",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_98",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image depicts chocolate in its melted (liquid) state, while the second image depicts chocolate in its solid state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_99",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows chocolate in a liquid state, while the second image shows chocolate in a more solidified state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_100",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows white chocolate chips in a bowl and a measuring cup. The second image shows white chocolate chips as well, but they have a different shape compared to the chips in the first image. Hence, they are not in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_101",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows solid white chocolate chips, while the second image shows white chocolate in a melted, liquid state. Therefore, they depict chocolate in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_102",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_103",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict chocolate in a melted state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_104",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThese two images depict chocolate in different forms or states. The first image shows chocolate wafers or discs, while the second image shows broken pieces of a chocolate bar.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_105",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows chocolate in solid form, in the shape of chips or discs, while the second image shows chocolate in a melted, liquid state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_106",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows chocolate in a melted, liquid state, while the second image shows chocolate in a solid, chunk form.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_107",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows chocolate that is more fluid and being poured from a wooden spoon, indicating that it is in a melted state. The second image shows chocolate that appears thicker and more solidified, indicating that it is in a partially cooled or more viscous state. Therefore, the chocolate in these images is not in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_108",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_109",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_110",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_111",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_112",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_113",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows whole coffee beans, while the second image shows ground coffee. They depict coffee in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_114",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_115",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images show coffee in its ground state, not in bean form or as a liquid. The coffee in both pictures is in the form of ground coffee.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_116",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_117",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_118",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_119",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_120",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_121",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_122",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_123",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_124",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_125",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_126",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_127",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_128",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows corn in its husk, while the second image shows corn that has been partially husked and trimmed.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_129",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_130",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nIn the first image, the corn is already shucked and is being held, while in the second image, the corn is still in its husk and is being prepared (perhaps shucked). These two images depict corn in different states of preparation.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_131",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image depicts raw or possibly boiled corn on the cob being held. The second image, however, shows pieces of corn possibly being steamed. While they are both corn, they are not in the same state within these images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_132",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows cream in a mixer or machine, possibly in the early stages of being whipped. The second image shows the cream already whipped or in a more processed state. So, the cream is not in the same state in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_133",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows cream in a liquid or semi-liquid state inside a container. The second image shows whipped cream in a more solid, aerated state on top of a dish, which indicates that the cream has been whipped and changed state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_134",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_135",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows cream in a solid or semi-solid state, likely in the process of being whipped. The second image shows cream in a more aerated state, as whipped cream dispensed onto a dessert.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_136",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict cream in a liquid state, although the second image indicates that it should be beaten until soft peaks form. This suggests it is on the way to being whipped cream, but in the current state shown in both images, the cream appears to be in a similar liquid form.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_137",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_138",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images show cream in different states. The first image depicts cream during whipping where it has already thickened and has a structure. The second image shows liquid cream before it has been whipped or after minimal whipping.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_139",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_140",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows a cream that looks lighter and more liquid, whereas the second image shows a cream that appears to be thicker and prepared for whipping. This indicates they are not in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_141",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows liquid cream, while the second image shows whipped cream, which is in a solid or semi-solid state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_142",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows whipped cream, which is in a solid, fluffy state. The second image shows liquid cream being poured into a mixing bowl. These are different states of cream.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_143",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_144",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows liquid cream being poured into a bowl, while the second image shows cream that has been partially whipped, indicating that the cream is in two different states.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_145",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_146",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_147",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe cream in the first image appears to be in a more whipped and thick state compared to the cream in the second image, which looks less whipped and slightly runnier.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_148",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_149",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_150",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows a whole dragon fruit that is yet to be cut, while the second image shows a dragon fruit that has been cut in half with its flesh exposed. Therefore, they do not depict the dragon fruit in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_151",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows dragon fruit that has been cut open, while the second image shows a whole, uncut dragon fruit. Therefore, they depict the dragon fruit in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_152",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_153",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_154",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows a dragon fruit that has been peeled and cut into pieces, while the second image shows a whole dragon fruit in its unpeeled state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_155",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows slices of dragon fruit with the outer skin removed, while the second image shows dragon fruit halves with the outer skin intact. Therefore, these images depict dragon fruit in different states.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_156",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe two images depict dragon fruit, but they are not in the same state. The first image shows the dragon fruit already cut into multiple pieces arranged in a bowl. The second image shows a single larger piece of dragon fruit with a portion of the peel next to it on a plate.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_157",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict eggs with their shells intact, likely hard-boiled, and therefore are in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_158",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_159",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two images do not depict eggs in the same state. The first image shows peeled boiled eggs, while the second image shows an unpeeled boiled egg.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_160",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_161",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image depicts raw eggs in a bowl of water, while the second image shows eggs in an ice bath, which is typically done after boiling. Therefore, the eggs are in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_162",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_163",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_164",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_165",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image depicts eggs being boiled in water, while the second image shows a person holding an egg, likely uncracked and raw. These images show eggs in different states - one being cooked and the other being uncooked.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_166",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows eggs in the process of being boiled, while the second image shows a person holding an egg that has already been boiled and shelled. Therefore, they depict eggs in different states.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_167",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe two images depict eggs in different states. The first image shows a peeled hard-boiled egg, while the second image shows an egg in its shell.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_168",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict a peeled, cooked egg.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_169",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_170",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows a plain sheet of paper, while the second image shows a folded paper airplane. They depict the plane (paper) in different states.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_171",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_172",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_173",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows a blank sheet of paper on a wooden surface, while the second image shows a blank sheet of paper being held on a different surface, possibly outdoors given the lighting. The environments are different, so the plane (the sheet of paper) is not in the same state in both images.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_174",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_175",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image depicts a paper plane that has already been folded. The second image shows a blank sheet of paper that has not been folded yet. Therefore, the plane is not in the same state in both images.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_176",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe two images show different paper airplanes. The first image displays a simple, streamlined paper airplane, while the second image shows a more complex design with upturned wings.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_177",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe two images show different planes of paper. The first image shows a blue sheet of paper, while the second image shows a white sheet of paper.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_178",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image depicts a flat sheet of paper, while the second image shows a folded paper airplane. Therefore, they are not in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_179",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows a completed paper plane, while the second image shows an unfolded piece of paper ready to be folded into a plane. Therefore, they do not depict the plane in the same state.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_180",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe images depict different paper airplanes in terms of color and design. The first image shows a blue paper airplane with stabilizers, while the second image shows a white paper airplane with a simpler design.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_181",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "Failed to retrieve GPT-4 response after maximum retries.",
+      "model_extracted_answer": "Z"
+    },
+    {
+      "id": "State_Comparison_182",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "Failed to retrieve GPT-4 response after maximum retries.",
+      "model_extracted_answer": "Z"
+    },
+    {
+      "id": "State_Comparison_183",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two images depict different states of the paper. The first image shows a blue paper folded into the shape of a paper airplane, whereas the second image shows a flat, unfolded red piece of paper.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_184",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_185",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows a yellow paper folded into a triangular shape, whereas the second image shows a flat rectangular piece of yellow paper.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_186",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows a flat yellow piece of paper likely being prepared to be folded, whereas the second image shows a yellow folded paper plane.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_187",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image depicts a folded paper plane, while the second image shows a flat sheet of paper that has not yet been folded into a plane.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_188",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe two images do not depict the plane in the same state. The first image shows a well-formed origami plane with defined wings and structure, while the second image shows a crumpled or unfinished origami plane lacking the clear form and structure of the first.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_189",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows potatoes sliced into round pieces, while the second image shows potatoes sliced into wedge shapes. Therefore, the potatoes are not in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_190",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_191",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_192",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows cooked sliced potatoes with a slightly seasoned appearance, while the second image depicts seasoned potato wedges with visible herbs and spices. They are prepared differently and are in different states.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_193",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_194",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows raw, crinkle-cut potatoes, while the second image displays cooked, straight-cut French fries.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_195",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows cooked, seasoned, and possibly fried potatoes (French fries), while the second image shows raw, sliced potatoes. They are not in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_196",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_197",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes\n\nBoth images depict potatoes in the same state: peeled and cut, either in a soaking state or prepared to be placed in water.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_198",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows raw, sliced potatoes in water, while the second image shows cooked, fried potatoes (French fries). They are in different states.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_199",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two images depict potatoes in different states. The first image shows cooked (likely fried) potato fries, while the second image shows raw, sliced potatoes.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_200",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(B) No\n\nThe first image shows fries that are lighter in color, while the second image shows fries that are darker and appear more cooked or seasoned differently.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_201",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows potatoes that have been cut into what appears to be French fry shapes (raw or partially cooked), while the second image is just a white, blank screen. Thus, they do not depict potatoes in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_202",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image shows raw, cut potatoes, while the second image shows cooked, seasoned potato fries. Therefore, these two images depict potatoes in different states.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_203",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "(A) No\n\nThe first image shows cooked French fries, while the second image is entirely blank. These do not depict potatoes in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_204",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_205",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe first image shows a pair of white Adidas shoes with noticeable mud or dirt marks on them. The second image depicts a pair of white Nike shoes that are not as dirty but have some wear and appear to be in a cleaner state compared to the first image. The brands of the shoes are also different, further confirming they are not in the same state.",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_206",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe first image depicts dirty, mud-stained Adidas shoes, while the second image shows clean, white Nike shoes.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_207",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(B) No\n\nThe two pairs of shoes are different. The first image shows a pair of Adidas sneakers, while the second image shows a pair of Nike sneakers in a noticeably dirtier condition.",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_208",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "(A) No\n\nThe images depict shoes in different states. The first image shows Adidas shoes, while the second image shows Nike shoes.",
+      "model_extracted_answer": "A"
+    }
+  ]
+}

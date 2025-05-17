@@ -1,0 +1,2295 @@
+{
+  "model_name": "InternVL2_5-8B",
+  "task_name": "State_Comparison",
+  "score": 0.6538461538461539,
+  "results": [
+    {
+      "id": "State_Comparison_1",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_2",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_3",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_4",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_5",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_6",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_7",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_8",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_9",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/1.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_10",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_11",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_12",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_13",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_14",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_15",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_16",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/1_whole_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_17",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/2_partially_peeled_apple/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_18",
+      "prompt": "Whether the apple in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/3.png",
+        "M4Bench/data/State_Comparison/imgs/apple/Apple_Peeling/3_peeled_apple/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_19",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_20",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_21",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_22",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_23",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_24",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_25",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_26",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_27",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/1.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_28",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_29",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_30",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_31",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_32",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_33",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_34",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_35",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_36",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/3.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_37",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_38",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_39",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_40",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_41",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_42",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_43",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_44",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_45",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/5.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_46",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_47",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_48",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_49",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_50",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_51",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_52",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_53",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_54",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/7.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_55",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_56",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_57",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_58",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_59",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_60",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_61",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/1_whole_avocado/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_62",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/2_halved_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_63",
+      "prompt": "Whether the avocado in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/9.png",
+        "M4Bench/data/State_Comparison/imgs/avocado/Avocado_Slicing/3_sliced_avocado/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_64",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_65",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_66",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_67",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/1.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_68",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_69",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_70",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_71",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/3.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_72",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_73",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_74",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_75",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/5.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_76",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_77",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_78",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/1_raw_bacon/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_79",
+      "prompt": "Whether the bacon in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/7.png",
+        "M4Bench/data/State_Comparison/imgs/bacon/Bacon_Frying/2_cooked_bacon/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_80",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_81",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_82",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/1_room_temperature_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_83",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Boiling/2_boiling_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_84",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_85",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_86",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/1_liquid_milk/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_87",
+      "prompt": "Whether the boil_milk in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/1.png",
+        "M4Bench/data/State_Comparison/imgs/boil_milk/Milk_Solidification/2_solidified_milk/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_88",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_89",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_90",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/1_solid_butter/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_91",
+      "prompt": "Whether the butter in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/1.png",
+        "M4Bench/data/State_Comparison/imgs/butter/Butter_Melting/2_melted_butter/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_92",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_93",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_94",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_95",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/1.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_96",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_97",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_98",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_99",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/3.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_100",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_101",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_102",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_103",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/5.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_104",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_105",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_106",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/1_solid_chocolate/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_107",
+      "prompt": "Whether the chocolate in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/7.png",
+        "M4Bench/data/State_Comparison/imgs/chocolate/Chocolate_Melting/2_melted_chocolate/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_108",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_109",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_110",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_111",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/1.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_112",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_113",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_114",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/1_coffee_beans/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_115",
+      "prompt": "Whether the coffee in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/3.png",
+        "M4Bench/data/State_Comparison/imgs/coffee/Coffee_Grinding/2_ground_coffee/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_116",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_117",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_118",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_119",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/1.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_120",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_121",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_122",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_123",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/3.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_124",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_125",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_126",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_127",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/5.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_128",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_129",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_130",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/1_unpeeled_corn/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_131",
+      "prompt": "Whether the corn in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/7.png",
+        "M4Bench/data/State_Comparison/imgs/corn/Corn_Peeling/2_peeled_corn/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_132",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_133",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_134",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_135",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/1.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_136",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_137",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_138",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_139",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/3.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_140",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_141",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_142",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_143",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/5.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_144",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_145",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_146",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/1_liquid_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_147",
+      "prompt": "Whether the cream in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/7.png",
+        "M4Bench/data/State_Comparison/imgs/cream/Cream_Whipping/2_whipped_cream/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_148",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_149",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_150",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_151",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_152",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_153",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_154",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/1_whole_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_155",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/2_sliced_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_156",
+      "prompt": "Whether the dragon_fruit in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/1.png",
+        "M4Bench/data/State_Comparison/imgs/dragon_fruit/Dragon_Fruit_Cutting/3_peeled_dragon_fruit/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_157",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_158",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_159",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_160",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/1.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_161",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_162",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_163",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_164",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/3.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_165",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_166",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_167",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/1_unpeeled_egg/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_168",
+      "prompt": "Whether the egg in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/5.png",
+        "M4Bench/data/State_Comparison/imgs/egg/Eggs_Peeling/2_peeled_egg/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_169",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_170",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_171",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_172",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/1.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_173",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_174",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_175",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_176",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/3.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_177",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_178",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_179",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_180",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/5.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_181",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_182",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_183",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_184",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/7.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_185",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/10.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_186",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_187",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/1_flat_paper/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_188",
+      "prompt": "Whether the plane in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/9.png",
+        "M4Bench/data/State_Comparison/imgs/plane/Paper_Plane_Folding/2_paper_airplane/10.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_189",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_190",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_191",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_192",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/1.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/2.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_193",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_194",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/4.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_195",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_196",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/3.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/4.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_197",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_198",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_199",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/6.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_200",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/5.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/6.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_201",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_202",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_203",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/1_raw_potato/8.png"
+      ],
+      "answer": "A",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_204",
+      "prompt": "Whether the potatoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/7.png",
+        "M4Bench/data/State_Comparison/imgs/potatoes/Potatoes_Frying/2_fried_potato/8.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_205",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. Yes",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_206",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "B. No",
+      "model_extracted_answer": "B"
+    },
+    {
+      "id": "State_Comparison_207",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. Yes\nB. No",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/1_dirty_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. Yes",
+      "model_extracted_answer": "A"
+    },
+    {
+      "id": "State_Comparison_208",
+      "prompt": "Whether the shoes in the first image and the second image are in the same state? \nA. No\nB. Yes",
+      "images": [
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/1.png",
+        "M4Bench/data/State_Comparison/imgs/shoes/Shoes_Cleaning/2_clean_shoes/2.png"
+      ],
+      "answer": "B",
+      "model_full_prediction": "A. No",
+      "model_extracted_answer": "A"
+    }
+  ]
+}
