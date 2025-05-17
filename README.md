@@ -1,4 +1,4 @@
-# <img src="assets/M4Bench.png" width="35" />M4Bench
+# <img src="assets/M4Bench.png" width="35" />$M^4$ Bench
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging_Face-CFAFD4)](https://huggingface.co/datasets/Anonymous8976/M4Bench) 
 
 
@@ -11,12 +11,11 @@ We carefully design five comparison tasks related to coarse and fine-grained gra
 Besides, we analyze the evaluation results and provide several observations and viewpoints for the multi-image understanding research.
 ![Alt text](assets/all.png)
 
-## Release Process
-- [x] Dataset
-  - [x] Preparing images
-  - [x] Preparing question-answer pairs
-- [x] Evaluation outputs
-- [x] Evaluation code
+## 📰 News
+* **[2025.4.29]** 🔥$M^4$ Bench has been accepted to IJCAI2025!
+* **[2025.4.9]**  🔥We release the evaluation code and outputs of $M^4$ Bench.
+* **[2025.2.10]**  🔥We release the [M4Bench](https://huggingface.co/datasets/Anonymous8976/M4Bench) on HuggingFace.
+
 
 ## Dataset 🌟
 **M4Bench**: 🤗[Hugging Face](https://huggingface.co/datasets/Anonymous8976/M4Bench)
@@ -74,23 +73,5 @@ python main.py \
 
 ## Evaluation
 Please refer to our [outputs](outputs) folder for more details.
-![Alt text](assets/outputs.png)
-![Alt text](assets/radargram.png)
 
-## 🏆 Mini-Leaderboard
-| Model                      | Test (1,901)|
-|----------------------------|:-----------:|
-|🏅 DeepSeek-16B             |     51.3    | 
-|🥈 Qwen2VL-7B               |     46.7    |  
-|🥉 Qwen-VL-Max              |     46.3    |  
-| GPT-4o                     |     39.5    |  
-| Qwen2VL-2B                 |     38.4    | 
-| InternVL2-8B               |     37.8    | 
-| InternVL2.5-8B             |     37.2    | 
-| DeepSeek-3B                |     36.9    |  
-| Gemini 1.5 Pro             |     36.8    | 
-| InternVL2.5-4B             |     34.2    | 
-| InternVL2-4B               |     28.7    |  
-| LLaVA-OneVision            |     18.6    | 
-| MiniCPM-V2.6-8B            |     17.0    | 
  
