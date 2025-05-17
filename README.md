@@ -1,4 +1,4 @@
-# <img src="assets/M4Bench.png" width="35" />$M^4$ Bench
+# <img src="assets/M4Bench.png" width="35" /> $M^4$ Bench
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging_Face-CFAFD4)](https://huggingface.co/datasets/Anonymous8976/M4Bench) 
 
 
@@ -12,7 +12,7 @@ Besides, we analyze the evaluation results and provide several observations and 
 ![Alt text](assets/all.png)
 
 ## 📰 News
-* **[2025.4.29]** 🔥$M^4$ Bench has been accepted to IJCAI2025!
+* **[2025.4.29]** 🔥 $M^4$ Bench has been accepted to IJCAI2025!
 * **[2025.4.9]**  🔥We release the evaluation code and outputs of $M^4$ Bench.
 * **[2025.2.10]**  🔥We release the [M4Bench](https://huggingface.co/datasets/Anonymous8976/M4Bench) on HuggingFace.
 
