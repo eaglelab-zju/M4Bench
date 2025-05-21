@@ -18,14 +18,21 @@ Besides, we analyze the evaluation results and provide several observations and 
 
 
 ## Dataset 🌟
-**M4Bench**: 🤗[Hugging Face](https://huggingface.co/datasets/Anonymous8976/M4Bench)
+**$M^4$ Bench**: 🤗[Hugging Face](https://huggingface.co/datasets/Anonymous8976/M4Bench)
 
 **We have provided both versions of the dataset on Hugging Face:**
 1. the current path-based naming scheme;
 2. a neutral image filenames (e.g., “img1_1”, “img1_2”) in one folder.
 
-<img src="assets/statistics.png" />
 <img src="assets/comparison.png" />
+
+**$M^4$ Bench-v1**
+<img src="assets/statistics.png" />
+
+We utilize our designed automated dataset construction pipeline to expand the scale of $M^4$ Bench, presenting $M^4$ Bench-v2.
+
+**$M^4$ Bench-v2**
+<img src="assets/statisticsv2.png" />
 
 ## 🚀 Quickstart
 ### Step 1. Installation
@@ -85,4 +92,22 @@ python main.py \
 ## Evaluation
 Please refer to our [outputs](outputs) folder for more details.
 
- 
+![Alt text](assets/outputs.png)
+![Alt text](assets/radargram.png)
+
+## 🏆 Mini-Leaderboard
+| Model                      |     Test    | 
+|----------------------------|:-----------:|
+|🏅 DeepSeek-VL2-small       |     51.3    | 
+|🥈 Qwen2VL-7B               |     46.7    |  
+|🥉 Qwen-VL-Max              |     46.3    |  
+| GPT-4o                     |     39.5    |  
+| Qwen2VL-2B                 |     38.4    | 
+| InternVL2-8B               |     37.8    | 
+| InternVL2.5-8B             |     37.2    | 
+| DeepSeek-VL2-tiny          |     36.9    |  
+| Gemini 1.5 Pro             |     36.8    | 
+| InternVL2.5-4B             |     34.2    | 
+| InternVL2-4B               |     28.7    |  
+| LLaVA-OneVision            |     18.6    | 
+| MiniCPM-V2.6-8B            |     17.0    | 
