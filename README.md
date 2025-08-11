@@ -12,7 +12,7 @@ Besides, we analyze the evaluation results and provide several observations and 
 ![Alt text](assets/all.png)
 
 ## 📰 News
-* **[2025.8.11]** 🔥 $M^4$ Bench is supported by [VLMEvalKit]([open-compass/VLMEvalKit: Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks](https://github.com/open-compass/VLMEvalKit)) in [PR #1163]([[Benchmark\] Support M4Bench by Thorin215 · Pull Request #1163 · open-compass/VLMEvalKit](https://github.com/open-compass/VLMEvalKit/pull/1163))
+* **[2025.8.11]** 🔥 $M^4$ Bench is supported by [open-compass/VLMEvalKit](https://github.com/open-compass/VLMEvalKit) in [PR #1163](https://github.com/open-compass/VLMEvalKit/pull/1163)
 * **[2025.4.29]** 🔥 $M^4$ Bench has been accepted to IJCAI2025!
 * **[2025.4.9]**  🔥We release the evaluation code and outputs of $M^4$ Bench.
 * **[2025.2.10]**  🔥We release the [M4Bench](https://huggingface.co/datasets/Anonymous8976/M4Bench) on HuggingFace.
