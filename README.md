@@ -12,6 +12,7 @@ Besides, we analyze the evaluation results and provide several observations and 
 ![Alt text](assets/all.png)
 
 ## 📰 News
+* **[2025.8.11]** 🔥 $M^4$ Bench is supported by [open-compass/VLMEvalKit](https://github.com/open-compass/VLMEvalKit) in [PR #1163](https://github.com/open-compass/VLMEvalKit/pull/1163)
 * **[2025.4.29]** 🔥 $M^4$ Bench has been accepted to IJCAI2025!
 * **[2025.4.9]**  🔥We release the evaluation code and outputs of $M^4$ Bench.
 * **[2025.2.10]**  🔥We release the [M4Bench](https://huggingface.co/datasets/Anonymous8976/M4Bench) on HuggingFace.
@@ -89,7 +90,20 @@ python main.py \
   --task_list TaskName
 ```
 
+### Use VLMEvalKit
+
+```bash
+git clone https://github.com/open-compass/VLMEvalKit.git
+cd VLMEvalKit
+pip install -e .
+
+# Example
+python3 run.py --data Instance_Comparison --model QwenVLPlus --verbose
+python3 run.py --data M4Bench --model QwenVLPlus --verbose
+```
+
 ## Evaluation
+
 Please refer to our [outputs](outputs) folder for more details.
 
 ![Alt text](assets/outputs.png)
